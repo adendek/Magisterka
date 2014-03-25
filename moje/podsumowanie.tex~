@@ -1,0 +1,9 @@
+\chapter*{Podsumowanie}
+\addcontentsline{toc}{chapter}{Podsumowanie}
+
+Celem pracy było badanie efektu zwiększonej wartości szumu mierzonego w zerowym kanale dla każdego analogowego portu. Postulowano że odpowiedzialne za zniekształcenie jest poprzedzanie danych pseudo-cyfrowym nagłówkiem. Stan nagłówka, zarówno wysoki jak niski, zależy od stanu układu front-end Beetle.
+
+Analiza została przeprowadzana przy użyciu dedykowanego programu napisanego przez autora opartego na platformie programistycznej ROOT, jak również stworzono moduł do pakietu Vetra, który stanie się integralną częścią całości, zostanie dodany od LHCb repozytorium SVN.
+
+W wyniku wykonanej analizy ustalono że efekt jest mierzalny, zauważono iż następuje przepływ ładunku z trzeciego nagłówka do kanału zerowego i jest on odpowiednio dodatni dla stanu niskiego oraz ujemny dla wysokiego, w związku z czym odczytywane dane  są zniekształcone. Wykazano również że nie istnieją znaczący wpływ nagłówka drugiego na dane w kanale zerowym. Badano również wzajemną korelacje między nagłówkami drugim oraz trzecim, jednakże nie odnotowano negatywnego wzajemnego wpływu. Na uwagę zasługuje fakt iż zaprezentowana w pracy analiza wykonana została dla sześciu punktów czasowych. Tym samym sprawdzono zachowanie się sensorów w funkcji czasu. Na koniec zaprezentowano algorytm korekcji, przy użyciu którego trzeba być uważnym, gdyż całkowita precyzja z jaką są wyznaczane parametry może powodować pogłębienie efektu. 
+

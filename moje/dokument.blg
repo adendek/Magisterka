@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: dokument.aux
+A level-1 auxiliary file: wstep.aux
+A level-1 auxiliary file: rozdzial1/roz1.aux
+A level-1 auxiliary file: rozdzial2/roz2.aux
+A level-1 auxiliary file: rozdzial3/roz3.aux
+A level-1 auxiliary file: rozdzial4/roz4.aux
+A level-1 auxiliary file: podsumowanie.aux
+The style file: unsrtnat.bst
+Database file #1: bibliografia.bib
+Warning--empty year in public
+Warning--empty year in event
+Warning--empty journal in GAUDI
+Warning--empty booktitle in Szumlak
+You've used 20 entries,
+            2481 wiz_defined-function locations,
+            674 strings with 7284 characters,
+and the built_in function-call counts, 6292 in all, are:
+= -- 516
+> -- 330
+< -- 18
++ -- 139
+- -- 98
+* -- 451
+:= -- 1072
+add.period$ -- 63
+call.type$ -- 20
+change.case$ -- 34
+chr.to.int$ -- 19
+cite$ -- 26
+duplicate$ -- 337
+empty$ -- 554
+format.name$ -- 126
+if$ -- 1300
+int.to.chr$ -- 2
+int.to.str$ -- 21
+missing$ -- 12
+newline$ -- 110
+num.names$ -- 54
+pop$ -- 148
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 206
+stack$ -- 0
+substring$ -- 114
+swap$ -- 46
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 134
+warning$ -- 4
+while$ -- 40
+width$ -- 0
+write$ -- 273
+(There were 4 warnings)

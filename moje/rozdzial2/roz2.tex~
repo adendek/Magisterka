@@ -1,0 +1,61 @@
+\chapter{Detektor VELO}
+\label{VELO}
+\section{Budowa detektora}
+
+VELO (ang. VErtex LOcator) to mikropaskowy detektor krzemowy specjalnie zaprojektowany do rekonstrukcji pierwotnego wierzchołka zderzenia oraz wtórnego powstającego w wyniku rozpadu mezonu $B_{(s)}^0$ oraz $D_{(s)}^0$\cite{VELORaport}. Obszar detekcji znajduje się już 8 mm od osi wiązki. W celu kontroli skutków efektów radiacyjnych układ stale utrzymywany jest w obniżonej temperaturze \cite{Papadelis} . Pomiary dokonywane przez detektor są wykorzystywane również przez tryger wysokiego poziomu (HLT). 
+\begin{figure}[!ht]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial2/Velo_jakis.png}
+ % Velo_jakis.png: 637x464 pixel, 96dpi, 16.85x12.28 cm, bb=0 0 478 348
+ \caption{Schemat detektora VELO\cite{VELORaport}}
+ \label{fig:SchematVELO}
+\end{figure}
+\newpage
+\section{Moduły detektora}
+
+Głównym zadaniem modułów VELO jest zapewnienie \cite{Stejskal}
+\begin{itemize}
+ \item mechanicznej infrastruktury do właściwego, stabilnego umiejscowienia sensorów,
+ \item możliwości połączenia sensorów z elektroniką odczytu,
+ \item umożliwienie odbierania ciepła wydzielanego na sensorach oraz elektronice odczytu 
+\end{itemize}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.2]{rozdzial2/MODULE83.jpg}
+ % MODULE83.jpg: 2048x1536 pixel, 96dpi, 54.19x40.64 cm, bb=0 0 1536 1152
+ \caption{Schemat hybrydy\cite{public}}
+ \label{fig:Hybrid}
+\end{figure}
+\subsection{Sensory krzemowe }
+Pozycjo-czułe elementy VELO składa się z jednostronnych detektorów półprzewodnikowych o grubości 300$\mu m$ i  kształcie zaprezentowanym na rysunku \ref{fig:sensory}, akceptacja kątowa wynosi $182^{o}$, przy czym $2^{o}$ jest to obszar pokryty przez dwa przeciwległe sensory. Wyróżniamy dwa typy sensorów. Jedne, służące do pomiaru odległości radialnej R, drugie mierzą składową azymutalną $\Phi$. Każdy sensor zawiera 2048 kanałów pomiarowych. 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.4]{rozdzial2/sensory.jpeg}
+ % sensory.jpeg: 622x384 pixel, 96dpi, 16.46x10.16 cm, bb=0 0 467 288
+ \caption{Geometria sensorów \cite{VELORaport}}
+ \label{fig:sensory}
+\end{figure}
+
+Na \ref{fig:sensory} przedstawiona jest różnica w geometrii. Paski w sensorach typu R są półokrągłe, współśrodkowe podzielone na 4 segmenty . Natomiast sensory $\Phi$ dzielą się radialnie na dwie części- zewnętrzną (638 pasków) oraz wewnętrzną(1365 pasków), przy czym paski w każdej z części posiadają kąty stereo o przeciwnych znakach.
+\section{Elektronika odczytu}
+\subsection{Elektronika front-end}
+Beetle reprezentuje typ układów elektroniki front-end. Jest to ASIC (ang.  Application Specific Integrated Circuit) czyli dedykowany układ scalony mający za zadanie odczyt oraz kształtowanie impulsów zarejestrowanych przez sensory VELO.  Na \ref{fig:Beetle_Block} został przedstawiony schemat blokowy czipu Beetle.
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.8]{rozdzial2/Beetle_block.jpeg}
+ % Beetle_block.jpeg: 848x489 pixel, 96dpi, 22.44x12.94 cm, bb=0 0 636 367
+ \caption{Schemat blokowy czipu Beetle\cite{Beetle}}
+ \label{fig:Beetle_Block}
+\end{figure}
+
+Układ odczytuje 128 kanały VELO. Zbiór prądowych oraz napięciowych przedwzmacniaczy oraz kształtowników wykorzystywany jest do optymalizacji parametrów impulsu. 
+Po ukształtowaniu impuls jest próbkowany a następnie w postaci analogowej przechowywany przez $4\mu s$ w linij opóźniającej (ang. pipeline) w oczekiwaniu na decyzję systemu wyzwalania. Po akceptacji przez L0 dane przesyłane są do czterech kanałów analogowych. Każdy port wysyła dane z 32 fizycznych sensorów poprzedzone czterema pseudo-cyfrowymi nagłówkami.
+\subsection{Przetwarzanie danych}
+Sygnały wyjściowe z układu Beetle przesyłane są przy pomocy 60 m kabli analogowych, w celu dalszej obróbki, do elektronicznych płyt akwizycyjnych TELL1 \cite{Aras}. Przy użyciu których sygnały są digitalizowane z 10 bitową precyzją a następnie przetważane przez układy FPGA (ang. Field Programmable Gate Arrays). 
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.8]{rozdzial2/Velo_schematic.png}
+ % Velo_schematic.png: 662x442 pixel, 96dpi, 17.51x11.69 cm, bb=0 0 496 331
+ \caption{Ścieżka odczytowa pomiędzy kanałami VELO a płytą TELL1\cite{Aras}}
+\end{figure}

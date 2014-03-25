@@ -1,0 +1,84 @@
+\chapter{Motywacje teoretyczne powstania eksperymentu LHCb}
+
+Ten rozdział pokrótce opisuje teoretyczne podstawy stojące za Fizyką Wysokich Energii (ang. \textbf{H}igh \textbf{E}nergy \textbf{P}hysics ).Na samym początku omówiona zostaje fundamentalna zasada fizyki mówiąca 
+
+\section{Symetrie w fizyce}
+Jeżeli chce się rozmawiać na temat fizyki zawsze powinno zacząć się od tematu symetrii. Jedną z najbardziej fundamentalnych zasad w fizyce jest ta, łącząca prawa zachowania z symetriami natury. Twierdzenie Noether pokazuje, że jeśli uład fizyczny jest niezmienniczy \footnote{w znaczeniu Lagranżjan opisujący ten układ} względem ciągłej transformacji, oznacza istnienie zachowanie pewnej wielkości. Niezmienniczość praw fizycznych względem translacji czasowej jest odpowiedzialne za istnienie zasady zachowania energii. Zasada zachowania pędu, natomiast pochodzi od niezmienniczości względem przesunięć w przestrzeni. Natomiast zasada zachowania pędu jest zachowana gdy prawa fizyki są identyczne zastosowaniu obrotów w przestrzeni. 
+
+Poza, wyżej wymienionymi symetriami ciągłymi istnieją jeszcze symetrie dyskretne. Które, w przeciwieństwie do tych wcześniej opisanych mogą być łamane w pewnych fizycznych oddziaływaniach. Dla fizyki cząstek elementarnych istotnymi symetriami są:
+
+\begin{itemize}
+\item \textbf{C}- sprzężenie ładunkowe (ang. charge conjugation) zmienia znak wszystkich addytywnych numerów kwantowych. W specyficznym odniesieniu do rozpadów sub-atomowych cząstek, sprzężenie ładunkowe oznacza zamianę każdej cząstki na sprzężoną z nią antycząstkę.
+\item \textbf{P}- parzystość (ang. parity) jest to operacja odwrócenia jednej z trzech przestrzennych osi.
+\item \textbf{T} odwrócenie czasu (ang. time reversal) zmienia kierunek ruchu przez odbicie w czasie osi. 
+\end{itemize}
+
+Według obecnej wiedzy, każda z tych symetrii jest zachowana w oddziaływaniach silnych i elektromagnetycznych. Natomiast, co bardziej interesujące, słabe siły łamią symetrie \textbf{C} oraz \textbf{P}. Jednakże, kombinacja tych symetrii \textbf{CPT} jest dokładną symetrią w każdej lokalnej Lorentz'owskiej teorii pola.
+
+\section{Symetrie a początek Wszechświata}
+W przybliżeniu po okresie $10^{-6}s$ do Wielkiego Wybuchu została uformowana plazma gluonowo-kwarkowa w której to wolne kwarki oraz gluony podróżowały z reletywistycznymi prędkościami. Pary cząstka-antycząstka były stale tworzone oraz anihilowane, tworząc fotony, równomiernie poruszające się przez kosmos. Po tym procesie, do dzisiaj pozostają widzialne pamiątki nazywane Mikrofalowym promieniowaniem tła (ang. \textbf{C}osmic \textbf{M}icrowave \textbf{B}ackground). Na podstawie badań tego promieniowania oszacowano wiek wszczechświata na $13.75 \pm 0.11$ miliarda lat.
+
+Niedługo, po tym jak CMB zostało wytworzone jedna liczb kwantowych \textit{liczba barionowa} została złamana, powodując, że więcej cząstek było produkowanych niż antycząstek. Ten proces nazywany \textit{bariogenezą} oznacza, że dzisiejszy wszechświat jest zbudowany z materii.
+
+W 1967 Sacharow  wyjaśnił, że powodem dla którego we Wszechświecie brak jest antymaterii wymaga spełnienia trzech warunków:
+\begin{enumerate}
+\item Niezachowania liczby barionowej. 
+\item Ochładzanie Wszechświata zachodziło w warunkach niebędących w równowadze termodynamicznej. 
+\item Zachodzenie procesu łamania symetrii kombinowanej \textbf{CP} 
+\end{enumerate}
+
+\section{Symetria kombinowana \textbf{CP}}
+Symetria kombinowana \textbf{CP}, będąca jak wcześniej wspomniano jednym z warunków Sacharowa do tego, aby istniał wszechświat, była poddana obserwacji już wcześniej. Powodem tego było odkryciem istnienia tylko lewoskrętnych\footnote{Skrętność oznacza rzut wektora spinu na kierunek ruchu cząstki} neutrin i prawoskrętnych antyneutrin. Wynikiem zastosowania operatora \textbf{CP}\footnote{Operatory \textbf{C} oraz \textbf{P} komutują ze sobą nawzajem} na neutrino lewoskrętne jest antyneutrino prawoskrętne. Stąd sądzono, że ta symetria jest zachowana przez oddziaływania słabe. Tak było do roku 1964, kiedy to w rozpad neutralnych kaonów pokazał, że ta symetria jednak jest łamana (więcej informacji ref ). Pierwszym dowodem na łamanie  \textbf{CP} poza układem kaonów, był zaopserowowany w 2001 roku przez kolaborację eksperymentu Belle. Badali oni układ neutralnych mezonów B\footnote{Mezon B to hadron składający się z kwarka b oraz lżejszy antykwark } . Odkrycie zapoczątkowało nową erę badań procesów łamiących symetrię  \textbf{CP}. Lekkie mezony B (neutralne $B_u$ oraz naładowane $B_d$ były poddawane precyzyjnym pomiarom przez fabryki-B: Belle(ref) oraz BaBar(ref). LHCb jest eksperymentem drugiej generacji. Właściowści eksperymentu, które będą omówione w następnym rozdziale, pozwalają na poszukiwania łamania \ref{CP}  w sektorze mezonów $B_{s}$ oraz zjawisk Nowej Fizyki.
+\subsection{Teoretyczny opis łamania symetrii\textbf{CP} }
+
+Stanami własnymi oddziaływań słabych nie są tożsame ze stanami własnymi oddziaływań silnych\footnote{zwane również stanami własnymi masy}. Przejście z jednej bazy do drugiej możliwe jest dzięki macierzy Cabbibo-Kobayashiego-Maskawy (CKM).
+\begin{equation}
+\begin{pmatrix}
+d'\\ s' \\b'
+\end{pmatrix} =V_{CKM} 
+\begin{pmatrix}
+d\\ s \\b
+\end{pmatrix}=\begin{pmatrix}
+V_{ud}& V_{us}&V_{ub}\\ V_{cd}& V_{cs}&V_{cb} \\ V_{td}& V_{ts}&V_{tb}
+\end{pmatrix} \begin{pmatrix}
+d\\ s \\b
+\end{pmatrix}
+\end{equation}
+
+Macierz CKM jest 3x3 macierzą unitarną. Elementy macierzy określają sprzężęnie pomiędzy odpowiednimi kwarkami. Warto zwrócić uwagę, że Model Standardowy w żaden sposób nie przewiduje wartości wyrazów z macierzy CKM. 
+Wiele parametryzacji było zaproponowanych w literaturze. Do najbardziej popularnych należy parametryzacja Keung-Chau, zwana również standardowa parametryzacją. 
+\begin{eqnarray}
+V_{CKM}&=&\begin{pmatrix} 1 & 0 & 0 \\ 0 & c_{23} & s_{23} \\ 0 & -s_{23} & c_{23} \end{pmatrix}
+ \begin{pmatrix} c_{13} & 0 & s_{13}e^{-i\delta_{13}} \\ 0 & 1 & 0 \\ -s_{13}e^{i\delta_{13}} & 0 & c_{13} \end{pmatrix}
+ \begin{pmatrix} c_{12} & s_{12} & 0 \\ -s_{12} & c_{12} & 0 \\ 0 & 0 & 1 \end{pmatrix} \nonumber \\
+V_{CKM}&=&\begin{pmatrix}
+c_{12}c_{13}&s_{12}c_{13}& s_{13}e^{-i\delta} \\
+ -s_{12}c_{23}-c_{12}s_{23}s_{13}e^{i\delta} & c_{12}c_{23}-s_{12}s_{23}s_{13}e^{i\delta}  & s_{23}c_{13}\\ s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta} & -c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta} & c_{23}c_{13}
+\end{pmatrix}
+\end{eqnarray}
+
+gdzie:\\
+$c_{ij}=cos\theta_{ij}$ oraz $s_{ij}=sin\theta_{ij}$. Warte wyjaśnienie jest znaczenie kąta $\theta{ij}$ oraz $\delta$. $\theta_{ij}$ są to katy Eulera\footnote{Układ trzech kątów, za pomocą których można jednoznacznie określić wzajemną orientację dwóch układów współrzędnych.} mówiące o stopniu mieszania pomiędzy trzema zapachami kwarków (i,j=1,2,3) oraz $\delta$ jest fazą odpowiedzialną za łamanie symetrii \textbf{CP}.
+
+Ważną, z punktu widzenia hierarchizacji wielkości mieszanie pomiędzy rodzinami kwarkowymi jest tak zwana parametryzacja Wolfensteina (tu ref). Każdy z elementów macierzy CKM jest wyrażany przez szereg potęgowy parametru $\lambda=sin\theta_{12}\approx 0.22$ .
+
+\begin{equation}
+V_{CKM}=\begin{pmatrix}
+1-\frac{1}{2}\lambda^2& \lambda & A\lambda^3(\rho-i\eta)\\
+-\lambda & 1-\frac{1}{2}\lambda^2 & A\lambda^2\\
+ A\lambda^3(\rho-i\eta) & -A\lambda^2 & 1
+\end{pmatrix} +\mathcal{O}(\lambda^4) 
+\label{Wolfenstein}
+\end{equation}
+
+Pozostałe parametry występujące w równaniu \ref{Wolfenstein} określone są zależnościami:
+\begin{center}
+\begin{tabular}{l c r}
+$A \equiv \frac{s_{23}}{s^2_{12}},$&  $\rho \equiv  \frac{s_{13}cos\delta}{s_{12}s_{23}},$ & $\eta  \equiv \frac{s_{13}sin\delta}{s_{12}s_{23}}$
+\end{tabular}
+\end{center}
+
+Ponieważ patametr $\lambda <1$ to można, analizując wykładnik napisać względne relacje między poszczególnymi elementami macierzy CKM. Łatwo zauważyć, iż najbardziej prawodpodobne są przejścia między kwarkami tej samej rodziny.
+\subsection{Trójkąty unitarności}
+
+

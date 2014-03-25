@@ -1,0 +1,104 @@
+% ------------------------------------------------------------------------
+% Nazwa:    Szkielet dokument 'typu praca dyplomowa'
+% èrÛd≥o:   http://www.ee.pw.edu.pl/~szewczyk/
+% Data:     7 stycznia 2005
+% ------------------------------------------------------------------------
+
+ \documentclass[a4paper,10pt]{book}
+% 
+
+    \input{preambula_pakiety.tex}
+    \input{preambula_ustawienia.tex}
+    
+\begin{document}
+    \renewcommand{\figurename}{Rys.}    %musi byc pod \begin{document}, bo w~tym miejscu pakiet 'babel' narzuca swoje ustawienia
+    \renewcommand{\tablename}{Tab.}     %j.w.
+    \pagenumbering{roman}               %numeracja stron: rzymska
+    \thispagestyle{empty}               %na tej stronie: brak numeru
+\input{3_str_inz}
+
+    %podziÍkowania
+    \newpage
+    ~   %potrzebne dla \vfill
+    \vfill
+    {\sffamily
+    \begin{flushright}
+        \begin{tabular}{l}
+        
+        -- za naprawienie silnika, itp.\\
+        \end{tabular}
+    \end{flushright}
+    }
+    \vskip0.5in
+    \thispagestyle{empty}
+    \newpage
+    %koniec podziÍkowaÒ
+
+    %formatowanie spisu treúci i~nag≥ÛwkÛw
+    \renewcommand{\cftbeforesecskip}{8pt}
+    \renewcommand{\cftsecafterpnum}{\vskip 8pt}
+    \renewcommand{\cftparskip}{3pt}
+    \renewcommand{\cfttoctitlefont}{\Large\bfseries\sffamily}
+    \renewcommand{\cftsecfont}{\bfseries\sffamily}
+    \renewcommand{\cftsubsecfont}{\sffamily}
+    \renewcommand{\cftsubsubsecfont}{\sffamily}
+    \renewcommand{\cftparafont}{\sffamily}
+    %koniec formatowania spisu treúci i nag≥ÛwkÛw
+
+    \tableofcontents    %spis treúci
+    \newpage
+
+    
+    \newpage
+
+    %spis rysunkÛw i~tablic
+    %format spisu treúci dotyczy tylko tych spisÛw, ktÛre sπ poniøej
+    \hypersetup{linkcolor=black}
+    \renewcommand{\cftparskip}{3pt}
+    \clearpage
+    \renewcommand{\cftloftitlefont}{\Large\bfseries\sffamily}
+    \listoffigures
+%    \addcontentsline{toc}{section}{Spis rysunkÛw}
+    \newpage
+    \renewcommand{\cftlottitlefont}{\Large\bfseries\sffamily}
+    \listoftables
+    \addcontentsline{toc}{section}{Spis tablic}
+    \newpage
+    %powrÛt do czerwonego koloru dla dalszych odnoúnikÛw (spis literatury, przy w≥πczonym pokazywaniu numerÛw stron, do ktÛrych odnoszπ siÍ poszczegÛlne pozycje)
+    \hypersetup{linkcolor=red}
+    %koniec spisu rysunkÛw i~tablic
+
+    %przeniesienie wartoúci licznika stron na strony numerowane innym stylem (arabic)
+    \newcounter{licznikStron}
+    \setcounter{licznikStron}{\value{page}}
+    \pagenumbering{arabic}
+    \setcounter{page}{\value{licznikStron}}
+    %koniec przeniesienia...
+
+    %treúÊ g≥Ûwna dokumentu
+    
+    \newpage
+    %koniec treúci g≥Ûwnej dokumentu
+
+    %bibliografia
+    %GATHER{bibliografia.bib}                       %polecenie programu WinEdt, w≥πcza plik do drzewa 'projektu'
+    \bibliographystyle{unsrtnat}                    %styl bibliografii: w kolejnoúci cytowania, zrozumia≥y dla pakietu hyperref.sty
+    \addcontentsline{toc}{section}{Literatura}      %musi byÊ wyøej niø \bibliography{bibliografia}, øeby w~spisie treúci by≥ w≥aúciwy numer strony
+    \bibliography{bibliografia}
+    %koniec bibliografii
+
+    %za≥πczniki
+    \newpage
+
+ 
+
+    %skorowidz - nie uøywam
+%    \index{Napis}
+%    \index{Napis!Podnapis}
+%    \printindex
+    %koniec skorowidza
+
+    %lista rzeczy do zrobienia: wypisuje na koÒcu dokumentu, patrz: pakiet todo.sty
+    \todos
+    %koniec listy rzeczy do zrobienia
+\end{document}

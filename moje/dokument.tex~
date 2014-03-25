@@ -1,0 +1,101 @@
+\documentclass[a4paper,12pt,openany]{book}
+% 
+
+\input{preambula_pakiety.tex}
+\usepackage{listings}
+\input{preambula_ustawienia.tex}
+
+\begin{document}
+\renewcommand{\figurename}{Rys.}    %musi byc pod \begin{document}, bo w~tym miejscu pakiet 'babel' narzuca swoje ustawienia
+\renewcommand{\tablename}{Tab.}     %j.w.
+\pagenumbering{roman}               %numeracja stron: rzymska
+\input{3_str_inz}
+\newpage
+Ocena pracy promotora
+\newpage
+Ocena pracy recenzenta
+\newpage
+
+%podziêkowania
+\newpage
+~   %potrzebne dla \vfill
+\vfill
+    {\sffamily
+     % \begin{flushright}
+         \input{podziekowania}
+      %\end{flushright}
+    }
+    \vskip0.5in
+
+
+    \newpage
+    %koniec podziêkowañ
+
+    %formatowanie spisu treœci i~nag³ówków
+    \renewcommand{\cftbeforesecskip}{8pt}
+    \renewcommand{\cftsecafterpnum}{\vskip 8pt}
+    \renewcommand{\cftparskip}{3pt}
+    \renewcommand{\cfttoctitlefont}{\Large\bfseries\sffamily}
+    \renewcommand{\cftsecfont}{\bfseries\sffamily}
+    \renewcommand{\cftsubsecfont}{\sffamily}
+    \renewcommand{\cftsubsubsecfont}{\sffamily}
+    \renewcommand{\cftparafont}{\sffamily}
+    %koniec formatowania spisu treœci i nag³ówków
+
+    \tableofcontents    %spis treœci
+    
+
+    %spis rysunków i~tablic
+    %format spisu treœci dotyczy tylko tych spisów, które s¹ poni¿ej
+    \hypersetup{linkcolor=black}
+    \renewcommand{\cftparskip}{3pt}
+    \clearpage
+    \renewcommand{\cftloftitlefont}{\Large\bfseries\sffamily}
+    \listoffigures
+    %     \addcontentsline{toc}{section}{Spis rysunków}
+
+    %     \renewcommand{\cftlottitlefont}{\Large\bfseries\sffamily}
+    %     \newpage
+    %powrót do czerwonego koloru dla dalszych odnoœników (spis literatury, przy w³¹czonym pokazywaniu numerów stron, do których odnosz¹ siê poszczególne pozycje)
+    \hypersetup{linkcolor=red}
+    %koniec spisu rysunków i~tablic
+
+    %przeniesienie wartoœci licznika stron na strony numerowane innym stylem (arabic)
+    \newcounter{licznikStron}
+    \setcounter{licznikStron}{\value{page}}
+    \pagenumbering{arabic}
+    \setcounter{page}{\value{licznikStron}}
+    %koniec przeniesienia...
+
+    %treœæ g³ówna dokumentu
+    \include{wstep}
+    \include{rozdzial1/roz1}
+    \include{rozdzial2/roz2}
+    \include{rozdzial3/roz3}
+    \include{rozdzial4/roz4}
+    \include{rozdzial5/roz5}
+    \include{podsumowanie}
+    %koniec treœci g³ównej dokumentu
+
+    
+    \phantomsection
+
+    %bibliografia
+    %GATHER{bibliografia.bib}                       %polecenie programu WinEdt, w³¹cza plik do drzewa 'projektu'
+    \bibliographystyle{unsrtnat}                    %styl bibliografii: w kolejnoœci cytowania, zrozumia³y dla pakietu hyperref.sty
+    \addcontentsline{toc}{section}{Literatura}      %musi byæ wy¿ej ni¿ \bibliography{bibliografia}, ¿eby w~spisie treœci by³ w³aœciwy numer strony
+    \bibliography{bibliografia}
+    %koniec bibliografii
+
+    %za³¹czniki
+
+    %skorowidz - nie u¿ywam
+    %    \index{Napis}
+    %    \index{Napis!Podnapis}
+    %    \printindex
+    %koniec skorowidza
+
+    %lista rzeczy do zrobienia: wypisuje na koñcu dokumentu, patrz: pakiet todo.sty
+    % \todos
+    %koniec listy rzeczy do zrobienia
+\end{document}

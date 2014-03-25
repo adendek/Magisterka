@@ -1,0 +1,46 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[pub()]{public}
+\ulr{http://public.web.cern.ch}.
+
+\bibitem[eve()]{event}
+\title{http://lhcb-public.web.cern.ch/lhcb-public/en/Collaboration/LHCbEvDis.h%
+tml}.
+
+\bibitem[Haefeli(2004)]{Haefeli}
+G~Haefeli.
+\newblock \emph{Contribution to the development of the acquisition electronics
+  for the LHCb experiment. oai:cds.cern.ch:800810}.
+\newblock PhD thesis, EPFL Lausanne, Geneva, 2004.
+
+\bibitem[Collaboration(2008)]{ATLAS}
+The~ATLAS Collaboration.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08003,
+  August 2008.
+
+\bibitem[{CMS Collaboration}(2008)]{CMS}
+{CMS Collaboration}.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[{ALICE Collaboration}(2008)]{ALICE}
+{ALICE Collaboration}.
+\newblock {The ALICE experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08002}.
+
+\bibitem[Sakharov(1967)]{Sacharow}
+A.D. Sakharov.
+\newblock {Violation of CP Invariance, c Asymmetry, and Baryon Asymmetry of the
+  Universe}.
+\newblock \emph{Pisma Zh.Eksp.Teor.Fiz.}, 5:\penalty0 32--35, 1967.
+\newblock \doi{10.1070/PU1991v034n05ABEH002497}.
+
+\end{thebibliography}

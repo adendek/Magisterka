@@ -1,0 +1,34 @@
+\chapter{Algorytm korekcji}
+Rozdział ten będzie opisywał algorytm zastosowany do usunięcia zniekształcenia powodowanego występowaniem nagłówka czipu Beetle. Następnie zaprezentowana zostanie analiza jakości stosowanego algorytmu.
+\section{Wyznaczanie współczynników korekcyjnych}
+Poprawka może być zapisana w prostej postaci jako 
+\begin{equation}
+ ADC^{i}_{corr}=ADC^{i}+corr^{i}_{H(L)}
+\end{equation}
+gdzie: \\
+$ADC^{i}_{corr}$ oznacza wartość ładunku w $i-tym$ kanale po zastosowaniu algorytmu korekcyjnego, \\
+$ADC^{i}$ wartość pierwotna w $i-tym$ kanale,\\
+$corr^{i}_{H(L)}$ poprawka dla $i-tego$ kanału zależna od stanu, wysokiego(H) lub niskiego (L),  nagłówka.
+
+Jak wynika z poprzedniego rozdziału nie ma, lub jest pomijanie mały, wpływ nagłówka drugiego na dane. Również nie stwierdzono niekorzystnej influencji pomiędzy nagłówkami drugim oraz trzecim. Nie zastosowano żadnej korekcji dla kanału pierwszego. W związku z tym procedura poprawki zawiera tylko zależność pomiędzy nagłówkiem trzecim oraz danymi w kanale zerowym.
+Zastosowano metodę determinacji współczynników opisaną wzorem
+\begin{equation}
+ corr^{0}_{H(L)}=\left\langle ADC \right\rangle ^{0}_{H(L)}-\left\langle ADC\right\rangle ^{Ref}
+\end{equation}
+przy czym:\\
+$corr^{i}_{H(L)}$ poprawka dla zerowego kanału jeżeli stan nagłówka trzeciego był wysoki(H) lub niski (L),\\ 
+$\left\langle ADC \right\rangle ^{0}_{H(L)} $ oznacza średnią wartość zmierzonego ładunku w kanale zerowym w funkcji stanu trzeciego nagłówka, \\
+$\left\langle ADC\right\rangle ^{Ref}$ średnia wartość ADC w kanale referencyjnym.
+
+Zastosowano podejście z użyciem pojedynczego kanału referencyjnego zamiast średniej z pozostałych kanałów (bez zerowego) jako wniosek otrzymany w \ref{analiza}. Warto zwrócić uwagę iż wartości poprawek muszą być wyznaczone z całkowitą precyzją, co w niekorzystnym przypadku może powodować zniekształcenie danych.
+\newpage
+\section{Wynik działania algorytmu korekcyjnego}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|}
+    ... your table ...
+  \end{tabular}
+  \caption{This table shows some data}
+  \label{tab:myfirsttable}
+\end{table}

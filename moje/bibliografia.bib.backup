@@ -1,0 +1,62 @@
+% ------------------------------------------------------------------------
+% BIBLIOGRAFIA
+% ------------------------------------------------------------------------
+@MISC{public,
+ title = "\url{http://public.web.cern.ch}"
+}
+
+@phdthesis{Haefeli,
+      author       = "Haefeli, G",
+      title        = "Contribution to the development of the acquisition
+                      electronics for the LHCb experiment. oai:cds.cern.ch:800810",
+      school       = "EPFL Lausanne",
+      address      = "Geneva",
+      year         = "2004",
+}
+
+@article{ATLAS,
+    abstract = {{The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}},
+    author = {The ATLAS Collaboration},
+    journal = {Journal of Instrumentation},
+    month = aug,
+    number = {08},
+    pages = {S08003},
+    posted-at = {2010-03-02 12:59:32},
+    title = {{The ATLAS Experiment at the CERN Large Hadron Collider}},
+    volume = {3},
+    year = {2008}
+}
+@article{CMS,
+  author="{CMS Collaboration}",
+  title="{The CMS experiment at the CERN LHC}",
+  journal={Journal of Instrumentation},
+  volume={3},
+  year={2008},
+  pages={S08004},
+  doi={10.1088/1748-0221/3/08/S08004}
+}
+@article{ALICE,
+author ="{ALICE Collaboration}",
+title = "{The ALICE experiment at the CERN LHC}",
+journal = {Journal of Instrumentation},
+volume = {3},
+year = {2008},
+issue = {08},
+doi = {10.1088/1748-0221/3/08/S08002},
+masid = {24339737}
+}
+
+@article{Sacharow,
+      author         = "Sakharov, A.D.",
+      title          = "{Violation of CP Invariance, c Asymmetry, and Baryon
+                        Asymmetry of the Universe}",
+      journal        = "Pisma Zh.Eksp.Teor.Fiz.",
+      volume         = "5",
+      pages          = "32-35",
+      doi            = "10.1070/PU1991v034n05ABEH002497",
+      year           = "1967",
+      SLACcitation   = "%%CITATION = ZFPRA,5,32;%%",
+}
+@MISC{event,
+title= "\url{http://lhcb-public.web.cern.ch/lhcb-public/en/Collaboration/LHCbEvDis.html}"
+}

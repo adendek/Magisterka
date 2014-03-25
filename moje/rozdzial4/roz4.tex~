@@ -1,0 +1,193 @@
+\chapter{Analiza przesłuchu generowanego przez nagłówek Beetle}
+Z powodu pseudo-cyfrowej natury nagłówka układu Beetle dane w zerowym kanale, oznaczonym zgodnie z rysunkiem \ref{fig:AL}, mogą być zniekształcone. Następstwem czego może być występowanie nieistniejących w rzeczywistości sygnałów. W poniższym rozdziale zaprezentowana zostanie analiza której celem będzie zmierzenie wielkości zniekształceń danych w zależności od wartości nagłówku.
+Analiza została przeprowadzana, ponieważ zauważono występowanie znacznie wyższego poziomu szumu odpowiednio co 32 kanały. Efekt ten zmierzono dla każdego sensora, zarówno R jak i $\Phi $. 
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.5]{rozdzial4/Noise.jpeg}
+ % Noise.jpeg: 858x578 pixel, 96dpi, 22.70x15.29 cm, bb=0 0 644 434
+ \caption{Zmierzony szum w przykładowym sensorze typu R\cite{public}}
+ \label{fig:Noise_Collaboration}
+\end{figure}
+
+
+\section{Wpływ przesłuchu na dane}
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.5]{rozdzial4/analogue_link.png}
+ % analogue_link.png: 498x233 pixel, 96dpi, 13.17x6.16 cm, bb=0 0 373 175
+ \caption{Schemat paczki danych wysyłanych z układu Beetle wraz z zaznaczonym możliwym wpływem nagłówka na dane}
+ \label{fig:AL}
+\end{figure}
+W celu przedstawienia efektu wykonano analizę opartą o szum rozumiany jako standardowe odchylenie zmierzonego ładunku w jednostkach ADC.
+\begin{equation}
+ \sigma(x)=\sqrt{\frac{1}{n}\sum_{i=0}^{n}x_{i}^2-\left(\sum_{i=0}^{n} \frac{x_i}{n}\right)^2}
+\end{equation}
+Jedno zliczenie ADC odpowiada w przybliżeniu ładunkowi 450 elektronów. Surowe dane wejściowe (ang. raw data), zostały wstępnie przetworzone tj. zastosowywano algorytm usuwający piedestał sygnału \cite{Pedestal}.
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/Noise_sensor_12.jpeg}
+ % Noise sensor 12.jpeg: 996x974 pixel, 96dpi, 26.35x25.77 cm, bb=0 0 747 731
+ \caption{Zmierzony szum dla dwóch analogowych łączy w sensorze R.}
+ \label{fig:NoiseR}
+\end{figure}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/Noise_sensor_83.jpeg}
+ % Noise_sensor_83.jpeg: 996x974 pixel, 96dpi, 26.35x25.77 cm, bb=0 0 747 731
+ \caption{Zmierzony szum dla dwóch analogowych łączy w sensorze typu $\Phi$ }
+ \label{fig:NoisePhi}
+\end{figure}
+
+Na rysunkach \ref{fig:NoiseR} oraz \ref{fig:NoisePhi} zobrazowany został szum zmierzony w wybranych analogowych złączach. Każdy wykres został wykonany dla próbki dziesięciu tysięcy przypadków. Wyraźnie widać iż szum w zerowym kanale, oznaczonym dla lepszej widoczności na czerwono, jest wyraźnie większy niż w kanałach pozostałych. Zjawisko to występuje dla obydwu typów sensorów. Chcąc sprawdzić, czy efekt jest dostrzegalny w każdym z 5376 analogowych złączy wykonano zbiorcze wykresy. W tym celu stworzono histogramy zawierający różnicę szumu w kanale zerowym oraz referencyjnym(10 zgodnie z oznaczeniem z rysunku \ref{fig:AL}) ($\sigma_{0}-\sigma_{ref}$), oraz drugi histogram przechowujący znormalizowaną różnicę
+\begin{equation}
+ \frac{\LARGE{\sigma_{0}}-\sigma_{ref}}{\sigma_{ref}}
+\end{equation}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=1]{rozdzial4/Noise_diffRef.png}
+ % Noise diffRef.png: 600x286 pixel, 96dpi, 15.87x7.57 cm, bb=0 0 450 214
+ \caption{Histogram zawierający różnicę między szumem w kanale 0 oraz referencyjnym}
+ \label{fig:NoiseDiff}
+\end{figure}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=1]{rozdzial4/Noise_diffRefNormal.png}
+ % Noise_diffRefNormal.png: 500x234 pixel, 96dpi, 13.23x6.19 cm, bb=0 0 375 175
+ \caption{Histogram zawierający znormalizowaną różnice szumów w kanale zerowym i referencyjnym}
+ \label{fig:NoiseDiffNormal}
+\end{figure}
+
+Na podstawie rysunków \ref{fig:NoiseDiff} oraz \ref{fig:NoiseDiffNormal} można wyciągnąć wnioski że szum w kanale zerowym jest większy od szumu w kanale referencyjnym. Różnica jednak nie jest duża, średnio nie większa niż jednostka ADC, co przy całkowitej precyzji danych może mieć kluczowe znaczenie. Ciekawą obserwacją jest mniejsze maksimum lokalne. Odpowiedzialne za jego występowanie są popsute zerowe kanały w których dane albo nie są odczytywane albo są maskowane. Jednakże ich liczba nie jest znacząca, rzędu jednostek.  
+
+Użycie tylko jednego kanału referencyjnego, może powodować niechciane następstwa spowodowane nad(nie)miarowym zaszumieniem czy wręcz zepsutym kanałem. Aby się ustrzec statystycznej fluktuacji szumu zastosowano różnicę pomiędzy kanałem 0 oraz średnią arytmetyczną szumu z pozostałych kanałów
+$ \sigma_{0}-<\sigma> =\sigma_{0}- \frac{1}{31}\sum_{31}^{i=1}\sigma_i$.
+ Jednakże do obliczenia średniej nie były brane popsute kanały.
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=1]{rozdzial4/Noise_diffAvr.png}
+ % Noise diffAvr.png: 500x234 pixel, 96dpi, 13.23x6.19 cm, bb=0 0 375 175
+ \caption{Histogram zawierający różnicę szumów w kanale zerowym i średniej z pozostałych kanałów}
+ \label{fig:NoiseAverage}
+\end{figure}
+\label{analiza}
+Porównując histogram \ref{fig:NoiseDiff} z  \ref{fig:NoiseAverage} można dojść do wniosku iż żadne nowe, wcześniej nie omawiane zjawiska nie występują. Aby pokazać rozkład różnicy w szumie między kanałem zerowym oraz referencyjnym w zależności od sensora oraz analogowego łącza wykonano dwuwymiarowy histogram.
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.6]{rozdzial4/Noise_diffRefProfil.png}
+ % Noise_diffRefProfil.png: 1100x515 pixel, 96dpi, 29.10x13.62 cm, bb=0 0 825 386
+ \caption{2D histogram zawierający różnice w szumie między kanałem zerowym i referencyjnym}
+ \label{fig:NoiseProfil}
+\end{figure}
+
+Numeracja sensorów jest nietypowa, gdyż sensory R są ponumerowane od 0 do 41, natomiast sensory $\Phi$ 64 do 105, jest to zgodne z konwencją przyjętą wcześniej przez kolaborację.
+Analizując rysunek \ref{fig:NoiseProfil} można się przekonać że kanały zerowe w analogowych łączach o wyższych numerach są znacznie bardziej zaszumione. Na podstawie tego należy wywnioskować iż ewentualne parametry korekcyjne muszą być osobno wyliczane dla każdego analogowego złącza.
+
+Przeprowadzona analiza może prowadzić do niepełnych wniosków, jeżeli wykonana zostałaby tylko dla jednego punktu czasowego. Dlatego podobne postępowanie zostało przeprowadzone dla sześciu punktów czasowych, odpowiadającym danym zebranym w przeciągu półrocza począwszy od czerwca 2012 roku. 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/noiseTime.png}
+ % noiseTime.png: 967x913 pixel, 96dpi, 25.58x24.15 cm, bb=0 0 725 685
+ \caption{Czasowy rozkład szumu w kanale zerowym (wykres lewy) i referencyjnym (wykres prawy).}
+ \label{fig:NoiseTime}
+\end{figure}
+Okazało się jednak, co zostało zaprezentowane na wykresie \ref{fig:NoiseTime}, że szum w poszczególnych kanałach jest praktycznie stały w czasie. Niezależnie czy brano kanał 0 czy referencyjny. Sprawdzono również że pozostałe wykresy zaprezentowane w niniejszym paragrafie mają podobny wygląd.
+\section{Korelacje pomiędzy stanem trzeciego nagłówka a zmierzonymi wartościami danych}
+W tym podrozdziale zostanie przedstawione zależności pomiędzy otrzymanymi danymi w pierwszym kanale w zależności od stanu nagłówka. Ma to na celu ukazanie iż przedstawiony we wcześniejszym podrozdziale efekt jest powodowany występowaniem nagłówka układu Beetle.
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.6]{rozdzial4/Header.png}
+ % Header.gif: 1100x515 pixel, 72dpi, 38.81x18.17 cm, bb=0 0 1100 515
+ \caption{Wartości trzeciego nagłówka układu Beetle dla przykładowego analogowego złącza.}
+ \label{fig:Header}
+\end{figure}
+
+Wykonano dwuwymiarowy histogram obejmujący dane w kanale zerowym w zależności od wartości nagłówka. 
+Na rysunku \ref{fig:corrCh0H3} wyraźnie widać iż stan wysoki nagłówka powoduje przesunięcie danych w lewo, za co odpowiada przepływ ładunku, odczytane wartości danych są obciążone.
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.6]{rozdzial4/corrCh0H3.png}
+ % corrCh0H3.png: 760x378 pixel, 96dpi, 20.11x10.00 cm, bb=0 0 570 283
+ \caption{Korelacje pomiędzy wartościami danych w kanale zerowym a trzecim nagłówkiem}
+ \label{fig:corrCh0H3}
+\end{figure}
+
+Wykonano również wykresy projekcji danych w kanale zerowym w zależności od wartości nagłówka. 
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/pCH0H3.png}
+ % pCH0H3.png: 765x381 pixel, 96dpi, 20.24x10.08 cm, bb=0 0 574 286
+ \caption{Projekcja danych w kanale zerowym w zażności od wartości nagłówka trzeciego dla dwóch analogowych złącz}
+ \label{fig:pCH0H3}
+\end{figure}
+
+Wykonano również wykresy średnich wartości ADC mierzonych w zerowych kanałach w każdym analogowym porcie odpowiednio przy niskim i wysokim stanie nagłówka. Wartości które z nich można odczytać, szczególnie chodzi o różnicę, posłużą w wyznaczania parametrów korekcyjnych zgodnie z algorytmem opisanym w następnym rozdziale. Wspomniana zależność jest zaprezentowana na rysunku \ref{fig:MeanC0H3}. 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.4]{rozdzial4/MeanC0H3.png}
+ % MeanC0H3.png: 796x774 pixel, 96dpi, 21.06x20.48 cm, bb=0 0 597 580
+ \caption{Średnia wartość ADC w kanale 0 w zależności od wartości nagłówka trzeciego}
+ \label{fig:MeanC0H3}
+\end{figure}
+
+\section{Efekty wyższego rzędu}
+Przed implementacją algorytmu korekcyjnego warto sprawdzić efekty wyższego rzędu czyli wpływ nagłówka drugiego na dane w kanale zerowym czy nagłówku trzecim. W tym celu wykonano podobne wykresy jak w poprzednim podrozdziale. Studiowane wpływu nagłówka trzeciego na dane w kanale pierwszym nie zostało sprawdzone, jednak jak wynika z rysunku \ref{fig:NoiseR} czy \ref{fig:NoisePhi} nie jest to wymagane, gdyż nie stwierdzono widocznego zwiększenia szumu w tych kanałach.
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/corrCh0H2.png}
+ % corrCh0H2.png: 752x375 pixel, 96dpi, 19.89x9.92 cm, bb=0 0 564 281
+ \caption{Korelacje pomiędzy wartościami danych w kanale zerowym a drugim nagłówkiem}
+ \label{fig:corrCh0H2}
+\end{figure}
+
+Patrząc na wykres \ref{fig:corrCh0H2} z którego to w przeciwieństwie do wykresu \ref{fig:corrCh0H3} nie można stwierdzić żadnych przesunięć, przepływu ładunku czy jakiegokolwiek innego wpływu. Dane są równomiernie rozmieszczone dla każdego ze stanów nagłówka. Podobny wniosek można wyciągnąć analizując projekcję danych z kanału zerowego zaprezentowane na rysunku \ref{fig:pCH0H2}.
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/pCH0H2.png}
+ % pCH0H2.png: 752x375 pixel, 96dpi, 19.89x9.92 cm, bb=0 0 564 281
+ \caption{Projekcja danych w kanale zerowym w zależności od wartości nagłówka drugiego dla dwóch analogowych złącz}
+ \label{fig:pCH0H2}
+\end{figure}
+
+Ostatecznie sprawdzono zależność między drugim a trzecim nagłówkiem. W tym celu wykonano histogramy zawierające projekcję danych z kodujących nagłówek trzeci w funkcji drugiego. Z histogramu \ref{fig:pH3H2} wynika że występują pewne przesunięcia lecz są one na tyle małe, w porównaniu z różnicą między stanem niskim a wysokim, iż nie są w stanie przekłamać stanu nagłówka. 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial4/pH3H2.jpg}
+ % pH3H2.jpg: 1134x720 pixel, 144dpi, 20.00x12.70 cm, bb=0 0 567 360
+ \caption{Projekcja dekodowanej wartości trzeciego w funkcji drugiego nagłówka dla dwóch analogowych złącz}
+ \label{fig:pH3H2}
+\end{figure}
+
+Dlatego efekt ten nie będzie rozpatrywany w dalszej części pracy - w algorytmie korekcji.
+\newpage
+\section{Algorytm korekcji}
+W tym podrozdziale ten będzie opisany algorytm zastosowany do usunięcia zniekształcenia powodowanego przez nagłówek układu Beetle. 
+\subsection{Wyznaczanie współczynników korekcyjnych}
+Poprawka może być zapisana w prostej postaci jako 
+\begin{equation}
+ ADC^{i}_{corr}=ADC^{i}+corr^{i}_{H(L)}
+\end{equation}
+gdzie: \\
+$ADC^{i}_{corr}$ oznacza wartość ładunku w $i-tym$ kanale po zastosowaniu algorytmu korekcyjnego, \\
+$ADC^{i}$ wartość pierwotna w $i-tym$ kanale,\\
+$corr^{i}_{H(L)}$ poprawka dla $i-tego$ kanału zależna od stanu, wysokiego(H) lub niskiego (L),  nagłówka.
+
+Jak wynika z poprzedniego rozdziału nie ma, lub jest pomijanie mały, wpływ nagłówka drugiego na dane. Również nie stwierdzono niekorzystnego oddziaływania pomiędzy nagłówkami drugim oraz trzecim. Nie zastosowano żadnej korekcji dla kanału pierwszego. W związku z tym procedura poprawki zawiera tylko zależność pomiędzy nagłówkiem trzecim oraz danymi w kanale zerowym.
+Zastosowano metodę determinacji współczynników opisaną wzorem
+\begin{equation}
+ corr^{0}_{H(L)}=\left\langle ADC \right\rangle ^{0}_{H(L)}-\left\langle ADC\right\rangle ^{Ref}
+\end{equation}
+przy czym:\\
+$corr^{i}_{H(L)}$ poprawka dla zerowego kanału jeżeli stan nagłówka trzeciego był wysoki(H) lub niski (L),\\ 
+$\left\langle ADC \right\rangle ^{0}_{H(L)} $ oznacza średnią wartość zmierzonego ładunku w kanale zerowym w funkcji stanu trzeciego nagłówka, \\
+$\left\langle ADC\right\rangle ^{Ref}$ średnia wartość ADC w kanale referencyjnym.
+
+Zastosowano podejście z użyciem pojedynczego kanału referencyjnego zamiast średniej z pozostałych kanałów (bez zerowego) jako wniosek otrzymany w \ref{analiza}. Warto zwrócić uwagę iż wartości poprawek muszą być wyznaczone z całkowitą precyzją, co w niekorzystnym przypadku może powodować zniekształcenie danych.
+
