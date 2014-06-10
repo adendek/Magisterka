@@ -18,7 +18,7 @@ Otrzymana wielkość posiada jednostkę odwrotności pola, zwaną również barn
 LHC został umiejscowiony w 26,7 km tunelu skonstruowanym pierwotnie dla poprzedniego akceleratora elektronowego LEP (ang. Large Electron–Positron Collider). 
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=1]{rozdzial2/AccComple.jpeg}
+  \includegraphics[scale=1.1]{rozdzial2/AccComple.jpeg}
   % AccComple.gif: 480x434 pixel, 72dpi, 16.93x15.31 cm, bb=0 0 480 434
   \caption{Schemat kompleksu przyspieszającego akceleratora LHC. \cite{public}}
   \label{fig:AccComplex}
@@ -61,15 +61,88 @@ Detektor LHCb jest spektrometrem o akceptanci kątowej 10 do 300 mrad. Jest to g
 gdzie $\theta$ kąt między kierunkiem pędu cząstki oraz osią wiązki.
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics{rozdzial2/Lhcbview.jpg}
+\begin{sidewaysfigure}  \centering
+  \includegraphics[scale=0.7]{rozdzial2/Lhcbview.jpg}
   % Lhcbview.jpg: 700x493 pixel, 150dpi, 11.85x8.35 cm, bb=0 0 336 237
-  \caption{Schemat detektora LHCb \cite{public}}
+  \caption{Detektor LHCb w całej okazałości \cite{public}}
   \label{fig:Layout}
+\end{sidewaysfigure}
+Zamieszczony na rysunku \ref{fig:Layout} spektrometr LHCb składa się z szeregu systemów detekcyjnych. Te systemy detekcyjne są podzielone na trzy główne grupy. Pierwsza z nich służy do  rekonstrukcji śladów cząstek naładowanych. Informacja o śladach niezbędna jest do wyznaczania trzech komponentów pędów cząstek. Następna grupa detektorów odpowiedzialna jest za identyfikację cząstek. Te dwie informacje w pełni opisują każdą indywidualną cząstkę, a co za tym idzie całe zdarzenie. Ostatecznie ostatni układ- wyzwalania (ang. trigger) dokonuje selekcji przypadków na te, ciekawe z punktu widzenia analizy fizycznej. 
+\begin{itemize}
+\item \textbf{Rekonstrukcja śladów}: System rekonstrukcji śladów składa się z położonego najbliżej punktu przecięcie wiązek mikropaskowego, krzemowego detektora zwanego VELO (ang. VErtex LOcator) który, bardzo dużą precyzją,   mierzy pozycję pierwotnego wierzchołka oraz parametr zderzenia (ang. Impact Parameter), wizualizacja parametru zderzenia znajduje się na rysunku \ref{fig:IP}.
+\begin{figure}[th] 
+  \centering
+  \includegraphics[scale=0.5]{rozdzial2/impactParameter.png}
+  \caption{Wizualizacja parametru zderzenia, będącego najmniejszą odległością od wierzchołka pierwotnego do śladu. Parametr zderzenia został oznaczony czerwoną linią. }
+  \label{fig:IP}
 \end{figure}
 
-Zamieszczony na rysunku \ref{fig:Layout} spektrometr LHCb składa się z szeregu systemów detekcyjnych, które będą opisane w dalszej części rozdziału. 
+Następnym, po detektorze VELO, jest umiejscowiony przed magnesem zakrzywiającym detektor TT. Podobnie jak wcześniej wspomniany VELO, TT również został wykonany w technologii mikropaskowych detektorów krzemowych. Zadaniem jego jest zwiększenie rozdzielczości estymowanego pędu cząstek oraz odrzucanie par śladów, które są stowarzyszone z tą samą cząstką. Pole magnetyczne wytwarzane przez magnes dipolowy zakrzywia trajektorię ruchu cząstek w płaszczyźnie x-z, co umożliwia wyznaczanie ich pędu poprzez porównywanie zakrzywienia toru przed oraz za magnesem. System śladowy jest dopełniany przez stacje T, które to wraz z VELO, pozwalają wyznaczać pęd oraz kierunek ruchu cząstek. Stacje T, używają zróżnicowanej techniki do detekcji cząstek. Dzielą się na dwa regiony. Pierwszy, znajdujący się bliżej rury akceleratora, składa się z mikroposkowych detektorów krzemowych, natomiast ten bardziej oddalony z jest  gazowym detektorem słomkowym.
+Każdy z detektorów do wyznaczania śladów charakteryzuje się świetną rozdzielczością przestrzenną( mierząc jedną lub dwie składowe). To wszystko osiągane jest przy jednoczesnej minimalizacji kosztów materiałowych. 
+\item \textbf{Identyfikacja cząstek}: System identyfikacji cząstek używa dwóch praw  fizyki w celu wykonania swojego zadania. Dwa detektory RHICH  (ang. Ring Imaging Cherenkov detector) bazują fakcie, iż cząstka lecąc przez określony materiał emitują światło pod odpowiednim kątem. Efekt ten pozwala na rozróżnienie pomiędzy typami hadronów. Elektromagnetyczne oraz hadronowe kalorymetry, ECAL i HCAL, mierzą energię oddziałujących z nimi cząstek poprzez całkowitą ich absorpcję. Detektory te wspierane są przez SPD oraz PS, które to pomagają w rozwiązywaniu występujących dwuznaczności w identyfikacji. Ostatnim elementem czynnym, w znaczeniu oddalenia od miejsca  zajścia zderzenia, w systemie detekcyjnym LHCb jest układ detektorów mionowych. Układ ten, jak sama nazwa wskazuje, jest wykorzystywany do identyfikacji mionów. Jego stacje (od M1 do M5) rejestrują cząstki, które przemierzyły całą długość detektora LHCb oraz metalowe tarcze umiejscowioną pomiędzy stacjami mionowymi nienaruszone. Tylko miony, z naładowanych cząstek, posiadają takie własności. 
+\item \textbf{System wyzwalania}: Ilość informacji, otrzymywanych w wyniku zderzeń protonów jest tak dużo, że nie istnieje możliwość ich zapisania. Co więcej wiele ze zdarzeń z punktu widzenia późniejszych analiz fizycznych są kompletnie bez znaczenia. W celu eliminacji zapisu na dyski nieciekawych przypadków kolaboracja LHCb zdecydowała się na zaimplementowanie trzystopniowego systemu wyzwalania. Pierwszym poziom, zwany LO, bazuje na bezpośredniej sprzętowej implementacji. Następne dwa stopnie, HLT1 oraz HLT2(ang. High Level Trigger) są programami wykonującymi równoległe algorytmy  , rekontrują zdarzenie a następnie decydują czy jest interesujące i warto zapisać na dysk czy nie.      
+\end{itemize} 
+Komponenty wchodzące w skład detektora są dokładnie opisane w dalszej części tego rozdziału. 
+
+\subsection{Magnes zakrzywiający}
+Jednym z najważniejszych elementów systemu znajdowania śladów cząstek naładowanych jest dipolowy magnes, który zakrzywia trajektorie cząstek, co daje możliwość estymowania pędu. Składa się z dwóch identycznych, aluminiowych, jednocześnie nie będących w stanie nadprzewodnictwa cewek umiejscowionych symetrycznie w około osi wiązki. Diagram prezentujący wygląd magnesu został zamieszczony na rysunku \ref{fig:magnes}. 
+\begin{figure}[!ht]
+ \centering
+ \includegraphics[scale=0.35]{rozdzial2/magnes.png}
+ % Velo_jakis.png: 637x464 pixel, 96dpi, 16.85x12.28 cm, bb=0 0 478 348
+ \caption{Schemat magnesu zakrzywiającego wchodzącego w skład systemu detekcyjnego LHCb(a) oraz wielkość składowej y-owej indukcji pola magnetycznego jako funkcja współrzędnej z-owej.  }
+ \label{fig:magnes}
+\end{figure}
+
+ 
+
+
+\subsection{VELO}
+\label{VELO}
+
+VELO (ang. VErtex LOcator) to mikropaskowy detektor krzemowy specjalnie zaprojektowany do rekonstrukcji pierwotnego wierzchołka zderzenia oraz wtórnego powstającego w wyniku rozpadu mezonu $B_{(s)}^0$ oraz $D_{(s)}^0$\cite{VELORaport}. Obszar detekcji znajduje się już 8 mm od osi wiązki. W celu kontroli skutków efektów radiacyjnych układ stale utrzymywany jest w obniżonej temperaturze \cite{Papadelis} . Pomiary dokonywane przez detektor są wykorzystywane również przez tryger wysokiego poziomu (HLT). 
+\begin{figure}[!ht]
+ \centering
+ \includegraphics[scale=0.7]{rozdzial2/Velo_jakis.png}
+ % Velo_jakis.png: 637x464 pixel, 96dpi, 16.85x12.28 cm, bb=0 0 478 348
+ \caption{Schemat detektora VELO\cite{VELORaport}}
+ \label{fig:SchematVELO}
+\end{figure}
+\subsubsection{Sensory krzemowe }
+Pozycjo-czułe elementy VELO składa się z jednostronnych detektorów półprzewodnikowych o grubości 300$\mu m$ i  kształcie zaprezentowanym na rysunku \ref{fig:sensory}, akceptacja kątowa wynosi $182^{o}$, przy czym $2^{o}$ jest to obszar pokryty przez dwa przeciwległe sensory. Wyróżniamy dwa typy sensorów. Jedne, służące do pomiaru odległości radialnej R, drugie mierzą składową azymutalną $\Phi$. Każdy sensor zawiera 2048 kanałów pomiarowych. 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.4]{rozdzial2/sensory.jpeg}
+ % sensory.jpeg: 622x384 pixel, 96dpi, 16.46x10.16 cm, bb=0 0 467 288
+ \caption{Geometria sensorów \cite{VELORaport}}
+ \label{fig:sensory}
+\end{figure}
+
+Na \ref{fig:sensory} przedstawiona jest różnica w geometrii. Paski w sensorach typu R są półokrągłe, współśrodkowe podzielone na 4 segmenty . Natomiast sensory $\Phi$ dzielą się radialnie na dwie części- zewnętrzną (638 pasków) oraz wewnętrzną(1365 pasków), przy czym paski w każdej z części posiadają kąty stereo o przeciwnych znakach.
+\subsubsection{Elektronika odczytu}
+Beetle reprezentuje typ układów elektroniki front-end. Jest to ASIC (ang.  Application Specific Integrated Circuit) czyli dedykowany układ scalony mający za zadanie odczyt oraz kształtowanie impulsów zarejestrowanych przez sensory VELO.  Na \ref{fig:Beetle_Block} został przedstawiony schemat blokowy układu Beetle.
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.8]{rozdzial2/Beetle_block.jpeg}
+ % Beetle_block.jpeg: 848x489 pixel, 96dpi, 22.44x12.94 cm, bb=0 0 636 367
+ \caption{Schemat blokowy czipu Beetle\cite{Beetle}}
+ \label{fig:Beetle_Block}
+\end{figure}
+
+Układ odczytuje 128 kanały VELO. Zbiór prądowych oraz napięciowych przedwzmacniaczy oraz kształtowników wykorzystywany jest do optymalizacji parametrów impulsu. 
+Po ukształtowaniu impuls jest próbkowany a następnie w postaci analogowej przechowywany przez $4\mu s$ w linij opóźniającej (ang. pipeline) w oczekiwaniu na decyzję systemu wyzwalania. Po akceptacji przez L0 dane przesyłane są do czterech kanałów analogowych. Każdy port wysyła dane z 32 fizycznych sensorów poprzedzone czterema pseudo-cyfrowymi nagłówkami.
+\subsubsection{Przetwarzanie danych}
+Sygnały wyjściowe z układu Beetle przesyłane są przy pomocy 60 m kabli analogowych, w celu dalszej obróbki, do elektronicznych płyt akwizycyjnych TELL1 \cite{Aras}. Przy użyciu których sygnały są digitalizowane z 10 bitową precyzją a następnie przetwarzane przez układy FPGA (ang. Field Programmable Gate Arrays). 
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.5]{rozdzial2/Velo_schematic.png}
+ % Velo_schematic.png: 662x442 pixel, 96dpi, 17.51x11.69 cm, bb=0 0 496 331
+ \caption{Ścieżka odczytowa pomiędzy kanałami VELO a płytą TELL1\cite{Aras}}
+\end{figure}
+
+
+
+
 
 \subsection{Detektory Czerenkowa}
 RICH (ang. Ring Imaging Cherenkov detector) jest detektorem promieniowania Czerenkowa wykorzystywanym do identyfikacji hadronów. W szczególności wydajna separacja pionów oraz kaonów jest niezbędna przy badaniu rozpadów mezonów $B_{(s)}^0$ oraz $D_{(s)}^0$. W spektrometrze LHCb zamontowano dwa detektory RICH. Pierwszy z nich (RICH1), umieszczony zaraz za VELO, jest zoptymalizowany dla nisko pędowych cząstek o pędzie w przedziale $\sim 1- 60 GeV/c$. Drugi (RICH2), położony za magnesem, służy do identyfikacji cząstek o dużych pędach ($\sim 15-100 GeV/c$) \cite{RICH}. Zasada działania wyżej wymienionych detektorów jest oparta na procesie emisji promieniowania Czerenkowa. Promieniowanie to jest emitowane gdy naładowana cząstka porusza się w danym ośrodku szybciej niż światło w tym ośrodku. Kąt emitowanego fotonu jest zależny od prędkości z jaką porusza się cząstka wg wzoru
@@ -77,7 +150,21 @@ RICH (ang. Ring Imaging Cherenkov detector) jest detektorem promieniowania Czere
  cos\theta=\frac{c}{n v}
 \end{equation}
 gdzie:\\
-c- prędkość światłą w próżni, v- prędkość cząstki, n- współczynnik załamania ośrodka.
+c- prędkość światłą w próżni, v- prędkość cząstki, n- współczynnik załamania ośrodka. Jak pokazano na rysunku \ref{fig:RICH} detektor promieniowania Czerenkowa zbudowane są z radiatora, w którym cząstka emituje promieniowanie, oraz z układu luster skupiających odpowiednio promieniowanie na powierzchni fotoczułej. Pomiar kąta emisji promieniowania odbywa się przez pomiar promienia charakterystycznego pierścienia, który tworzy.
+RICH1 znajduje się zaraz za detektorem wierzchołka, przed magnesem dipolowym. Radiatorem w nim jest aerogel (n = 1,03), który umożliwia identyfikacje kaonów dla przedziału pędów sięgających 2 GeV/c oraz odróżnienie pionów od kaonów, aż do 10 GeV/c  W RICH1 znajduje się drugi radiator:  $C_4F_{10}$(n=1,0015), który zapewnia rozróżnienie pion-kaon, w przedziale  50 GeV/c. Układem skupiającym jest lustro sferyczne o promieniu 1,7 m wykonane z
+6 mm warstwy szkła pokrytej 900 nm warstwa glinu i 200 nm warstwa kwarcu. Do detekcji promieniowania użyto hybrydowych fotodetektorów umieszczone na powierzchnie sferycznej o promieniu dwa razy mniejszym niż zwierciadła.
+
+
+
+\begin{figure}[th]
+  \centering
+  \includegraphics[scale=0.5]{rozdzial2/RICH.png}
+  % TT-layout.jpg: 275x246 pixel, 100dpi, 6.99x6.25 cm, bb=0 0 198 177
+  \caption{Schemat detektora RHICH1	z zaznaczonymi ścieżkami dla światła pojawiającego się w aerożelu oraz $C_4F_{10}$(a). Rozkład kątów Czerenkowa w zależności od pędu cząstek emitujących. Rysunki pochodzą z  \cite{public}}
+  \label{fig:RICH}
+\end{figure}
+
+
 \subsection{Detektory śladowe}
 Układ detektorów śladowych pozwala na rekonstrukcję trajektorii cząstek oddziałujących z materiałem czynnym detektora. Składa się z części umieszczonych przed magnesem (VELO, TT) oraz za nim (stacje T1-T3 oraz komory mionowe). Ze względu na temat pracy, bezpośrednio związany z detektorem VELO, zostanie on dokładnie opisany w rozdziale \ref{VELO}. Umieszczony na rysunku \ref{fig:TTlayout} TT (ang. Tracker Turicensis) jest wykorzystywana w analizie do rekonstrukcji długożyciowych neutralnych cząstek np. kaonów rozpadających się na zewnątrz detektora VELO. Detektor ten zbudowany jest z czterech warstw krzemowych, mikropaskowych detektorów. 
 \begin{figure}[th]

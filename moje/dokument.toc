@@ -1,18 +1,29 @@
 \select@language {polish}
-\contentsline {chapter}{Wst\IeC {\k e}p}{10}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Motywacje teoretyczne powstania eksperymentu LHCb}{11}{chapter.1}
-\contentsline {section}{\numberline {1.1}Symetrie w fizyce}{11}{section.1.1}
-\contentsline {section}{\numberline {1.2}Symetrie a pocz\IeC {\k a}tek Wszech\IeC {\'s}wiata}{12}{section.1.2}
-\contentsline {section}{\numberline {1.3}Symetria kombinowana \textbf {CP}}{12}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Teoretyczny opis \IeC {\l }amania symetrii\textbf {CP} }{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Tr\IeC {\'o}jk\IeC {\k a}ty unitarno\IeC {\'s}ci}{14}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}Eksperyment LHCb}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Akcelerator LHC}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}Detektor LHCb}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Detektory Czerenkowa}{20}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Detektory \IeC {\'s}ladowe}{21}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Kalorymetry}{22}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Komory mionowe}{23}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}System wyzwalania}{23}{subsection.2.2.5}
-\contentsline {chapter}{Podsumowanie}{25}{chapter*.11}
-\contentsline {section}{Literatura}{26}{section*.12}
+\contentsline {chapter}{Wst\IeC {\k e}p}{12}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Podstawy teoretyczne eksperymentu LHCb}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Symetrie w fizyce}{13}{section.1.1}
+\contentsline {section}{\numberline {1.2}Symetrie a pocz\IeC {\k a}tek Wszech\IeC {\'s}wiata}{14}{section.1.2}
+\contentsline {section}{\numberline {1.3}Symetria kombinowana \textbf {CP}}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Teoretyczny opis \IeC {\l }amania symetrii\textbf {CP} }{15}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Tr\IeC {\'o}jk\IeC {\k a}ty unitarno\IeC {\'s}ci}{18}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}Eksperyment LHCb}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}Akcelerator LHC}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}Detektor LHCb}{22}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Magnes zakrzywiaj\IeC {\k a}cy}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}VELO}{27}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Sensory krzemowe }{27}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Elektronika odczytu}{28}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Przetwarzanie danych}{29}{subsubsection.2.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Detektory Czerenkowa}{29}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Detektory \IeC {\'s}ladowe}{30}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Kalorymetry}{31}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Komory mionowe}{32}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}System wyzwalania}{32}{subsection.2.2.7}
+\contentsline {chapter}{\numberline {3}Rekonstrukcja \IeC {\'s}lad\IeC {\'o}w}{34}{chapter.3}
+\contentsline {chapter}{\numberline {4}Oprogramowanie}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Root}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}RooFit}{36}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Gaudi}{36}{section.4.2}
+\contentsline {section}{\numberline {4.3}Da Vinci}{37}{section.4.3}
+\contentsline {chapter}{Podsumowanie}{38}{chapter*.21}
+\contentsline {section}{Literatura}{39}{section*.22}
