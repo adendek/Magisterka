@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -8,8 +8,98 @@
 \bibitem[pub()]{public}
 \url{http://public.web.cern.ch}.
 
+\bibitem[Collaboration(2001)]{VELORaport}
+LHCb Collaboration.
+\newblock \emph{LHCb VELO (VErtex LOcator): Technical Design Report}.
+\newblock Technical Design Report LHCb. CERN, Geneva, 2001.
+
+\bibitem[Löchner and Schmelling(2006)]{Beetle}
+S~Löchner and M~Schmelling.
+\newblock The beetle reference manual - chip version 1.3, 1.4 and 1.5.
+\newblock Technical Report LHCb-2005-105. CERN-LHCb-2005-105, CERN, Geneva, Nov
+  2006.
+
+\bibitem[Papadelis et~al.(2009{\natexlab{a}})Papadelis, Merk, and Jans]{Aras}
+Aras Papadelis, MHM Merk, and E~Jans.
+\newblock \emph{Characterisation and commissioning of the LHCb VELO detector.
+  oai:cds.cern.ch:1186697}.
+\newblock PhD thesis, Amsterdam, VU University, Amsterdam, 2009{\natexlab{a}}.
+\newblock Presented on 17 Jun 2009.
+
 \bibitem[eve()]{event}
-\url{http://lhcb-public.web.cern.ch/lhcb-public/en/Collaboration/LHCbEvDis.htm%
-l}.
+\url{http://lhcb-public.web.cern.ch/lhcb-public/en/Collaboration/LHCbEvDis.html}.
+
+\bibitem[Barrand et~al.(2000)Barrand, Belyaev, Binko, Cattaneo, Chytracek,
+  Corti, Frank, Gracia, Harvey, Van~Herwijnen, Jost, Last, Maley, Mato, Probst,
+  Ranjard, and Tsaregorodtsev]{GAUDI}
+G~Barrand, I~Belyaev, P~Binko, M~Cattaneo, R~Chytracek, G~Corti, M~Frank,
+  G~Gracia, J~Harvey, Eric Van~Herwijnen, B~Jost, I~Last, P~Maley, P~Mato,
+  S~Probst, F~Ranjard, and A~Yu Tsaregorodtsev.
+\newblock Gaudi: The software architecture and framework for building lhcb data
+  processing applications. oai:cds.cern.ch:467678.
+\newblock 2000.
+
+\bibitem[Sakharov(1967)]{Sacharow}
+A.D. Sakharov.
+\newblock {Violation of CP Invariance, c Asymmetry, and Baryon Asymmetry of the
+  Universe}.
+\newblock \emph{Pisma Zh.Eksp.Teor.Fiz.}, 5:\penalty0 32--35, 1967.
+\newblock \doi{10.1070/PU1991v034n05ABEH002497}.
+
+\bibitem[Wolfenstein(1983)]{Wolfenstein}
+Lincoln Wolfenstein.
+\newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
+\newblock \emph{Phys.Rev.Lett.}, 51:\penalty0 1945, 1983.
+\newblock \doi{10.1103/PhysRevLett.51.1945}.
+
+\bibitem[Haefeli(2004)]{Haefeli}
+G~Haefeli.
+\newblock \emph{Contribution to the development of the acquisition electronics
+  for the LHCb experiment. oai:cds.cern.ch:800810}.
+\newblock PhD thesis, EPFL Lausanne, Geneva, 2004.
+
+\bibitem[Collaboration(2008)]{ATLAS}
+The~ATLAS Collaboration.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08003,
+  August 2008.
+
+\bibitem[{CMS Collaboration}(2008)]{CMS}
+{CMS Collaboration}.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[{ALICE Collaboration}(2008)]{ALICE}
+{ALICE Collaboration}.
+\newblock {The ALICE experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08002}.
+
+\bibitem[Perkins(1982)]{perkins}
+D.~Perkins.
+\newblock \emph{Introduction to High Energy Physics}.
+\newblock Addison-Wesley, Reading, USA, 1982.
+
+\bibitem[Papadelis et~al.(2009{\natexlab{b}})Papadelis, Merk, and
+  Jans]{Papadelis}
+Aras Papadelis, MHM Merk, and E~Jans.
+\newblock \emph{Characterisation and commissioning of the LHCb VELO detector.
+  oai:cds.cern.ch:1186697}.
+\newblock PhD thesis, Amsterdam, VU University, Amsterdam, 2009{\natexlab{b}}.
+\newblock Presented on 17 Jun 2009.
+
+\bibitem[Adinolfi et~al.(2012)Adinolfi, Aglieri~Rinella, Albrecht, Bellunato,
+  Benson, Blake, and )]{RICH}
+M~Adinolfi, G~Aglieri~Rinella, E~Albrecht, T~Bellunato, S~Benson, C~Blake, and
+  (... ).
+\newblock Performance of the lhcb rich detector at the lhc.
+\newblock Technical Report arXiv:1211.6759. CERN-LHCb-DP-2012-003.
+  LHCb-DP-2012-003, CERN, Geneva, Nov 2012.
+
+\bibitem[Brun and Rademakers(1997)]{ROOT}
+R.~Brun and F.~Rademakers.
+\newblock {ROOT: An object oriented data analysis framework}.
+\newblock \emph{Nucl.Instrum.Meth.}, A389, 1997.
 
 \end{thebibliography}
