@@ -1,1 +1,34 @@
 \chapter{Rekonstrukcja śladów}
+
+Rozdział ten ma na celu przedstawienie procesu rekonstrukcji śladów w eksperymencie LHCb. Na samym początku, pokrótce omówione jest oddziaływanie cząstek z materią, następnie rozdział skupia się na opisaniu strategii znajdowania śladów. Na samym końcu omówione jest algorytm zastosowany algorytm rozpoznawania wzorców oraz algorytm obliczania wartości statystyki $\chi^2$. 
+
+Znajdowanie śladów jest procedurą mającą na celu znalezienie trajektorii lotu naładowanej cząstki przez detektor. Jest to niezbędny punkt każdego eksperymentu z dziedziny fizyki cząstek, a wykonywana w celu estymowania wartości trzech składowych pędu cząstki. 
+
+\section{Oddziaływanie cząstek z materią}
+Kiedy cząstka przechodzi przez materię oddziałuje z nią. Istnieją dwa typy oddziaływań: elektromagnetyczne oraz hadronowe\footnote{W ogólności występują jeszcze oddziaływania słabe, lecz nie są one istotne z punktu widzenia znajdowania śladów}. 
+\subsection{Oddziaływania elektromagnetyczne}
+Możliwe są następujące typy oddziaływań elektromagnetycznych:
+\begin{itemize}
+\item \textbf{Jonizacja} zachodzi gdy naładowana cząstka podróżując przez materiał wzbudza atom do wyższego stanu, lub gdy jonizuje go przez oddziaływanie z zewnętrznym elektronem. Średnia wartość traconej energii jest opisana przez pół-empirycznym wzorem Bethego-Blocha: 
+\begin{equation}
+-\left< \frac{dE}{dx} \right> = Kz^2\frac{Z}{A}\frac{1}{\beta^2}\left[\frac{1}{2}log\left(\frac{2m_ec^2\beta^2\gamma^2T_{max}}{I^2}\right) -\beta^2-\frac{\delta(\beta\gamma)}{2} \right]
+\label{bethe}
+\end{equation}
+gdzie: \\
+$K=\frac{4\pi e^2}{c^2m_e}N_A$, przy czym $e$ ładunek elementarny, $c$ prędkość światła, $m_e$ masa elektronu, $N_A$ stałą Avogadro, $z$ ładunek cząstki ( w jednostkach ładunku elementarnego), $Z$ liczba atomowa absorbentu, $A$ liczba masowa absorbentu, $\beta=\frac{v}{c}$, $I$ średnia energia jonizacji (w eV), $T_{max}$ maksymalna energia kinetyczna przekazywana do swobodnego elektronu w pojedynczym zderzeniu, $\delta(\beta\gamma)$ poprawka do energii wynikająca z elektrostatycznej polaryzacji ośrodka.
+
+Warto zwrócić uwagę, że formuła Bethego-Blocha opisuje średnią energię traconą w przedziale prędkości $0.1<\beta\gamma<1000$ z precyzją kilku procent. Z powyższego równania można wywnioskować, że najbardziej istotnymi przyczynkami do straty energii cząstki poprzez jonizację pochodzą od prędkości cząstki, jej ładunku i gęstości materiału.
+
+\item \textbf{Rozpraszanie Coulombowskie}, również zwane rozpraszanie Rutherforda, ten typ oddziaływania występuje pomiędzy cząstkami oraz jądrami atomowymi w materiale. W przeciwieństwie do wcześniej opisanej jonizacji zjawisko to nie prowadzi do strat energii, tyko do zmiany trajektorii lotu cząstki. 
+
+\item \textbf{Bremsstrahlung} zachodzi, gdy naładowana cząstka emituje foton pod wpływem pola pochodzącego od jąder atomowych. Jest to dominujący sposób na stratę energii elektronu w eksperymentach Fizyki Wysokich Energii.
+
+Idea drogi radiacyjnej, oznaczanej $X_0$, jest użyteczna do oszacowania wielkości straty energii w wyniku Bremsstrahlungu. Przy czym  $X_0$ jest średnią odległością jaką przebywa elektron w danym materiale jednocześnie zmniejszając swoją energię o czynnik $e$. Energia cząstki po przebyciu odległości x, wynosi:
+\begin{equation}
+E(x)=E_0e^{\frac{-x}{X_0}}
+\end{equation}
+\item \textbf{Wielokrotne rozpraszanie} jest to sekwencja rozpraszań Columbowskich powodująca zmianę kierunku ruchu cząstki. Dla małych kątów rozpraszania, rozkład kątów projekcji może być aproksymowany przy pomocy rozkładu Gaussa (dowalic ref od gosci).  
+\end{itemize}
+\subsection{Oddziaływania hadronowe}
+W wyniku oddziaływań hadronowych, hadrony powodują niszczenie jąder atomowych, co prowadzi do uwalniania protonów oraz neutronów (proces ten nazywa się spalacją) lub też prowadzi do głębokiego nieelastycznego rozpraszania, które to produkuje nowe hadrony, w większości piony. 
+Cząstka oddziałująca hadronowo jest często tracona i dalsze jej śledzenie nie jest już możliwe. Przekrój czynny zależy od typu cząstki, jej ładunku oraz pędu. 
