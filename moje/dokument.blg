@@ -6,51 +6,62 @@ A level-1 auxiliary file: rozdzial1/roz1.aux
 A level-1 auxiliary file: rozdzial2/roz2.aux
 A level-1 auxiliary file: rozdzial3/roz3.aux
 A level-1 auxiliary file: rozdzial4/roz4.aux
+A level-1 auxiliary file: rozdzial5/roz5.aux
 A level-1 auxiliary file: podsumowanie.aux
 The style file: unsrtnat.bst
 Database file #1: bibliografia.bib
+Warning--entry type for "triangle" isn't style-file defined
+--line 30 of file bibliografia.bib
+Warning--empty year in triangle
 Warning--empty year in public
 Warning--empty year in event
 Warning--empty journal in GAUDI
-You've used 16 entries,
+Warning--empty publisher in Noether
+Warning--empty publisher in symmetry
+Warning--empty year in symmetry
+Warning--empty year in symmetry
+Warning--empty publisher in CMB
+Warning--empty year in CMB
+Warning--empty year in CMB
+You've used 22 entries,
             2481 wiz_defined-function locations,
-            653 strings with 6720 characters,
-and the built_in function-call counts, 5121 in all, are:
-= -- 409
-> -- 278
-< -- 12
-+ -- 117
-- -- 84
-* -- 377
-:= -- 874
-add.period$ -- 51
-call.type$ -- 16
-change.case$ -- 27
-chr.to.int$ -- 15
-cite$ -- 21
-duplicate$ -- 271
-empty$ -- 453
-format.name$ -- 102
-if$ -- 1054
+            683 strings with 7251 characters,
+and the built_in function-call counts, 6980 in all, are:
+= -- 551
+> -- 358
+< -- 17
++ -- 151
+- -- 106
+* -- 503
+:= -- 1161
+add.period$ -- 66
+call.type$ -- 22
+change.case$ -- 35
+chr.to.int$ -- 21
+cite$ -- 35
+duplicate$ -- 380
+empty$ -- 646
+format.name$ -- 135
+if$ -- 1450
 int.to.chr$ -- 2
-int.to.str$ -- 17
-missing$ -- 11
-newline$ -- 90
-num.names$ -- 42
-pop$ -- 120
+int.to.str$ -- 23
+missing$ -- 19
+newline$ -- 117
+num.names$ -- 60
+pop$ -- 190
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 22
 quote$ -- 0
-skip$ -- 166
+skip$ -- 232
 stack$ -- 0
-substring$ -- 97
-swap$ -- 36
+substring$ -- 148
+swap$ -- 48
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
-warning$ -- 3
-while$ -- 32
+type$ -- 139
+warning$ -- 11
+while$ -- 46
 width$ -- 0
-write$ -- 219
-(There were 3 warnings)
+write$ -- 283
+(There were 12 warnings)

@@ -1,9 +1,13 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[group()]{triangle}
+KMfitter group.
+\newblock URL \url{http://ckmfitter.in2p3.fr/}.
 
 \bibitem[pub()]{public}
 \url{http://public.web.cern.ch}.
@@ -39,6 +43,20 @@ G~Barrand, I~Belyaev, P~Binko, M~Cattaneo, R~Chytracek, G~Corti, M~Frank,
   processing applications. oai:cds.cern.ch:467678.
 \newblock 2000.
 
+\bibitem[Schwarzbach and Kosmann-Schwarzbach(2010)]{Noether}
+B.E. Schwarzbach and Y.~Kosmann-Schwarzbach.
+\newblock \emph{The Noether Theorems: Invariance and Conservation Laws in the
+  Twentieth Century}.
+\newblock 2010.
+
+\bibitem[Gibson and Pollard()]{symmetry}
+W.M. Gibson and B.R. Pollard.
+\newblock \emph{Symmetry Principles Particle Physics}.
+
+\bibitem[Naselsky et~al.()Naselsky, Novikov, and Novikov]{CMB}
+P.D. Naselsky, D.I. Novikov, and I.D. Novikov.
+\newblock \emph{The Physics of the Cosmic Microwave Background}.
+
 \bibitem[Sakharov(1967)]{Sacharow}
 A.D. Sakharov.
 \newblock {Violation of CP Invariance, c Asymmetry, and Baryon Asymmetry of the
@@ -51,6 +69,21 @@ Lincoln Wolfenstein.
 \newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
 \newblock \emph{Phys.Rev.Lett.}, 51:\penalty0 1945, 1983.
 \newblock \doi{10.1103/PhysRevLett.51.1945}.
+
+\bibitem[Perkins(1982)]{perkins}
+D.~Perkins.
+\newblock \emph{Introduction to High Energy Physics}.
+\newblock Addison-Wesley, Reading, USA, 1982.
+
+\bibitem[Beringer et~al.(2012)]{PDG}
+J.~Beringer et~al.
+\newblock Review of particle physics.
+\newblock \emph{Phys. Rev. D}, 86:\penalty0 010001, 2012.
+
+\bibitem[Nakada(1994)]{nakada}
+Tatsuya Nakada.
+\newblock {Review on CP violation}.
+\newblock \emph{AIP Conf.Proc.}, 302:\penalty0 425--463, 1994.
 
 \bibitem[Haefeli(2004)]{Haefeli}
 G~Haefeli.
@@ -75,11 +108,6 @@ The~ATLAS Collaboration.
 \newblock {The ALICE experiment at the CERN LHC}.
 \newblock \emph{Journal of Instrumentation}, 3, 2008.
 \newblock \doi{10.1088/1748-0221/3/08/S08002}.
-
-\bibitem[Perkins(1982)]{perkins}
-D.~Perkins.
-\newblock \emph{Introduction to High Energy Physics}.
-\newblock Addison-Wesley, Reading, USA, 1982.
 
 \bibitem[Papadelis et~al.(2009{\natexlab{b}})Papadelis, Merk, and
   Jans]{Papadelis}
