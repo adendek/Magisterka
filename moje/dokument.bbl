@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,13 @@ KMfitter group.
 
 \bibitem[pub()]{public}
 \url{http://public.web.cern.ch}.
+
+\bibitem[Sj{\"o}strand et~al.(2006)Sj{\"o}strand, Mrenna, and Skands]{PYTHIA}
+Torbj{\"o}rn Sj{\"o}strand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock \emph{JHEP}, 05:\penalty0 026, 2006.
+\newblock URL
+  \url{http://www.slac.stanford.edu/spires/find/hep/www?key=6566170&FORMAT=WWWBRIEFBIBTEX}.
 
 \bibitem[Collaboration(2001)]{VELORaport}
 LHCb Collaboration.
@@ -63,6 +70,13 @@ A.D. Sakharov.
   Universe}.
 \newblock \emph{Pisma Zh.Eksp.Teor.Fiz.}, 5:\penalty0 32--35, 1967.
 \newblock \doi{10.1070/PU1991v034n05ABEH002497}.
+
+\bibitem[Collaboration(1990)]{delphi}
+DELPHI Collaboration.
+\newblock {A precise measurement of the Z resonance parameters through its
+  hadronic decays}.
+\newblock \emph{Phys. Lett. B}, 241\penalty0 (CERN-EP-90-32):\penalty0
+  435--448. 21 p, Mar 1990.
 
 \bibitem[Wolfenstein(1983)]{Wolfenstein}
 Lincoln Wolfenstein.
@@ -134,5 +148,44 @@ M~Adinolfi, G~Aglieri~Rinella, E~Albrecht, T~Bellunato, S~Benson, C~Blake, and
 R.~Brun and F.~Rademakers.
 \newblock {ROOT: An object oriented data analysis framework}.
 \newblock \emph{Nucl.Instrum.Meth.}, A389, 1997.
+
+\bibitem[Arrabito et~al.(2012)Arrabito, Bernardoff, Bouvet, Cattaneo,
+  Charpentier, Clarke, Closier, Franchini, Graciani, Lanciotti, Mendez,
+  Perazzini, Nandkumar, Remenska, Roiser, Romanovskiy, Santinelli, Stagni,
+  Tsaregorodtsev, Ubeda~Garcia, Vedaee, and Zhelezov]{Grid}
+L~Arrabito, V~Bernardoff, D~Bouvet, M~Cattaneo, P~Charpentier, P~Clarke,
+  J~Closier, P~Franchini, R~Graciani, E~Lanciotti, V~Mendez, S~Perazzini,
+  R~Nandkumar, D~Remenska, S~Roiser, V~Romanovskiy, R~Santinelli, F~Stagni,
+  A~Tsaregorodtsev, M~Ubeda~Garcia, A~Vedaee, and A~Zhelezov.
+\newblock {Major changes to the LHCb Grid computing model in year 2 of LHC
+  data}.
+\newblock \emph{J. Phys.: Conf. Ser.}, 396:\penalty0 032092. 8 p, 2012.
+
+\bibitem[Egede(2006)]{Ganga}
+Ulrik Egede.
+\newblock {Ganga and distributed analysis in the LHCb}.
+\newblock Oct 2006.
+
+\bibitem[Pilato et~al.(2008)Pilato, Collins-Sussman, and Fitzpatrick]{svn}
+C.M. Pilato, B.~Collins-Sussman, and B.~Fitzpatrick.
+\newblock \emph{Version Control with Subversion}.
+\newblock O'Reilly Series. O'Reilly Media, 2008.
+\newblock ISBN 9780596510336.
+\newblock URL \url{http://books.google.pl/books?id=EW-3srTM84sC}.
+
+\bibitem[Loeliger and McCullough(2012)]{git}
+J.~Loeliger and M.~McCullough.
+\newblock \emph{Version Control with Git: Powerful Tools and Techniques for
+  Collaborative Software Development}.
+\newblock Oreilly and Associate Series. O'Reilly Media, Incorporated, 2012.
+\newblock ISBN 9781449316389.
+\newblock URL \url{http://books.google.pl/books?id=ZkXELyQWf4UC}.
+
+\bibitem[Martin(2008)]{clean}
+R.C. Martin.
+\newblock \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
+\newblock Pearson Education, 2008.
+\newblock ISBN 9780136083252.
+\newblock URL \url{http://books.google.pl/books?id=\_i6bDeoCQzsC}.
 
 \end{thebibliography}

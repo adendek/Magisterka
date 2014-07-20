@@ -25,8 +25,10 @@
 \contentsline {subsection}{\numberline {3.1.2}Oddzia\IeC {\l }ywania hadronowe}{36}{subsection.3.1.2}
 \contentsline {chapter}{\numberline {4}Oprogramowanie}{37}{chapter.4}
 \contentsline {section}{\numberline {4.1}Root}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}RooFit}{38}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Gaudi}{38}{section.4.2}
-\contentsline {section}{\numberline {4.3}Da Vinci}{39}{section.4.3}
-\contentsline {chapter}{Podsumowanie}{40}{chapter*.23}
-\contentsline {section}{Literatura}{41}{section*.24}
+\contentsline {subsection}{\numberline {4.2.1}Oprogramowanie LHCb}{39}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Przetwarzanie sieciowe}{40}{section.4.3}
+\contentsline {section}{\numberline {4.4}System kontroli wersji}{40}{section.4.4}
+\contentsline {section}{\numberline {4.5}Programowanie zwinne}{40}{section.4.5}
+\contentsline {chapter}{Podsumowanie}{41}{chapter*.23}
+\contentsline {section}{Literatura}{42}{section*.24}
