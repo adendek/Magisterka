@@ -11,23 +11,22 @@
 \contentsline {section}{\numberline {2.1}Akcelerator LHC}{21}{section.2.1}
 \contentsline {section}{\numberline {2.2}Detektor LHCb}{23}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Magnes zakrzywiaj\IeC {\k a}cy}{27}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}VELO}{28}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Sensory krzemowe }{29}{subsubsection.2.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}VELO}{27}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Sensory krzemowe }{28}{subsubsection.2.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Elektronika odczytu}{29}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Przetwarzanie danych}{30}{subsubsection.2.2.2.3}
 \contentsline {subsection}{\numberline {2.2.3}Detektory Czerenkowa}{30}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Detektory \IeC {\'s}ladowe}{31}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Kalorymetry}{33}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Komory mionowe}{33}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}System wyzwalania}{35}{subsection.2.2.7}
-\contentsline {chapter}{\numberline {3}Rekonstrukcja \IeC {\'s}lad\IeC {\'o}w}{36}{chapter.3}
-\contentsline {section}{\numberline {3.1}Oddzia\IeC {\l }ywanie cz\IeC {\k a}stek z materi\IeC {\k a}}{36}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Oddzia\IeC {\l }ywania elektromagnetyczne}{36}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Oddzia\IeC {\l }ywania hadronowe}{37}{subsection.3.1.2}
-\contentsline {chapter}{\numberline {4}Oprogramowanie}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Root}{38}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}RooFit}{39}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Gaudi}{39}{section.4.2}
-\contentsline {section}{\numberline {4.3}Da Vinci}{40}{section.4.3}
-\contentsline {chapter}{Podsumowanie}{41}{chapter*.23}
-\contentsline {section}{Literatura}{42}{section*.24}
+\contentsline {subsection}{\numberline {2.2.5}Kalorymetry}{31}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Komory mionowe}{32}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}System wyzwalania}{34}{subsection.2.2.7}
+\contentsline {chapter}{\numberline {3}Rekonstrukcja \IeC {\'s}lad\IeC {\'o}w}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Oddzia\IeC {\l }ywanie cz\IeC {\k a}stek z materi\IeC {\k a}}{35}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Oddzia\IeC {\l }ywania elektromagnetyczne}{35}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Oddzia\IeC {\l }ywania hadronowe}{36}{subsection.3.1.2}
+\contentsline {chapter}{\numberline {4}Oprogramowanie}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Root}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}RooFit}{38}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Gaudi}{38}{section.4.2}
+\contentsline {section}{\numberline {4.3}Da Vinci}{39}{section.4.3}
+\contentsline {chapter}{Podsumowanie}{40}{chapter*.23}
+\contentsline {section}{Literatura}{41}{section*.24}

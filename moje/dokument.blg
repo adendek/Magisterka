@@ -23,45 +23,45 @@ Warning--empty year in symmetry
 Warning--empty publisher in CMB
 Warning--empty year in CMB
 Warning--empty year in CMB
-You've used 22 entries,
+You've used 23 entries,
             2481 wiz_defined-function locations,
-            683 strings with 7251 characters,
-and the built_in function-call counts, 6980 in all, are:
-= -- 551
-> -- 358
-< -- 17
-+ -- 151
-- -- 106
-* -- 503
-:= -- 1161
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 35
-chr.to.int$ -- 21
-cite$ -- 35
-duplicate$ -- 380
-empty$ -- 646
-format.name$ -- 135
-if$ -- 1450
+            685 strings with 7295 characters,
+and the built_in function-call counts, 7254 in all, are:
+= -- 576
+> -- 365
+< -- 18
++ -- 155
+- -- 108
+* -- 516
+:= -- 1207
+add.period$ -- 70
+call.type$ -- 23
+change.case$ -- 36
+chr.to.int$ -- 22
+cite$ -- 36
+duplicate$ -- 399
+empty$ -- 676
+format.name$ -- 138
+if$ -- 1511
 int.to.chr$ -- 2
-int.to.str$ -- 23
-missing$ -- 19
-newline$ -- 117
-num.names$ -- 60
-pop$ -- 190
+int.to.str$ -- 24
+missing$ -- 21
+newline$ -- 122
+num.names$ -- 63
+pop$ -- 199
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 23
 quote$ -- 0
-skip$ -- 232
+skip$ -- 242
 stack$ -- 0
-substring$ -- 148
-swap$ -- 48
+substring$ -- 150
+swap$ -- 50
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 139
+type$ -- 143
 warning$ -- 11
-while$ -- 46
+while$ -- 48
 width$ -- 0
-write$ -- 283
+write$ -- 297
 (There were 12 warnings)
