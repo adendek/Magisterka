@@ -1,5 +1,5 @@
 \chapter{Oprogramowanie}
-W obecnych czasach praca w eksperymencie fizyki wysokich energii nieodzownie łączy się z programowaniem. Każdy element pracy zaczynając od zbierania danych poprzez selekcja przypadków po analizę wykonywany jest poprzez napisane przez członków kolaboracji oprogramowanie. Dlatego tak ważnym elementem w pracy są umiejętności programistyczne. Poniższy rozdział ma na celu przedstawienie narzędzi używanych podczas analizy, która to jest opisywana przez niniejszą pracę magisterską. Ponadto pokrótce przedstawione będą techniki tworzenia oprogramowania, na których autor starał się oprzeć swoje badania.
+W obecnych czasach praca w eksperymencie fizyki wysokich energii nieodzownie łączy się z programowaniem. Każdy element pracy zaczynając od zbierania danych poprzez selekcja przypadków po analizę wykonywany jest poprzez napisane przez członków kolaboracji oprogramowanie. Dlatego tak ważnym elementem w pracy są umiejętności programistyczne. Poniższy rozdział ma na celu przedstawienie narzędzi używanych podczas analizy, która to jest opisywana przez niniejszą pracę magisterską.
 
 \section{Root}
 Root \cite{ROOT} jest zorientowaną obiektową platformą programistyczną (ang. framework) napisaną w języku C++ na potrzeby Fizyki Wysokich Energii rozwijana przy ośrodku CERN, oraz rozpowszechniana na licencji LGPL. Głównymi zaletami środowiska są wysoce rozwinięte biblioteki ułatwiające statystyczną analizę danych. ROOT umożliwia między innymi:
@@ -35,7 +35,7 @@ Dzięki swojej elastyczności GAUDI jest podstawą oprogramowania używanego w L
 Kod źródłowy architektury GAUDI napisany jest w języku C++ to konfiguracja wykonywane jest przy użyciu skrpytów Python'owskich.
 
 \subsection{Oprogramowanie LHCb}
-Jak wcześniej wspomniano, większość oprogramowania używanego przez eksperyment LHCb bazuje na platformie programistycznej GAUDI. Oprogramowanie to składa się z wyspecjalizowanych aplikacji służących do symulacji, rekonstrukcji oraz analizy danych doświadczalnych. Poniżej znajduje się opis najważniejszych z nich, w szczególności z punktu widzenia niniejszej pracy magisterskiej.
+Jak wcześniej wspomniano, większość oprogramowania używanego przez eksperyment LHCb bazuje na platformie programistycznej GAUDI. Oprogramowanie to składa się z wyspecjalizowanych aplikacji służących do symulacji, rekonstrukcji oraz analizy danych doświadczalnych. Dalsza część tego podrozdziału jest poświęcona opisowi tych aplikacji, które okazały się  najważniejsze z  punktu widzenia niniejszej pracy magisterskiej.
 \begin{itemize}
 \item \textbf{Gauss} używany jest do symulacji Monte Carlo. Zawiera generator przypadków, jak również pozwala przeprowadzać symulacje oddziaływania z detektorem. Zderzenia proton-proton są symulowane przy wykorzystaniu programu PYTHIA\citep{PYTHIA}. Efekty detektorowe dodawane są dzięki użyciu pakietu GEANT4. 
 \item \textbf{Boole} jego zadaniem jest symulacja odpowiedzi detektora oraz digitalizacje danych. Format danych generowanych przez ten program jest identyczny z tym, produkowanym przez elektronikę oraz system akwizycji danych. 
@@ -46,14 +46,9 @@ Jak wcześniej wspomniano, większość oprogramowania używanego przez eksperym
 \section{Przetwarzanie sieciowe}
 Ilość danych wytwarzanych przez detektory pracujące przy LHC jest tak wielka, że musiano stworzyć nową strategie przetwarzania ich. Strategia ta nazywana jest przetwarzaniem sieciowym lub GRID'owym. 
 
-Grid dostarcza dwóch podstawowych funkcjonalności. Pierwszą z nich jest szybka dystrybucja danych pomiędzy centra przetwarzania danych umiejscowione na całym świecie. Druga natomiast związana jest z przydzielaniem zasobów systemowych w momencie uruchomienia przez użytkownika danego zadania. Dokładny opis realizacji tych zandań można znaleźć w \cite{Grid}.  W celu ułatwienia korzystania z rozproszonych zasobów stworzono interfejs Gaga\citep{Ganga}.
+Grid dostarcza dwóch podstawowych funkcjonalności. Pierwszą z nich jest szybka dystrybucja danych pomiędzy centra przetwarzania danych umiejscowione na całym świecie. Druga natomiast związana jest z przydzielaniem zasobów systemowych w momencie uruchomienia przez użytkownika danego zadania. Dokładny opis realizacji tych zadań można znaleźć w \cite{Grid}.  W celu ułatwienia korzystania z rozproszonych zasobów stworzono interfejs Gaga\citep{Ganga}.
 
-Przygotowanie danych oraz wstępna ich  analiza wykonana w ramach tej pracy magisterskiej została wykona przy użyciu przetwarzania GRID'owego. W celu uruchomienia zadania na sieci niezbędne było napisanie odpowiedniego skryptu python'owego tłumaczącego opcje DaVinci'ego, na zrozumiałe przez Gangę. Wykorzystanie rozproszonych zasobów pozwoliło to przeanalizować duże ilości danych. 
+Przygotowanie danych oraz wstępna ich  analiza wykonana w ramach tej pracy magisterskiej została wykona przy użyciu przetwarzania GRID'owego. W celu uruchomienia zadania na sieci niezbędne było napisanie odpowiedniego skryptu Python'wskiego tłumaczącego opcje DaVinci'ego na te, zrozumiałe przez Gangę. Wykorzystanie rozproszonych zasobów pozwoliło na  przeanalizowanie bardzo dużej ilości danych. 
 
-\section{System kontroli wersji}
-W celu ułatwienia rozwoju oraz kontroli zmian w kodzie źródłowym podczas tworzenia oprogramowania do analizy posłużono się dwoma systemami kontroli wersji.
-\begin{itemize}
-\item \textbf{subversion} zwany również \textbf{svn} \cite{svn}.
-\item \textbf{git} \cite{git}.
-\end{itemize} 
+
 

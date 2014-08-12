@@ -23,12 +23,18 @@
 \contentsline {section}{\numberline {3.1}Oddzia\IeC {\l }ywanie cz\IeC {\k a}stek z materi\IeC {\k a}}{35}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Oddzia\IeC {\l }ywania elektromagnetyczne}{35}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Oddzia\IeC {\l }ywania hadronowe}{36}{subsection.3.1.2}
-\contentsline {chapter}{\numberline {4}Oprogramowanie}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Root}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gaudi}{38}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Oprogramowanie LHCb}{39}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Przetwarzanie sieciowe}{40}{section.4.3}
-\contentsline {section}{\numberline {4.4}System kontroli wersji}{40}{section.4.4}
-\contentsline {section}{\numberline {4.5}Programowanie zwinne}{40}{section.4.5}
-\contentsline {chapter}{Podsumowanie}{41}{chapter*.23}
-\contentsline {section}{Literatura}{42}{section*.24}
+\contentsline {section}{\numberline {3.2}Algorytm rekonstrukcji \IeC {\'s}lad\IeC {\'o}w}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Parametryzacja \IeC {\'s}lad\IeC {\'o}w}{36}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Typy \IeC {\'s}lad\IeC {\'o}w}{37}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Rozpoznawania wzorc\IeC {\'o}w}{38}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Filtr Kalmana}{39}{section.3.3}
+\contentsline {chapter}{\numberline {4}Oprogramowanie}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Root}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gaudi}{42}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Oprogramowanie LHCb}{42}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Przetwarzanie sieciowe}{44}{section.4.3}
+\contentsline {chapter}{\numberline {5}$\chi ^2$ - Badanie jako\IeC {\'s}ci dopasowania \IeC {\'s}lad\IeC {\'o}w}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Definicja $\chi ^2$}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Rozk\IeC {\l }ad $\chi ^2$}{46}{section.5.2}
+\contentsline {chapter}{Podsumowanie}{47}{chapter*.25}
+\contentsline {section}{Literatura}{48}{section*.26}

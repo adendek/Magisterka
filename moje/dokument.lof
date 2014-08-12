@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {{2.2}.1}{\ignorespaces Przyk\IeC {\l }adowe diagramy Feynmana obrazuj\IeC {\k a}ce produkcj\IeC {\k e} mezon\IeC {\'o}w B. Diagramy pierwszego rz\IeC {\k e}du odpowiadaj\IeC {\k a} kreacji par przez fuzj\IeC {\k e} gluonow\IeC {\k a} (a) oraz anihilacj\IeC {\k e} kwark-antykwark(b). Przyk\IeC {\l }adowe schematy wy\IeC {\.z}szych rz\IeC {\k e}d\IeC {\'o}w to wzbudzenia zapachowe (c) oraz rozszczepianie gluonu(d)\relax }}{23}{figure.caption.7}
 \contentsline {figure}{\numberline {{2.2}.2}{\ignorespaces Wykres korelacji pomi\IeC {\k e}dzy k\IeC {\k a}tem polarnym a ilo\IeC {\'s}ci\IeC {\k a} produkowanych kwark\IeC {\'o}w b w zderzeniu proton-proton. Symulacja zosta\IeC {\l }a wykonana przy u\IeC {\.z}yciu programu Pythia \cite {PYTHIA}\relax }}{24}{figure.caption.8}
 \contentsline {figure}{\numberline {{2.2}.3}{\ignorespaces Detektor LHCb w ca\IeC {\l }ej okaza\IeC {\l }o\IeC {\'s}ci \cite {public}\relax }}{25}{figure.caption.9}
-\contentsline {figure}{\numberline {{2.2}.4}{\ignorespaces Wizualizacja parametru zderzenia, b\IeC {\k e}d\IeC {\k a}cego najmniejsz\IeC {\k a} odleg\IeC {\l }o\IeC {\'s}ci\IeC {\k a} od wierzcho\IeC {\l }ka pierwotnego do \IeC {\'s}ladu. Parametr zderzenia zosta\IeC {\l } oznaczony czerwon\IeC {\k a} lini\IeC {\k a}. \relax }}{26}{figure.caption.10}
+\contentsline {figure}{\numberline {{2.2}.4}{\ignorespaces Wizualizacja parametru zderzenia, b\IeC {\k e}d\IeC {\k a}cego najmniejsz\IeC {\k a} odleg\IeC {\l }o\IeC {\'s}ci\IeC {\k a} od wierzcho\IeC {\l }ka pierwotnego do \IeC {\'s}ladu. Parametr zderzenia (IP) zosta\IeC {\l } oznaczony czerwon\IeC {\k a} lini\IeC {\k a}. \relax }}{26}{figure.caption.10}
 \contentsline {figure}{\numberline {{2.2}.5}{\ignorespaces Schemat magnesu zakrzywiaj\IeC {\k a}cego wchodz\IeC {\k a}cego w sk\IeC {\l }ad systemu detekcyjnego LHCb(a) oraz wielko\IeC {\'s}\IeC {\'c} sk\IeC {\l }adowej y-owej indukcji pola magnetycznego jako funkcja wsp\IeC {\'o}\IeC {\l }rz\IeC {\k e}dnej z-owej. \relax }}{27}{figure.caption.11}
 \contentsline {figure}{\numberline {{2.2}.6}{\ignorespaces Schemat detektora VELO\cite {VELORaport}\relax }}{28}{figure.caption.12}
 \contentsline {figure}{\numberline {{2.2}.7}{\ignorespaces Geometria sensor\IeC {\'o}w \cite {VELORaport}\relax }}{28}{figure.caption.13}
@@ -22,5 +22,8 @@
 \contentsline {figure}{\numberline {{2.2}.14}{\ignorespaces Schematyczne przedstawienie (widok z boku) stacji mionowych oraz \IeC {\.z}elaznych absorber\IeC {\'o}w umieszczonych pomi\IeC {\k e}dzy stacjami.\relax }}{33}{figure.caption.20}
 \contentsline {figure}{\numberline {{2.2}.15}{\ignorespaces Wizualizacja przypadku zdarzenia w detektorze LHCb\cite {event}\relax }}{34}{figure.caption.21}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {{3.2}.1}{\ignorespaces Pogl\IeC {\k a}dowym rysunek \IeC {\'s}lad\IeC {\'o}w w LHCb \cite {trackDefinition}\relax }}{37}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {{4.2}.1}{\ignorespaces Schemat blokowy architektury GAUDI\cite {GAUDI}\relax }}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {{4.2}.1}{\ignorespaces Schemat blokowy architektury GAUDI\cite {GAUDI}\relax }}{43}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {{5.2}.1}{\ignorespaces Funkcja rozk\IeC {\l }adu prawdopodobie\IeC {\'n}stwa $\chi ^2$ dla $\nu =2,4,10$ \relax }}{46}{figure.caption.24}
