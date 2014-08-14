@@ -28,7 +28,7 @@ f(\chi^2)=\frac{1}{2^{0.5 \nu} \Gamma(\frac{\nu}{2})}e^{\frac{\nu^2}{2}} \left( 
 \label{chi2Dis}
 \end{equation}
 
-Funkcja przedstawiona powyżej (równanie \ref{chiRownanie}) zwana jest rozkładem  $\chi^2$  o $\nu$ stopniach swobody, przy czym $\nu \in \mathbb{N}_{+}$. Na rysunku \ref{fig:chi2} zamieszczony 
+Funkcja przedstawiona powyżej (równanie \ref{chiRownanie}) zwana jest rozkładem  $\chi^2$  o $\nu$ stopniach swobody, przy czym $\nu \in \mathbb{N}_{+}$. Na rysunku \ref{fig:chi2} zamieszczony został ten rozkład dla kilku, wybranych stopni swobody. 
 
 \begin{figure}[h]
   \centering
@@ -37,3 +37,25 @@ Funkcja przedstawiona powyżej (równanie \ref{chiRownanie}) zwana jest rozkład
   \caption{Funkcja rozkładu prawdopodobieństwa $\chi^2$  dla $\nu=2,4,10$.}
   \label{fig:chi2}
 \end{figure}
+
+Warto zwrócić uwagę na wartości parametrów tego rozkładu. Średnia wartość rozkładu $\chi^{2}_{\nu}$ wynosi $\nu$, natomiast wariancja jest równa $2\nu$. Łatwo jest również zauważyć, że rozkład ma dużą dodatnią skośność, która to zmienia się wraz z wartością parametru $\nu$, stając coraz mniejszą dla coraz to większych wartości ilości stopni swobody. Fakt ten wynika z centralnego twierdzenia granicznego.
+\section{Sposób wykorzystania testu $\chi^2$ do badania jakości dopasowania} 
+
+Niech próbka pomiarowa składa się z N pomiarów eksperymentalnych pewnych wielkości $x_i$. Eksperymentator chce sprawdzić, czy dane te są dobrze opisane przez zbiór hipotetycznych wartości $\mu_i$. W tym celu formułuje sumę zgodnie z równaniem \ref{chiRownanie}. Warto zwrócić uwagę, iż bardzo istotnym faktem, po za samym pomiarem jest wyznaczenie niezależnie dla każdego pomiaru niepewności $\sigma_i$. 
+
+Powtarzając ten eksperyment wiele razy oraz za każdym razem konstruując sumę $\chi^2$ doświadczalnik powinien spodziewać się, ~o ile model którego używa jest prawidłowy, że rozkład sum będzie się zachowywał zgodnie z równaniem \ref{chi2Dis}. W tym momencie warto być ostrożnym, ponieważ ilość stopni swobody nie musi być, i zazwyczaj nie jest równa ilości punktów pomiarowych. Ilość stopni swobody jest równa ilości punktów pomiarowych pomniejszona o ilość estymowanych parametrów modelu. 
+
+Metody statystyczne nie są w stanie odpowiedzieć na pytanie czy dany model jest poprawny czy nie. Może, natomiast podać odpowiedz na pytanie w jakim przedziale istotności $\alpha$ wybrany przez eksperymentatora model dobrze opisuje zbiór danych pomiarowych. Z matematycznego punktu widzenia przedział istotności opisany jest równaniem:
+\begin{equation}
+\alpha=\int^{\infty}_{\chi^2_{\nu,\alpha}}f(\chi^2)d\chi^2
+\end{equation}
+
+Z praktycznego punktu widzenia w celu weryfikacji hipotezy o poprawności danego modelu trzeba najpierw obliczyć wartość znormalizowanej sumy $\chi^2 \slash \nu $ a następnie porównać ją z wartością $\chi^2_{\nu,\alpha} \slash \nu $. Jeżeli otrzymana wartość jest większa może to oznaczać:
+\begin{itemize}
+\item wybrany model niedostatecznie opisuje dane doświadczalne, 
+\item model jest prawidłowy zaszło zdarzenie statystycznie mało prawdopodobne. 
+\end{itemize}
+
+Warto zwrócić uwagę na pewne założenie dotyczące rozkładu zmiennych losowych. Cała idea sumy $\chi^2$ bazuje na założeniu o rozkładzie Gaussa. W związku z tym pewne punkty pomiarowe znacząco odbiegające od rozkładu normalnego mogą znacząco podnieść wartość sumy. 
+
+Drugim, skrajnym przypadkiem są ''dane za dobre''. Taka sytuacja może być spowodowana przykładowo złą estymacją wartości $\sigma_i$. Warto zapamiętać, że zbyt mała wartość nie jest związana ze niską jakością modelu opisującego dane, taki model może tylko podnosić wartość sumy $\chi^2$. 

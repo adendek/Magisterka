@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2.2}Elektronika odczytu}{29}{subsubsection.2.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Detektory Czerenkowa}{30}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Detektory \IeC {\'s}ladowe}{31}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Kalorymetry}{31}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Kalorymetry}{32}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Komory mionowe}{32}{subsection.2.2.6}
 \contentsline {subsection}{\numberline {2.2.7}System wyzwalania}{34}{subsection.2.2.7}
 \contentsline {chapter}{\numberline {3}Rekonstrukcja \IeC {\'s}lad\IeC {\'o}w}{35}{chapter.3}
@@ -36,5 +36,6 @@
 \contentsline {chapter}{\numberline {5}$\chi ^2$ - Badanie jako\IeC {\'s}ci dopasowania \IeC {\'s}lad\IeC {\'o}w}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}Definicja $\chi ^2$}{45}{section.5.1}
 \contentsline {section}{\numberline {5.2}Rozk\IeC {\l }ad $\chi ^2$}{46}{section.5.2}
-\contentsline {chapter}{Podsumowanie}{47}{chapter*.25}
-\contentsline {section}{Literatura}{48}{section*.26}
+\contentsline {section}{\numberline {5.3}Spos\IeC {\'o}b wykorzystania testu $\chi ^2$ do badania jako\IeC {\'s}ci dopasowania}{47}{section.5.3}
+\contentsline {chapter}{Podsumowanie}{48}{chapter*.25}
+\contentsline {section}{Literatura}{49}{section*.26}

@@ -1,18 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.1)  23 FEB 2014 04:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.16)  14 AUG 2014 01:41
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **preambula_pakiety.tex
-(D:\Documents\magisterka\moje\preambula_pakiety.tex
+(./preambula_pakiety.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, po
+lish, loaded.
 
 ! LaTeX Error: \usepackage before \documentclass.
 
@@ -312,7 +306,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \usepackage[hide]{
+l.30 \usepackage{
+                 rotating}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \usepackage{
+                 tikz}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \usepackage[hide]{
                        todo}                     %Wprowadza polecenie \todo{...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -325,7 +343,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \usepackage[basic,physics]{
+l.38 \usepackage[basic,physics]{
                                 circ}            %Wprowadza œrodowisko circu...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -338,7 +356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \usepackage[sf,bf,outermarks]{
+l.39 \usepackage[sf,bf,outermarks]{
                                    titlesec}     %Troszczy siê o wygl¹d tytu...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -351,7 +369,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \usepackage{
+l.40 \usepackage{
                  tocloft}                        %Troszczy siê o format spis...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -364,7 +382,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \usepackage{
+l.41 \usepackage{
                  expdlist}    %Zmienia definicjê œrodowiska description, daj...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -377,7 +395,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \usepackage{
+l.42 \usepackage{
                  flafter}     %Wprowadza parametr [tb] do polecenia \suppres...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -390,7 +408,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \usepackage{
+l.43 \usepackage{
                  array}       %£adniej drukuje tabelki (np. daje wiecej miej...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -403,7 +421,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \usepackage{
+l.44 \usepackage{
                  listings}    %Listingi programow.
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -415,7 +433,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ...ge[format=hang,labelsep=period,labelfont={
+l.45 ...ge[format=hang,labelsep=period,labelfont={
                                                   bf,small},textfont=small]{...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -428,7 +446,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ...hang,labelsep=period,labelfont={bf,small},
+l.45 ...hang,labelsep=period,labelfont={bf,small},
                                                   textfont=small]{caption}  ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -464,7 +482,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \usepackage{
+l.46 \usepackage{
                  appendix}    %Troszczy siê o za³¹czniki.
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -476,19 +494,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \usepackage{
-                 floatflt}    %Troszczy siê o oblewanie rysunkow tekstem.
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
-
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \usepackage{
+l.48 \usepackage{
                  here}        %Wprowadza dodtkowy parametr umiejscowienia ry...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -501,7 +507,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \usepackage{
+l.49 \usepackage{
                  makeidx}     %Troszczy siê o indeks (skorowidz).
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -513,7 +519,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56  \usepackage{
+l.58  \usepackage{
                   float} % aby dodawa? Here
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -525,13 +531,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57  \usepackage{
+l.59  \usepackage{
                   chngcntr}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.58  \counterwithout
+l.60  \counterwithout
                      {footnote}{chapter} % dla przypisków
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -554,6 +560,23 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \usepackage{
+                 braket}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--62
+[]
+ []
+
 )
 ! Emergency stop.
 <*> preambula_pakiety.tex
@@ -562,11 +585,11 @@ Missing character: There is no r in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 7 strings out of 493921
- 224 string characters out of 3144886
- 49031 words of memory out of 3000000
- 3400 multiletter control sequences out of 15000+200000
+ 5 strings out of 495024
+ 173 string characters out of 3181154
+ 45097 words of memory out of 3000000
+ 3291 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 5i,0n,5p,568b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34 hyphenation exceptions out of 8191
+ 5i,0n,5p,567b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

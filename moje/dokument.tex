@@ -4,8 +4,10 @@
 \input{preambula_pakiety.tex}
 \usepackage{listings}
 \input{preambula_ustawienia.tex}
-
+\clubpenalty=10000 %nie dieli wyrazów pomi?dzy stronami 
+\widowpenalty=10000 %nie pozostawia wdów i sierot pojedynczych 
 \begin{document}
+
 \renewcommand{\figurename}{Rys.}    %musi byc pod \begin{document}, bo w~tym miejscu pakiet 'babel' narzuca swoje ustawienia
 \renewcommand{\tablename}{Tab.}     %j.w.
 \pagenumbering{roman}               %numeracja stron: rzymska
