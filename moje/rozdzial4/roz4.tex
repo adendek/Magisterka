@@ -50,5 +50,16 @@ Grid dostarcza dwóch podstawowych funkcjonalności. Pierwszą z nich jest szybk
 
 Przygotowanie danych oraz wstępna ich  analiza wykonana w ramach tej pracy magisterskiej została wykona przy użyciu przetwarzania GRID'owego. W celu uruchomienia zadania na sieci niezbędne było napisanie odpowiedniego skryptu Python'wskiego tłumaczącego opcje DaVinci'ego na te, zrozumiałe przez Gangę. Wykorzystanie rozproszonych zasobów pozwoliło na  przeanalizowanie bardzo dużej ilości danych. 
 
+\section{Oprogramowanie stworzone na potrzeby analizy}
 
+Na potrzeby analizy, opisywanej przez niniejszą pracę stworzono dwie odrębne aplikacje. 
 
+Pierwsza z nich jest z praktycznego punktu widzenia algorytmem rozszerzającym możliwości DaVinci. Głównym jej celem jest możliwość wykorzystania całości oprogramowania używanego w eksperymencie LHCb w szczególności daje łatwy dostęp do wstępnego przetworzenia czyli odtworzenia większości, istotnych z punktu prowadzonej analizy informacji na temat śladów. Aplikacja ta tworzy, jako efekt swojego działania NTuple.
+
+Kolejnym etap analizy wykonywany jest przy użyciu platformy napisanej w języku Python. Powodem podjęcia decyzji odseparowania części odzyskiwania informacji o śladach od ich przetwarzania była chęć wykorzystania możliwości interpretowano języka, jakim jest Python. Głównymi powodami dla których stworzono niezależną (od Gaudiego) platformę od analizy, było przekonanie autora o zwiększonej szybkości  procesu wytwórczego oprogramowania.
+
+Warto zauważyć, że podczas tworzenia wyżej wymienionej platformy posłużono się wieloma technikami w literaturze zwanymi zwiewnymi (ang. agile). Więcej informacji na tematy takowych technik, obecnie powszechnie używanych w branży IT można znaleźć w referencji \cite{Bob}.   
+
+Sama platforma bazuje na wzorcu projektowym dekorator, więcej na temat tego wzorca można znaleźć w referencji \cite{designPatterns}. Dołożono wszelkich starań, aby główne zasady dotyczące długości, nazewnictwa oraz ogólnie tworzenia klas oraz ich metod były zgodne z tymi opisanymi wcześniej przytoczonej przytoczonej pozycji. Ważną ideą, który zastosowano podczas tworzenia aplikacji było oparcie go na zasadach tzw z angielskiego "Test-driven development". Czyli najpierw tworzenia kolekcji testów jednostkowych, a następnie implementacja odpowiedniego kodu. 
+
+Warto zwrócić uwagę, ponieważ platforma jest wynikiem owocnej współpracy z Uniwersytetem Cincinnati, aplikacja rozwijana była z wykorzystaniem systemu kontroli wersji Git \cite{Git}.  

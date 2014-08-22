@@ -7,11 +7,12 @@ A level-1 auxiliary file: rozdzial2/roz2.aux
 A level-1 auxiliary file: rozdzial3/roz3.aux
 A level-1 auxiliary file: rozdzial4/roz4.aux
 A level-1 auxiliary file: rozdzial5/roz5.aux
+A level-1 auxiliary file: rozdzial6/roz6.aux
 A level-1 auxiliary file: podsumowanie.aux
 The style file: unsrtnat.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "triangle" isn't style-file defined
---line 30 of file bibliografia.bib
+--line 31 of file bibliografia.bib
 Warning--empty year in triangle
 Warning--empty year in public
 Warning--empty year in event
@@ -24,45 +25,45 @@ Warning--empty publisher in CMB
 Warning--empty year in CMB
 Warning--empty year in CMB
 Warning--empty journal in Ganga
-You've used 36 entries,
+You've used 39 entries,
             2481 wiz_defined-function locations,
-            768 strings with 9328 characters,
-and the built_in function-call counts, 11760 in all, are:
-= -- 942
-> -- 622
-< -- 35
-+ -- 259
-- -- 186
-* -- 872
-:= -- 1990
-add.period$ -- 112
-call.type$ -- 36
-change.case$ -- 62
-chr.to.int$ -- 35
-cite$ -- 50
-duplicate$ -- 620
-empty$ -- 1049
-format.name$ -- 235
-if$ -- 2426
+            791 strings with 9960 characters,
+and the built_in function-call counts, 12732 in all, are:
+= -- 1024
+> -- 671
+< -- 37
++ -- 279
+- -- 200
+* -- 935
+:= -- 2156
+add.period$ -- 126
+call.type$ -- 39
+change.case$ -- 65
+chr.to.int$ -- 38
+cite$ -- 53
+duplicate$ -- 677
+empty$ -- 1139
+format.name$ -- 254
+if$ -- 2635
 int.to.chr$ -- 2
-int.to.str$ -- 37
-missing$ -- 28
-newline$ -- 190
-num.names$ -- 102
-pop$ -- 281
+int.to.str$ -- 40
+missing$ -- 34
+newline$ -- 209
+num.names$ -- 111
+pop$ -- 310
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 39
 quote$ -- 0
-skip$ -- 366
+skip$ -- 396
 stack$ -- 0
-substring$ -- 294
-swap$ -- 83
+substring$ -- 300
+swap$ -- 89
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 234
+type$ -- 246
 warning$ -- 12
-while$ -- 80
+while$ -- 86
 width$ -- 0
-write$ -- 475
+write$ -- 521
 (There were 13 warnings)

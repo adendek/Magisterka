@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.16)  14 AUG 2014 01:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.16)  22 AUG 2014 04:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 ) (./dokument.aux (./wstep.aux) (./rozdzial1/roz1.aux) (./rozdzial2/roz2.aux)
 (./rozdzial3/roz3.aux) (./rozdzial4/roz4.aux) (./rozdzial5/roz5.aux)
-(./podsumowanie.aux))
+(./rozdzial6/roz6.aux) (./podsumowanie.aux))
 \openout1 = `dokument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1094,7 +1094,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./4_str_mgr.tex
-<agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg, id=167, 861.4584pt x 284.7438pt>
+<agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg, id=212, 861.4584pt x 284.7438pt>
 File: agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg Graphic file (type jpg)
 
 <use agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg>
@@ -1152,12 +1152,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--30
 [7] (./dokument.toc
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
+ [8]
+Underfull \vbox (badness 2753) has occurred while \output is active []
+
+ [9])
 \tf@toc=\write5
 \openout5 = `dokument.toc'.
 
 
-[9] (./dokument.lof
+[10] (./dokument.lof
 Overfull \hbox (0.3915pt too wide) detected at line 3
 \T1/cmr/m/n/12 1.3.1. 
  []
@@ -1240,7 +1243,7 @@ Overfull \hbox (6.26506pt too wide) detected at line 19
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10
+ [11
 
 ]
 Overfull \hbox (6.26506pt too wide) detected at line 20
@@ -1277,18 +1280,42 @@ Overfull \hbox (0.3915pt too wide) detected at line 29
 \T1/cmr/m/n/12 5.2.1. 
  []
 
+
+Overfull \hbox (0.3915pt too wide) detected at line 31
+\T1/cmr/m/n/12 6.1.1. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 32
+\T1/cmr/m/n/12 6.2.1. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 33
+\T1/cmr/m/n/12 6.2.2. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 34
+\T1/cmr/m/n/12 6.2.3. 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `dokument.lof'.
 
 \c@licznikStron=\count162
- [11]
+ [12]
 \openout2 = `wstep.aux'.
 
- (./wstep.tex) [12
+ (./wstep.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
 
 
-]
+])
+[14]
 \openout2 = `rozdzial1/roz1.aux'.
 
  (./rozdzial1/roz1.tex
@@ -1296,49 +1323,49 @@ Rozdzia\l  1.
 
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
- [13
+ [15
 
 
 
 ]
-[14] <rozdzial1/CP.png, id=401, 621.32124pt x 425.59pt>
+[16] <rozdzial1/CP.png, id=478, 621.32124pt x 425.59pt>
 File: rozdzial1/CP.png Graphic file (type png)
  <use rozdzial1/CP.png>
 Package pdftex.def Info: rozdzial1/CP.png used on input line 36.
 (pdftex.def)             Requested size: 310.65987pt x 212.79446pt.
 
-[15 <./rozdzial1/CP.png>] [16]
-<rozdzial1/trojkat.png, id=437, 939.51pt x 528.97626pt>
+[17 <./rozdzial1/CP.png>] [18]
+<rozdzial1/trojkat.png, id=515, 939.51pt x 528.97626pt>
 File: rozdzial1/trojkat.png Graphic file (type png)
 
 <use rozdzial1/trojkat.png>
 Package pdftex.def Info: rozdzial1/trojkat.png used on input line 116.
 (pdftex.def)             Requested size: 281.85518pt x 158.69409pt.
- [17 <./rozdzial1/trojkat.png>]
-<rozdzial1/triangle.png, id=453, 569.12625pt x 568.1225pt>
+ [19 <./rozdzial1/trojkat.png>]
+<rozdzial1/triangle.png, id=532, 569.12625pt x 568.1225pt>
 File: rozdzial1/triangle.png Graphic file (type png)
 
 <use rozdzial1/triangle.png>
 Package pdftex.def Info: rozdzial1/triangle.png used on input line 137.
 (pdftex.def)             Requested size: 398.38567pt x 397.68303pt.
- [18 <./rozdzial1/triangle.png>]
+ [20 <./rozdzial1/triangle.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 170.
 
-<rozdzial1/mixing.png, id=465, 602.25pt x 530.98375pt>
+<rozdzial1/mixing.png, id=544, 602.25pt x 530.98375pt>
 File: rozdzial1/mixing.png Graphic file (type png)
 
 <use rozdzial1/mixing.png>
 Package pdftex.def Info: rozdzial1/mixing.png used on input line 172.
 (pdftex.def)             Requested size: 301.12425pt x 265.49121pt.
- [19]) [20 <./rozdzial1/mixing.png>]
+ [21]) [22 <./rozdzial1/mixing.png>]
 \openout2 = `rozdzial2/roz2.aux'.
 
 
 (./rozdzial2/roz2.tex
 Rozdzia\l  2.
-<rozdzial2/AccComple.jpeg, id=487, 361.35pt x 326.72063pt>
+<rozdzial2/AccComple.jpeg, id=564, 361.35pt x 326.72063pt>
 File: rozdzial2/AccComple.jpeg Graphic file (type jpg)
 
 <use rozdzial2/AccComple.jpeg>
@@ -1348,22 +1375,22 @@ Package pdftex.def Info: rozdzial2/AccComple.jpeg used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21
+[23
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./rozdzial2/AccComple.jpeg>]
-<rozdzial2/Feynman.png, id=513, 779.91376pt x 500.87125pt>
+ [24 <./rozdzial2/AccComple.jpeg>]
+<rozdzial2/Feynman.png, id=590, 779.91376pt x 500.87125pt>
 File: rozdzial2/Feynman.png Graphic file (type png)
 
 <use rozdzial2/Feynman.png>
 Package pdftex.def Info: rozdzial2/Feynman.png used on input line 44.
 (pdftex.def)             Requested size: 389.95593pt x 250.435pt.
 
-<rozdzial2/pythia.jpg, id=514, 569.0058pt x 551.661pt>
+<rozdzial2/pythia.jpg, id=591, 569.0058pt x 551.661pt>
 File: rozdzial2/pythia.jpg Graphic file (type jpg)
 
 <use rozdzial2/pythia.jpg>
@@ -1373,8 +1400,8 @@ Package pdftex.def Info: rozdzial2/pythia.jpg used on input line 54.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./rozdzial2/Feynman.png>]
-<rozdzial2/Lhcbview.jpg, id=523, 788.7066pt x 555.0336pt>
+[25 <./rozdzial2/Feynman.png>]
+<rozdzial2/Lhcbview.jpg, id=601, 788.7066pt x 555.0336pt>
 File: rozdzial2/Lhcbview.jpg Graphic file (type jpg)
 
 <use rozdzial2/Lhcbview.jpg>
@@ -1384,31 +1411,31 @@ Package pdftex.def Info: rozdzial2/Lhcbview.jpg used on input line 68.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rozdzial2/impactParameter.png, id=528, 631.60968pt x 421.575pt>
+<rozdzial2/impactParameter.png, id=606, 631.60968pt x 421.575pt>
 File: rozdzial2/impactParameter.png Graphic file (type png)
 
 <use rozdzial2/impactParameter.png>
 Package pdftex.def Info: rozdzial2/impactParameter.png used on input line 79.
 (pdftex.def)             Requested size: 315.80406pt x 210.78697pt.
- [24 <./rozdzial2/pythia.jpg>] [25 <./rozdzial2/Lhcbview.jpg>]
+ [26 <./rozdzial2/pythia.jpg>] [27 <./rozdzial2/Lhcbview.jpg>]
 Underfull \vbox (badness 5036) has occurred while \output is active []
 
- [26 <./rozdzial2/impactParameter.png>]
-<rozdzial2/magnes.png, id=548, 1227.58624pt x 506.89375pt>
+ [28 <./rozdzial2/impactParameter.png>]
+<rozdzial2/magnes.png, id=626, 1227.58624pt x 506.89375pt>
 File: rozdzial2/magnes.png Graphic file (type png)
 
 <use rozdzial2/magnes.png>
 Package pdftex.def Info: rozdzial2/magnes.png used on input line 106.
 (pdftex.def)             Requested size: 429.66162pt x 177.41547pt.
 
-<rozdzial2/Velo_jakis.png, id=551, 479.54156pt x 349.305pt>
+<rozdzial2/Velo_jakis.png, id=629, 479.54156pt x 349.305pt>
 File: rozdzial2/Velo_jakis.png Graphic file (type png)
 
 <use rozdzial2/Velo_jakis.png>
 Package pdftex.def Info: rozdzial2/Velo_jakis.png used on input line 121.
 (pdftex.def)             Requested size: 335.6768pt x 244.51183pt.
 
-<rozdzial2/sensory.jpeg, id=555, 737.00343pt x 253.69781pt>
+<rozdzial2/sensory.jpeg, id=633, 737.00343pt x 253.69781pt>
 File: rozdzial2/sensory.jpeg Graphic file (type jpg)
 
 <use rozdzial2/sensory.jpeg>
@@ -1417,8 +1444,8 @@ Package pdftex.def Info: rozdzial2/sensory.jpeg used on input line 130.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./rozdzial2/magnes.png>]
-<rozdzial2/Beetle_block.jpeg, id=566, 618.81187pt x 359.09157pt>
+ [29 <./rozdzial2/magnes.png>]
+<rozdzial2/Beetle_block.jpeg, id=644, 618.81187pt x 359.09157pt>
 File: rozdzial2/Beetle_block.jpeg Graphic file (type jpg)
 
 <use rozdzial2/Beetle_block.jpeg>
@@ -1429,8 +1456,8 @@ Overfull \hbox (11.3533pt too wide) in paragraph at lines 141--143
  [][] 
  []
 
-[28 <./rozdzial2/Velo_jakis.png> <./rozdzial2/sensory.jpeg>]
-<rozdzial2/Velo_schematic.png, id=576, 498.36188pt x 332.74312pt>
+[30 <./rozdzial2/Velo_jakis.png> <./rozdzial2/sensory.jpeg>]
+<rozdzial2/Velo_schematic.png, id=654, 498.36188pt x 332.74312pt>
 File: rozdzial2/Velo_schematic.png Graphic file (type png)
 
 <use rozdzial2/Velo_schematic.png>
@@ -1439,8 +1466,8 @@ Package pdftex.def Info: rozdzial2/Velo_schematic.png used on input line 152.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./rozdzial2/Beetle_block.jpeg>]
-<rozdzial2/RICH.png, id=584, 940.51375pt x 510.90875pt>
+ [31 <./rozdzial2/Beetle_block.jpeg>]
+<rozdzial2/RICH.png, id=663, 940.51375pt x 510.90875pt>
 File: rozdzial2/RICH.png Graphic file (type png)
 
 <use rozdzial2/RICH.png>
@@ -1449,15 +1476,15 @@ Package pdftex.def Info: rozdzial2/RICH.png used on input line 171.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./rozdzial2/Velo_schematic.png>]
-<rozdzial2/TT-layout.jpg, id=594, 276.03125pt x 246.9225pt>
+ [32 <./rozdzial2/Velo_schematic.png>]
+<rozdzial2/TT-layout.jpg, id=673, 276.03125pt x 246.9225pt>
 File: rozdzial2/TT-layout.jpg Graphic file (type jpg)
 
 <use rozdzial2/TT-layout.jpg>
 Package pdftex.def Info: rozdzial2/TT-layout.jpg used on input line 182.
 (pdftex.def)             Requested size: 276.03056pt x 246.92188pt.
 
-<rozdzial2/OT-Module-design.jpg, id=598, 386.44376pt x 327.2225pt>
+<rozdzial2/OT-Module-design.jpg, id=677, 386.44376pt x 327.2225pt>
 File: rozdzial2/OT-Module-design.jpg Graphic file (type jpg)
 
 <use rozdzial2/OT-Module-design.jpg>
@@ -1467,40 +1494,40 @@ Package pdftex.def Info: rozdzial2/OT-Module-design.jpg used on input line 191.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./rozdzial2/RICH.png>] <rozdzial2/ECAL.png, id=607, 560.0925pt x 413.545p
+ [33 <./rozdzial2/RICH.png>] <rozdzial2/ECAL.png, id=685, 560.0925pt x 413.545p
 t>
 File: rozdzial2/ECAL.png Graphic file (type png)
 
 <use rozdzial2/ECAL.png>
 Package pdftex.def Info: rozdzial2/ECAL.png used on input line 206.
 (pdftex.def)             Requested size: 224.03302pt x 165.41505pt.
- <rozdzial2/Muon.png, id=609, 416.55624pt x 421.575pt>
+ <rozdzial2/Muon.png, id=687, 416.55624pt x 421.575pt>
 File: rozdzial2/Muon.png Graphic file (type png)
 
 <use rozdzial2/Muon.png>
 Package pdftex.def Info: rozdzial2/Muon.png used on input line 218.
 (pdftex.def)             Requested size: 249.93567pt x 252.94695pt.
- [32 <./rozdzial2/TT-layout.jpg>]
+ [34 <./rozdzial2/TT-layout.jpg>]
 Overfull \vbox (21.5899pt too high) has occurred while \output is active []
 
 
-[33 <./rozdzial2/OT-Module-design.jpg> <./rozdzial2/ECAL.png> <./rozdzial2/Muon
-.png>] <rozdzial2/event.jpg, id=619, 810.52812pt x 461.22313pt>
+[35 <./rozdzial2/OT-Module-design.jpg> <./rozdzial2/ECAL.png> <./rozdzial2/Muon
+.png>] <rozdzial2/event.jpg, id=696, 810.52812pt x 461.22313pt>
 File: rozdzial2/event.jpg Graphic file (type jpg)
 
 <use rozdzial2/event.jpg>
 Package pdftex.def Info: rozdzial2/event.jpg used on input line 233.
 (pdftex.def)             Requested size: 324.2055pt x 184.48598pt.
-) [34 <./rozdzial2/event.jpg>]
+) [36 <./rozdzial2/event.jpg>]
 \openout2 = `rozdzial3/roz3.aux'.
 
  (./rozdzial3/roz3.tex
 Rozdzia\l  3.
-[35
+[37
 
 
 
-] [36] <rozdzial3/tracks.png, id=642, 705.63625pt x 375.4025pt>
+] [38] <rozdzial3/tracks.png, id=720, 705.63625pt x 375.4025pt>
 File: rozdzial3/tracks.png Graphic file (type png)
 
 <use rozdzial3/tracks.png>
@@ -1511,16 +1538,16 @@ Overfull \hbox (10.24513pt too wide) in paragraph at lines 47--49
  [][] 
  []
 
-[37 <./rozdzial3/tracks.png>] [38]) [39] [40]
+[39 <./rozdzial3/tracks.png>] [40]) [41] [42]
 \openout2 = `rozdzial4/roz4.aux'.
 
  (./rozdzial4/roz4.tex
 Rozdzia\l  4.
-[41
+[43
 
 
 
-] <rozdzial4/GAUDI.jpeg, id=686, 577.40718pt x 285.31593pt>
+] <rozdzial4/GAUDI.jpeg, id=765, 577.40718pt x 285.31593pt>
 File: rozdzial4/GAUDI.jpeg Graphic file (type jpg)
 
 <use rozdzial4/GAUDI.jpeg>
@@ -1530,13 +1557,13 @@ Package pdftex.def Info: rozdzial4/GAUDI.jpeg used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42]
+[44]
 Overfull \hbox (1.46086pt too wide) in paragraph at lines 43--44
 []\T1/cmr/bx/n/12 DaVinci \T1/cmr/m/n/12 jest to plat-forma pro-gra-mi-styczna 
 u»y-wana do fi-zycz-nej ana-lizy pra-cu-j¡ca w  try-
  []
 
-[43 <./rozdzial4/GAUDI.jpeg>]) [44]
+[45 <./rozdzial4/GAUDI.jpeg>] [46]) [47]
 \openout2 = `rozdzial5/roz5.aux'.
 
  (./rozdzial5/roz5.tex
@@ -1573,7 +1600,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
 
-[45
+[48
 
 
 
@@ -1594,13 +1621,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-<rozdzial5/chi2.png, id=721, 530.98375pt x 338.26375pt>
+<rozdzial5/chi2.png, id=809, 530.98375pt x 338.26375pt>
 File: rozdzial5/chi2.png Graphic file (type png)
 
 <use rozdzial5/chi2.png>
 Package pdftex.def Info: rozdzial5/chi2.png used on input line 35.
 (pdftex.def)             Requested size: 371.68608pt x 236.78299pt.
- [46 <./rozdzial5/chi2.png>]
+ [49 <./rozdzial5/chi2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 42.
@@ -1617,10 +1644,172 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 42.
 
-) [47]
+) [50]
+\openout2 = `rozdzial6/roz6.aux'.
+
+ (./rozdzial6/roz6.tex
+Rozdzia\l  6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+<rozdzial6/Feynman.png, id=825, 634.37pt x 278.03876pt>
+File: rozdzial6/Feynman.png Graphic file (type png)
+
+<use rozdzial6/Feynman.png>
+Package pdftex.def Info: rozdzial6/Feynman.png used on input line 12.
+(pdftex.def)             Requested size: 507.49667pt x 222.4313pt.
+
+Overfull \hbox (23.7998pt too wide) in paragraph at lines 12--14
+ [][] 
+ []
+
+[51
+
+
+
+ <./rozdzial6/Feynman.png>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 25.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 25.
+
+Missing character: There is no ó in font cmmi12!
+Missing character: There is no ó in font cmmi12!
+<rozdzial6/Jpsi_p.png, id=832, 1660.2025pt x 828.09375pt>
+File: rozdzial6/Jpsi_p.png Graphic file (type png)
+
+<use rozdzial6/Jpsi_p.png>
+Package pdftex.def Info: rozdzial6/Jpsi_p.png used on input line 33.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+<rozdzial6/Jpsi_pt.png, id=833, 1660.2025pt x 828.09375pt>
+File: rozdzial6/Jpsi_pt.png Graphic file (type png)
+
+<use rozdzial6/Jpsi_pt.png>
+Package pdftex.def Info: rozdzial6/Jpsi_pt.png used on input line 34.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+<rozdzial6/Jpsi_eta.png, id=834, 1660.2025pt x 828.09375pt>
+File: rozdzial6/Jpsi_eta.png Graphic file (type png)
+
+<use rozdzial6/Jpsi_eta.png>
+Package pdftex.def Info: rozdzial6/Jpsi_eta.png used on input line 35.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+<rozdzial6/KsLL_p.png, id=841, 1660.2025pt x 828.09375pt>
+File: rozdzial6/KsLL_p.png Graphic file (type png)
+
+<use rozdzial6/KsLL_p.png>
+Package pdftex.def Info: rozdzial6/KsLL_p.png used on input line 43.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+<rozdzial6/KsLL_pt.png, id=842, 1660.2025pt x 828.09375pt>
+File: rozdzial6/KsLL_pt.png Graphic file (type png)
+
+<use rozdzial6/KsLL_pt.png>
+Package pdftex.def Info: rozdzial6/KsLL_pt.png used on input line 44.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+<rozdzial6/KsLL_eta.png, id=843, 1660.2025pt x 828.09375pt>
+File: rozdzial6/KsLL_eta.png Graphic file (type png)
+
+<use rozdzial6/KsLL_eta.png>
+Package pdftex.def Info: rozdzial6/KsLL_eta.png used on input line 45.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./rozdzial6/Jpsi_p.png> <./rozdzial6/Jpsi_pt.png> <./rozdzial6/Jpsi_eta.p
+ng>]
+<rozdzial6/KsDD_p.png, id=848, 1660.2025pt x 828.09375pt>
+File: rozdzial6/KsDD_p.png Graphic file (type png)
+
+<use rozdzial6/KsDD_p.png>
+Package pdftex.def Info: rozdzial6/KsDD_p.png used on input line 51.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+<rozdzial6/KsDD_pt.png, id=849, 1660.2025pt x 828.09375pt>
+File: rozdzial6/KsDD_pt.png Graphic file (type png)
+
+<use rozdzial6/KsDD_pt.png>
+Package pdftex.def Info: rozdzial6/KsDD_pt.png used on input line 52.
+(pdftex.def)             Requested size: 415.0496pt x 207.02293pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./rozdzial6/KsLL_p.png> <./rozdzial6/KsLL_pt.png> <./rozdzial6/KsLL_eta.p
+ng>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./rozdzial6/KsDD_p.png> <./rozdzial6/KsDD_pt.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+) [56]
 \openout2 = `podsumowanie.aux'.
 
- (./podsumowanie.tex) [48
+ (./podsumowanie.tex) [57
 
 
 
@@ -1630,53 +1819,59 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 3229) in paragraph at lines 13--15
+[]\T1/cmr/m/n/12 Publiczna strona eks-pe-ry-mentu lhcb.  URL [][]$\T1/cmtt/m/n/
+12 http : / / lhcb-[]public . web . cern . ch /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 [][][]$\T1/cmtt/m/n/12 http : / / lhcb-[]public . web . cern . ch / lhcb-[]publ
 ic / en / Collaboration / LHCbEvDis .
  []
 
-[49
+[58
 
 
 ]
-Underfull \hbox (badness 1552) in paragraph at lines 75--80
+Underfull \hbox (badness 1552) in paragraph at lines 76--81
 []\T1/cmr/m/n/12 A.D. Sa-kha-rov.  Vio-la-tion of CP In-va-riance, c Asym-me-tr
 y, and Ba-ryon Asym-
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 75--80
+Underfull \hbox (badness 1331) in paragraph at lines 76--81
 \T1/cmr/m/n/12 me-try of the Uni-verse.  \T1/cmr/m/it/12 Pi-sma Zh.Eksp.Teor.Fi
 z.\T1/cmr/m/n/12 , 5:32--35, 1967.  doi: $10 . 1070 /
  []
 
-[50]
-Underfull \hbox (badness 4168) in paragraph at lines 198--201
+[59]
+Underfull \hbox (badness 4168) in paragraph at lines 199--202
 []\T1/cmr/m/n/12 R. Fruh-wirth.  Ap-pli-ca-tion of Kal-man fil-te-ring to track
  and ver-tex fit-ting.
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [51]
+ [60]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (./dokument.aux (./wstep.aux) (./rozdzial1/roz1.aux)
 (./rozdzial2/roz2.aux) (./rozdzial3/roz3.aux) (./rozdzial4/roz4.aux)
-(./rozdzial5/roz5.aux) (./podsumowanie.aux))
+(./rozdzial5/roz5.aux) (./rozdzial6/roz6.aux) (./podsumowanie.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: D2FF7894F69859C06DEF8F0E8A4C6124;7307.
+(rerunfilecheck)             Checksum: E069A8B274E4F44A55619B752FB87535;10006.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 21264 strings out of 495024
- 347373 string characters out of 3181154
- 447307 words of memory out of 3000000
- 23726 multiletter control sequences out of 15000+200000
- 44388 words of font info for 115 fonts, out of 3000000 for 9000
+ 21383 strings out of 495024
+ 349407 string characters out of 3181154
+ 449817 words of memory out of 3000000
+ 23799 multiletter control sequences out of 15000+200000
+ 46405 words of font info for 123 fonts, out of 3000000 for 9000
  35 hyphenation exceptions out of 8191
- 58i,13n,55p,978b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,13n,55p,1247b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/ja/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/ja/.
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/ja/.texmf-var/font
 s/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/ja/.texmf-var/fonts/pk/ljfour/jk
@@ -1710,10 +1905,10 @@ s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on dokument.pdf (51 pages, 3595108 bytes).
+Output written on dokument.pdf (60 pages, 3765382 bytes).
 PDF statistics:
- 1688 PDF objects out of 1728 (max. 8388607)
- 805 compressed objects within 9 object streams
- 192 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1850 PDF objects out of 2073 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
