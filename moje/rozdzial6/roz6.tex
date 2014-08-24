@@ -18,6 +18,12 @@ Jest to rozpad pół leptonowy, który da się opisać przy użyciu diagramu Fey
 Faktem, wartym podkreślenia jest, że w podczas analizy wzięto pod uwagę przypadki w których z produktami rozpadów mezonu $K_s$, czyli pionami, stowarzyszono ślady zarówno długie jak i typu "Downstream".
 \section{Analiza bazująca an symulacjach Monte Carlo} 
 Ten podrozdział zawiera wyniku uzyskane dla symulowanych danych Monte Carlo. Analiza oparta na tego typu danych jest istotna, gdyż ewentualna niezgodność wyników może wskazywać na problemy w pracy detektora. 
+
+W dalszej części pracy przyjęte zostanie oznaczenie:
+\begin{equation}
+\chi^2 \equiv \frac{\chi^2}{\nu} 
+\end{equation}
+
 \subsection{Wydajność rekonstrukcji śladów}
 Pierwszym elementem pracy w analizie jakości dopasowania śladów w eksperymencie LHCb jest zbadanie wydajności rekonstrukcji śladów. Jest to bardzo istotna analiza, która w bardzo szybko sposób obrazuje jaki ułamek rekonstruowanych śladów jest związany z interesującym rozpadem. Z praktycznego punktu widzenia wydajność (ang. efficiency) jest wyliczana przy wykorzystaniu informacji dotyczącej numeru pdg cząstki \cite{PDG}. natomiast formalna, matematyczna definicja jest realizowana przy użyciu zależności:
 
@@ -30,9 +36,10 @@ Natomiast niepewność wyznaczenia tej wielkości przyjmuje się jako:
 \end{equation}
 
 \begin{figure}[H]
-\includegraphics[scale=0.25]{rozdzial6/Jpsi_p.png} \\
-\includegraphics[scale=0.25]{rozdzial6/Jpsi_pt.png} \\
-\includegraphics[scale=0.25]{rozdzial6/Jpsi_eta.png} \\ 
+\centering
+\includegraphics[scale=0.3]{rozdzial6/Jpsi_p.png} \\
+\includegraphics[scale=0.3]{rozdzial6/Jpsi_pt.png} \\
+\includegraphics[scale=0.3]{rozdzial6/Jpsi_eta.png} \\ 
 \caption{Wydajność rekonstrukcji śladów długich zrekonstruowanych dla cząstek z rozpadu $J/\Psi \rightarrow \mu + \mu $  w funkcji pędu (góra), pędu poprzecznego (środek) oraz pseudorapidity (dół).}
 \label{effJPsi}
 \end{figure}
@@ -40,27 +47,153 @@ Natomiast niepewność wyznaczenia tej wielkości przyjmuje się jako:
 
 
 \begin{figure}[H]
+\centering
 \includegraphics[scale=0.25]{rozdzial6/KsLL_p.png} \\
 \includegraphics[scale=0.25]{rozdzial6/KsLL_pt.png} \\
 \includegraphics[scale=0.25]{rozdzial6/KsLL_eta.png} \\ 
-\caption{Wydajność rekonstrukcji śladów długich zrekonstruowanych dla cząstek z rozpadu $K_s \rightarrow \pi + \pi $  w funkcji pędu (góra), pędu poprzecznego (środek) oraz pseudorapidity (dół).}
+\caption{Wydajność rekonstrukcji śladów \textbf{długich} zrekonstruowanych dla cząstek z rozpadu $K_s \rightarrow \pi + \pi $  w funkcji pędu (góra), pędu poprzecznego (środek) oraz pseudorapidity (dół).}
 \label{KsLL}
 \end{figure}
 
 \begin{figure}[H]
+\centering
 \includegraphics[scale=0.25]{rozdzial6/KsDD_p.png} \\
 \includegraphics[scale=0.25]{rozdzial6/KsDD_pt.png} \\
-\caption{Wydajność rekonstrukcji śladów typu downstream zrekonstruowanych dla cząstek z rozpadu $K_s \rightarrow \pi + \pi $  w funkcji pędu (góra), pędu poprzecznego (dół).}
+\caption{Wydajność rekonstrukcji śladów \textbf{typu downstream} zrekonstruowanych dla cząstek z rozpadu $K_s \rightarrow \pi + \pi $  w funkcji pędu (góra), pędu poprzecznego (dół).}
 \label{KsDD}
 \end{figure}
 
-Na rysunku \ref{effJPsi} przedstawiono zależności wydajności rekonstrukcji śladów długich pochodzących z rozpadu mezony $J\/Psi$.  Nie zauważono żadnych korelacji pomiędzy wartością parametrów pędu, pędu poprzecznego oraz pseudorapidity. Warto zwrócić uwagę na bardzo dobrą jakość rekonstrukcji śladów nawet dla małych wartości pędu, zarówno całkowitego jak i poprzecznego. W porównaniu do do rysunku \ref{effJPsi} sytuacja dla śladów stowarzyszonych z rozpadem mezonu $K_s \rightarrow \pi + \pi $ zarówno dla śladów długich jak i typu "downstream" jest inna. Wyraźnie widać zależność od pędu, dla małych jego wartości wydajność rekonstrukcji jest dość niska. Dopiero dla wartości pędu całkowitego większych od $40GeV/c^2$ rozkłady są praktycznie identyczne. 
+Na rysunku \ref{effJPsi} przedstawiono zależności wydajności rekonstrukcji śladów długich pochodzących z rozpadu mezony $J\/ \Psi$.  Nie zauważono żadnych korelacji pomiędzy wartością parametrów pędu, pędu poprzecznego oraz pseudorapidity. Warto zwrócić uwagę na bardzo dobrą jakość rekonstrukcji śladów nawet dla małych wartości pędu, zarówno całkowitego jak i poprzecznego. W porównaniu do do rysunku \ref{effJPsi} sytuacja dla śladów stowarzyszonych z rozpadem mezonu $K_s \rightarrow \pi + \pi $ zarówno dla śladów długich jak i typu "downstream" jest inna. Wyraźnie widać zależność od pędu, dla małych jego wartości wydajność rekonstrukcji jest dość niska. Dopiero dla wartości pędu całkowitego większych od $40GeV/c^2$ rozkłady są praktycznie identyczne. 
 
 Warto również przypatrzeć się niepewnością wyznaczenia wydajności rekonstrukcji. Łatwo zauważyć, że wzrasta ona wraz ze wzrostem wartości pędów, poprzecznego i całkowitego. Efekt ten jest łatwo wyjaśnić, gdyż dla takich wartości gwałtownie spada ilość rejestrowanych cząstek.  
 
 \subsection{Rozkłady $\chi^2$}
+Następnym krokiem dokonanym w wyniku studiów nad jakością dopasowania śladów było posłużenie się testem $\chi^2$. W tym celu wygenerowano rozkłady $\chi^2$ dla każdego ze śladów. Zgodnie z tym, co opisano w rozdziale 4 $\chi^2$ jest wielkością addytywną więc można zapisać iż całkowita wartość $\chi^2_{total}$ dla śladu jest równa sumie przyczynków zrekonstruowanych w różnych detektorach. W formie matematycznej można to zapisać jako:
+\begin{equation}
+\chi^2_{total}=\chi^2_{Velo}+\chi^2_{T}+\chi^2_{TT}
+\label{chiTotal}
+\end{equation} 
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.55\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_chi2.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.55\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_chi2T.png}
+\end{minipage}
+
+\vspace*{0.5cm} % (or whatever vertical separation you prefer)
+\begin{minipage}[t]{0.55\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_chi2Velo.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.55\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_chi2TT.png}
+\end{minipage}
+\caption{Rozkłady $\chi^2$ wyliczone dla śladów zrekonstruowanych w wyniku oddziaływania produktów rozpadu mezonu $J/\Psi$. Na rysunku (góra lewo) przedstawiono całkowity $\chi^2$, na (góra prawo) rozkład dla części T, natomiast na dole rozkłady dla Velo (lewo) oraz TT (prawo) } \label{chi2JPsi}
+\end{figure}
+
+
+Rysunek \ref{chi2JPsi} przedstawia rozkłady $\chi^2$ dla wybranego śladu wytworzonego w wyniku rozpadu mezonu $J/ \Psi$.  Bardzo wyraźnie widać, że najbardziej niepokojący fragment jest ten, pochodzący pochodzący od detektora TT. Znaczna ilość przypadków jest niefizyczna, o bardzo małej, mniejszej od jednego, wartości $\chi^2$. Jak wspominano w rozdziale 4, prawdopodobna przyczyną takiego stanu rzeczy jest nieprawidłowe wyznaczenie niepewności pomiarowych. Dla potwierdzenia słuszności rozumowania na rysunkach \ref{KsDD} oraz \ref{KsLL} przedstawiono  podobne rozkłady, tym razem dla ślady są stowarzyszone z produktami rozpadu mezonu $Ks$.
+\begin{figure}[h]    
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2T.png}
+\end{minipage}
+
+\vspace*{0.5cm} % (or whatever vertical separation you prefer)
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2Velo.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2TT.png}
+\end{minipage}
+\caption{Rozkłady $\chi^2$ wyliczone dla śladów \textbf{długich} zrekonstruowanych w wyniku oddziaływania produktów rozpadu mezonu $Ks$. Na rysunku (góra lewo) przedstawiono całkowity $\chi^2$, na (góra prawo) rozkład dla części T, natomiast na dole rozkłady dla Velo (lewo) oraz TT (prawo) } \label{chi2KsLL}
+\end{figure}
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.4\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.4\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/KsLL_chi2T.png}
+\end{minipage}
+
+\vspace*{0.5cm} % (or whatever vertical separation you prefer)
+\hspace{\fill}
+\begin{minipage}[t]{\textwidth}
+\centering
+\includegraphics[scale=0.4]{rozdzial6/KsLL_chi2TT.png}
+\end{minipage}
+\caption{Rozkłady $\chi^2$ wyliczone dla śladów \textbf{typu downstream} zrekonstruowanych w wyniku oddziaływania produktów rozpadu mezonu $K_s$. Na rysunku (góra lewo) przedstawiono całkowity $\chi^2$, na (góra prawo) rozkład dla części T, natomiast na dole dla  TT. } \label{chi2KsDD}
+\end{figure}
+
 \subsection{Zależności korelacyjne}
+Zaprezentowanie samych rozkładów $\chi^2$, będące dość interesujące z punktu widzenia analizy pozostawiałoby spory niedosyt. Dlatego bardzo istotnym krokiem w analizie było wykonanie wykresów korelacji pomiędzy otrzymanej wartości $\chi^2$ a innymi parametrami. Na serii poniższych rysunków takie  zależności korelacyjne zostały narysowane. Z racji bardzo dużej ilości rysunków w niniejszej pracy zaprezentowane, jako przykładowe, jednocześnie dobrze obrazujące wszystkie  zaobserwowane efekty, będą odpowiednie wykresy związane z śladami długimi utworzonymi przez produkty rozpadu mezonu $Ks$. Dalsza analiza tych śladów jest istotniejsza z powodu zaobserwowanych anomalii w wydajności rekonstrukcji oraz  pojawienie się znaczącej liczby niefizycznych ( o zbyt malej wartości $\chi^2$) w sektorze TT. 
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_eta_chi2.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_mass_chi2.png}
+\end{minipage}
+
+\vspace*{0.5cm} % (or whatever vertical separation you prefer)
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_p_chi2.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_pt_chi2.png}
+\end{minipage}
+\caption{RKorelacie pomiędzy $\chi^2_{total}$  a (góra lewo) pseudorapidity, (góra prawo) masą niezmieniczą układu pionów oraz pędami całkowitym (dół lewo) oraz poprzecznym (dół lewo). Ślady pochodzą z rozpadu $K_s$ } \label{corr_chi2JPsi}
+\end{figure}
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.35\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_eta_chi2TT.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.35\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_mass_chi2TT.png}
+\end{minipage}
+
+\vspace*{0.5cm} % (or whatever vertical separation you prefer)
+\begin{minipage}[t]{0.35\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_p_chi2TT.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.35\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/JPsi_pt_chi2TT.png}
+\end{minipage}
+\caption{Korelacie pomiędzy $\chi^2_{TT}$ a (góra lewo) pseudorapidity, (góra prawo) masą niezmieniczą układu pionów oraz pędami całkowitym (dół lewo) oraz poprzecznym (dół lewo). Ślady pochodzą z rozpadu $K_s$. } \label{corr_chi2JPsiTT}
+\end{figure} 
+
+Analizując wyniki przedstawione na rysunkach \ref{corr_chi2JPsi} oraz \ref{corr_chi2JPsiTT} nie zaobserwowano żadnych znaczących ani widocznych korelacji pomiędzy $\chi^2$ a pseudorapidity czy masą niezmienniczą układu dwóch pionów.  Ciekawsze natomiast z punktu przeprowadzanych badań są wykresy korelacyjne zawierające informacje na temat zależności pomiędzy $\chi^2$ a pędem oraz pędem poprzecznym. Widać wyraźną zależność pomiędzy dużymi wartościami $\chi^2$ oraz małymi pędu. Równocześnie praktycznie wszystkie niefizyczne czyli zbyt małe wartości $\chi^2$ odpowiadają małym pędom. 
+
+Ostatnim elementem, który został zrealizowany jest oparty na zbadaniu zależności jakości śladu w zależności od pozycji w detektorze TT. Widać wyraźną zależność pogorszenia jakości śladu wraz z oddalaniem się od rury akceleratora. 
+
+ \begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35]{rozdzial6/Chi2_vs_position_TT.png}
+ % GAUDI.jpeg: 767x379 pixel, 96dpi, 20.29x10.03 cm, bb=0 0 575 284
+ \caption{Zależność $\chi^2$ od pozycji śladu w detektorze TT. Po lewo znajduje się $\chi^2_{total}$, po prawo $\chi^2_{TT}$. }
+ \label{rys:BJPsi}
+\end{figure}
+
 \section{Analiza oparta na danych}
+Kolejnym, wykonywanym równolegle krokiem była analiza oparta na danych zabranych przez detektor. Wybrane przypadki pochodzą z linii strippingowej o nazwie \\ \textbf{BetaSBd2JpsiKsDetachedLine}. Użyto cięć typu \textbf{Loose} w ten sposób chciano zwiększyć badaną statystykę. Natomiast inne, bardziej restrykcyjne cięcia zostały zastosowane podczas analizy. Jednakże warto zwrócić uwagę na fakt iż nawet te mniej restrykcyjne cięcia stosują ograniczenie $\chi^2_{total}<3$. 
+
 \subsection{Rozkłady $\chi^2$ bazujące na danych}
+Podobnie jak dla danych MC wykonano rozkłady $\chi^2$. Również w tym przypadku prawdziwa jest zależność \ref{chiTotal}.  
+
 \subsection{Ekstrakcja sygnału od szumu}
 \subsection{Zależności korelacyjne}
