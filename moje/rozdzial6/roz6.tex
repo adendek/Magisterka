@@ -196,4 +196,31 @@ Kolejnym, wykonywanym równolegle krokiem była analiza oparta na danych zabrany
 Podobnie jak dla danych MC wykonano rozkłady $\chi^2$. Również w tym przypadku prawdziwa jest zależność \ref{chiTotal}.  
 
 \subsection{Ekstrakcja sygnału od szumu}
+Ważnym elementem podczas pracy z danymi zebranymi w trakcie pracy detektora jest odseparowanie rzeczywistego sygnału od szumu. W tym celu wykorzystano technikę zwaną \textbf{sPlot}. Dokładny opis wraz z pełnym matematycznym wyprowadzeniem tej techniki można znaleźć w referencji \cite{sPlot}. Z technicznego punktu widzenia zadanie to wymagało wykorzystania pakietu Roofit. 
+
+Jako model, który został dopasowywany do danych wybrano sumę dwóch rozkładów Gaussa natomiast za model tła przyjęto rozkład eksponencjalny. Na rysunku \ref{massJPsi} zamieszczono zrekonstruowany rozkład masy mezonu $J / \Psi$  wraz z dopasowanym wyżej opisanym modelem. Korzystając z tych wyników udało się wyekstrahować sygnał od szumu. Następnie narysowano najbardziej istotne rozkłady $\chi^2_{total}$ oraz $\chi^2_{TT}$. Wyniki zamieszczono na rysunku \ref{chi2sPlot}. Zauważono brak widocznych korelacji pomiędzy szumem a jakością dopasowania śladów. Podobne wyniki daje analiza oparta na śladach pochodzących z rozpadu $K_s$, niezależnie czy badano ślady długie czy typu downstream. 
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/jpsi_mm_sPlot_RDfit.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/jpsi_mm_sPlot_RDfit_logy.png}
+\end{minipage}
+\caption{Rozkład masy niezmienniczej układu mionów wraz z dopasowanym modelem sumy dwóch rozkładów normalnych ( kropkowane czerwona i czarna linia) oraz eksponencjalnym tłem (niebieska kropkowana linia). Wykres po prawej posiada os Y w skali logarytmicznej.} \label{massJPsi}
+\end{figure} 
+
+
+\begin{figure}[H]    
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/jpsi_chi2_sPlot.png}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[width=\linewidth]{rozdzial6/jpsi_chi2TT_sPlot.png}
+\end{minipage}
+\caption{Rozkład $\chi^2$ dla wyselekcjonowanego szumu (oznaczony na czerwono) oraz dla sygnału. Po lewej zamieszczono wykres dla $\chi^2_{total}$ natomiast po prawej $\chi_{TT}^2$} \label{chi2sPlot}
+\end{figure} 
+
 \subsection{Zależności korelacyjne}
