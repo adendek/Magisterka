@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.16)  24 AUG 2014 22:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.16)  26 AUG 2014 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,7 +1103,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./4_str_mgr.tex
-<agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg, id=212, 861.4584pt x 284.7438pt>
+<agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg, id=216, 861.4584pt x 284.7438pt>
 File: agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg Graphic file (type jpg)
 
 <use agh_nzw_a_pl_1w_wbr_rgb_150ppi.jpg>
@@ -1337,6 +1337,36 @@ Overfull \hbox (0.3915pt too wide) detected at line 40
 \T1/cmr/m/n/12 6.2.9. 
  []
 
+
+Overfull \hbox (0.3915pt too wide) detected at line 41
+\T1/cmr/m/n/12 6.3.1. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 42
+\T1/cmr/m/n/12 6.3.2. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 43
+\T1/cmr/m/n/12 6.3.3. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 44
+\T1/cmr/m/n/12 6.3.4. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 45
+\T1/cmr/m/n/12 6.3.5. 
+ []
+
+
+Overfull \hbox (0.3915pt too wide) detected at line 46
+\T1/cmr/m/n/12 6.3.6. 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `dokument.lof'.
@@ -1357,29 +1387,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (./rozdzial1/roz1.tex
 Rozdzia\l  1.
-
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [16
+[16
 
 
 
-]
-[17] <rozdzial1/CP.png, id=509, 621.32124pt x 425.59pt>
+] [17] <rozdzial1/CP.png, id=548, 621.32124pt x 425.59pt>
 File: rozdzial1/CP.png Graphic file (type png)
- <use rozdzial1/CP.png>
+
+<use rozdzial1/CP.png>
 Package pdftex.def Info: rozdzial1/CP.png used on input line 36.
 (pdftex.def)             Requested size: 310.65987pt x 212.79446pt.
-
-[18 <./rozdzial1/CP.png>] [19]
-<rozdzial1/trojkat.png, id=546, 939.51pt x 528.97626pt>
+ [18 <./rozdzial1/CP.png>] [19]
+<rozdzial1/trojkat.png, id=585, 939.51pt x 528.97626pt>
 File: rozdzial1/trojkat.png Graphic file (type png)
 
 <use rozdzial1/trojkat.png>
 Package pdftex.def Info: rozdzial1/trojkat.png used on input line 116.
 (pdftex.def)             Requested size: 281.85518pt x 158.69409pt.
  [20 <./rozdzial1/trojkat.png>]
-<rozdzial1/triangle.png, id=562, 569.12625pt x 568.1225pt>
+<rozdzial1/triangle.png, id=601, 569.12625pt x 568.1225pt>
 File: rozdzial1/triangle.png Graphic file (type png)
 
 <use rozdzial1/triangle.png>
@@ -1390,7 +1416,7 @@ Package pdftex.def Info: rozdzial1/triangle.png used on input line 137.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 170.
 
-<rozdzial1/mixing.png, id=574, 602.25pt x 530.98375pt>
+<rozdzial1/mixing.png, id=613, 602.25pt x 530.98375pt>
 File: rozdzial1/mixing.png Graphic file (type png)
 
 <use rozdzial1/mixing.png>
@@ -1402,7 +1428,7 @@ Package pdftex.def Info: rozdzial1/mixing.png used on input line 172.
 
 (./rozdzial2/roz2.tex
 Rozdzia\l  2.
-<rozdzial2/AccComple.jpeg, id=594, 361.35pt x 326.72063pt>
+<rozdzial2/AccComple.jpeg, id=634, 361.35pt x 326.72063pt>
 File: rozdzial2/AccComple.jpeg Graphic file (type jpg)
 
 <use rozdzial2/AccComple.jpeg>
@@ -1420,14 +1446,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 <./rozdzial2/AccComple.jpeg>]
-<rozdzial2/Feynman.png, id=621, 779.91376pt x 500.87125pt>
+<rozdzial2/Feynman.png, id=660, 779.91376pt x 500.87125pt>
 File: rozdzial2/Feynman.png Graphic file (type png)
 
 <use rozdzial2/Feynman.png>
 Package pdftex.def Info: rozdzial2/Feynman.png used on input line 44.
 (pdftex.def)             Requested size: 389.95593pt x 250.435pt.
 
-<rozdzial2/pythia.jpg, id=622, 569.0058pt x 551.661pt>
+<rozdzial2/pythia.jpg, id=661, 569.0058pt x 551.661pt>
 File: rozdzial2/pythia.jpg Graphic file (type jpg)
 
 <use rozdzial2/pythia.jpg>
@@ -1438,7 +1464,7 @@ Package pdftex.def Info: rozdzial2/pythia.jpg used on input line 54.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <./rozdzial2/Feynman.png>]
-<rozdzial2/Lhcbview.jpg, id=632, 788.7066pt x 555.0336pt>
+<rozdzial2/Lhcbview.jpg, id=671, 788.7066pt x 555.0336pt>
 File: rozdzial2/Lhcbview.jpg Graphic file (type jpg)
 
 <use rozdzial2/Lhcbview.jpg>
@@ -1448,31 +1474,31 @@ Package pdftex.def Info: rozdzial2/Lhcbview.jpg used on input line 68.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rozdzial2/impactParameter.png, id=637, 631.60968pt x 421.575pt>
+<rozdzial2/impactParameter.png, id=676, 631.60968pt x 421.575pt>
 File: rozdzial2/impactParameter.png Graphic file (type png)
 
 <use rozdzial2/impactParameter.png>
 Package pdftex.def Info: rozdzial2/impactParameter.png used on input line 79.
 (pdftex.def)             Requested size: 315.80406pt x 210.78697pt.
- [27 <./rozdzial2/pythia.jpg>] [28 <./rozdzial2/Lhcbview.jpg>]
-Underfull \vbox (badness 5036) has occurred while \output is active []
+ [27 <./rozdzial2/pythia.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./rozdzial2/impactParameter.png>]
-<rozdzial2/magnes.png, id=656, 1227.58624pt x 506.89375pt>
+ [28 <./rozdzial2/Lhcbview.jpg>] [29 <./rozdzial2/impactParameter.png>]
+<rozdzial2/magnes.png, id=695, 1227.58624pt x 506.89375pt>
 File: rozdzial2/magnes.png Graphic file (type png)
 
 <use rozdzial2/magnes.png>
 Package pdftex.def Info: rozdzial2/magnes.png used on input line 106.
 (pdftex.def)             Requested size: 429.66162pt x 177.41547pt.
 
-<rozdzial2/Velo_jakis.png, id=659, 479.54156pt x 349.305pt>
+<rozdzial2/Velo_jakis.png, id=700, 479.54156pt x 349.305pt>
 File: rozdzial2/Velo_jakis.png Graphic file (type png)
 
 <use rozdzial2/Velo_jakis.png>
 Package pdftex.def Info: rozdzial2/Velo_jakis.png used on input line 121.
 (pdftex.def)             Requested size: 335.6768pt x 244.51183pt.
 
-<rozdzial2/sensory.jpeg, id=663, 737.00343pt x 253.69781pt>
+<rozdzial2/sensory.jpeg, id=704, 737.00343pt x 253.69781pt>
 File: rozdzial2/sensory.jpeg Graphic file (type jpg)
 
 <use rozdzial2/sensory.jpeg>
@@ -1482,7 +1508,7 @@ Package pdftex.def Info: rozdzial2/sensory.jpeg used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./rozdzial2/magnes.png>]
-<rozdzial2/Beetle_block.jpeg, id=674, 618.81187pt x 359.09157pt>
+<rozdzial2/Beetle_block.jpeg, id=714, 618.81187pt x 359.09157pt>
 File: rozdzial2/Beetle_block.jpeg Graphic file (type jpg)
 
 <use rozdzial2/Beetle_block.jpeg>
@@ -1494,7 +1520,7 @@ Overfull \hbox (11.3533pt too wide) in paragraph at lines 141--143
  []
 
 [31 <./rozdzial2/Velo_jakis.png> <./rozdzial2/sensory.jpeg>]
-<rozdzial2/Velo_schematic.png, id=685, 498.36188pt x 332.74312pt>
+<rozdzial2/Velo_schematic.png, id=725, 498.36188pt x 332.74312pt>
 File: rozdzial2/Velo_schematic.png Graphic file (type png)
 
 <use rozdzial2/Velo_schematic.png>
@@ -1504,7 +1530,7 @@ Package pdftex.def Info: rozdzial2/Velo_schematic.png used on input line 152.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./rozdzial2/Beetle_block.jpeg>]
-<rozdzial2/RICH.png, id=693, 940.51375pt x 510.90875pt>
+<rozdzial2/RICH.png, id=733, 940.51375pt x 510.90875pt>
 File: rozdzial2/RICH.png Graphic file (type png)
 
 <use rozdzial2/RICH.png>
@@ -1514,14 +1540,14 @@ Package pdftex.def Info: rozdzial2/RICH.png used on input line 171.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./rozdzial2/Velo_schematic.png>]
-<rozdzial2/TT-layout.jpg, id=703, 276.03125pt x 246.9225pt>
+<rozdzial2/TT-layout.jpg, id=743, 276.03125pt x 246.9225pt>
 File: rozdzial2/TT-layout.jpg Graphic file (type jpg)
 
 <use rozdzial2/TT-layout.jpg>
 Package pdftex.def Info: rozdzial2/TT-layout.jpg used on input line 182.
 (pdftex.def)             Requested size: 276.03056pt x 246.92188pt.
 
-<rozdzial2/OT-Module-design.jpg, id=707, 386.44376pt x 327.2225pt>
+<rozdzial2/OT-Module-design.jpg, id=747, 386.44376pt x 327.2225pt>
 File: rozdzial2/OT-Module-design.jpg Graphic file (type jpg)
 
 <use rozdzial2/OT-Module-design.jpg>
@@ -1531,14 +1557,14 @@ Package pdftex.def Info: rozdzial2/OT-Module-design.jpg used on input line 191.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./rozdzial2/RICH.png>] <rozdzial2/ECAL.png, id=715, 560.0925pt x 413.545p
+ [34 <./rozdzial2/RICH.png>] <rozdzial2/ECAL.png, id=755, 560.0925pt x 413.545p
 t>
 File: rozdzial2/ECAL.png Graphic file (type png)
 
 <use rozdzial2/ECAL.png>
 Package pdftex.def Info: rozdzial2/ECAL.png used on input line 206.
 (pdftex.def)             Requested size: 224.03302pt x 165.41505pt.
- <rozdzial2/Muon.png, id=717, 416.55624pt x 421.575pt>
+ <rozdzial2/Muon.png, id=759, 416.55624pt x 421.575pt>
 File: rozdzial2/Muon.png Graphic file (type png)
 
 <use rozdzial2/Muon.png>
@@ -1549,7 +1575,7 @@ Overfull \vbox (21.5899pt too high) has occurred while \output is active []
 
 
 [36 <./rozdzial2/OT-Module-design.jpg> <./rozdzial2/ECAL.png> <./rozdzial2/Muon
-.png>] <rozdzial2/event.jpg, id=726, 810.52812pt x 461.22313pt>
+.png>] <rozdzial2/event.jpg, id=771, 810.52812pt x 461.22313pt>
 File: rozdzial2/event.jpg Graphic file (type jpg)
 
 <use rozdzial2/event.jpg>
@@ -1564,7 +1590,7 @@ Rozdzia\l  3.
 
 
 
-] [39] <rozdzial3/tracks.png, id=751, 705.63625pt x 375.4025pt>
+] [39] <rozdzial3/tracks.png, id=795, 705.63625pt x 375.4025pt>
 File: rozdzial3/tracks.png Graphic file (type png)
 
 <use rozdzial3/tracks.png>
@@ -1584,7 +1610,7 @@ Rozdzia\l  4.
 
 
 
-] <rozdzial4/GAUDI.jpeg, id=795, 577.40718pt x 285.31593pt>
+] <rozdzial4/GAUDI.jpeg, id=840, 577.40718pt x 285.31593pt>
 File: rozdzial4/GAUDI.jpeg Graphic file (type jpg)
 
 <use rozdzial4/GAUDI.jpeg>
@@ -1658,7 +1684,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-<rozdzial5/chi2.png, id=840, 530.98375pt x 338.26375pt>
+<rozdzial5/chi2.png, id=886, 530.98375pt x 338.26375pt>
 File: rozdzial5/chi2.png Graphic file (type png)
 
 <use rozdzial5/chi2.png>
@@ -1702,7 +1728,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<rozdzial6/Feynman.png, id=855, 634.37pt x 278.03876pt>
+<rozdzial6/Feynman.png, id=901, 634.37pt x 278.03876pt>
 File: rozdzial6/Feynman.png Graphic file (type png)
 
 <use rozdzial6/Feynman.png>
@@ -1719,74 +1745,74 @@ Overfull \hbox (23.7998pt too wide) in paragraph at lines 12--14
 
  <./rozdzial6/Feynman.png>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 31.
+LaTeX Warning: Command \' invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 31.
+LaTeX Warning: Command \' invalid in math mode on input line 30.
 
 Missing character: There is no ó in font cmmi12!
 Missing character: There is no ó in font cmmi12!
-<rozdzial6/Jpsi_p.png, id=862, 1245.15187pt x 621.07031pt>
+<rozdzial6/Jpsi_p.png, id=908, 1245.15187pt x 621.07031pt>
 File: rozdzial6/Jpsi_p.png Graphic file (type png)
 
 <use rozdzial6/Jpsi_p.png>
-Package pdftex.def Info: rozdzial6/Jpsi_p.png used on input line 40.
+Package pdftex.def Info: rozdzial6/Jpsi_p.png used on input line 39.
 (pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
-<rozdzial6/Jpsi_pt.png, id=863, 1245.15187pt x 621.07031pt>
+<rozdzial6/Jpsi_pt.png, id=909, 1245.15187pt x 621.07031pt>
 File: rozdzial6/Jpsi_pt.png Graphic file (type png)
 
 <use rozdzial6/Jpsi_pt.png>
-Package pdftex.def Info: rozdzial6/Jpsi_pt.png used on input line 41.
+Package pdftex.def Info: rozdzial6/Jpsi_pt.png used on input line 40.
 (pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
-<rozdzial6/Jpsi_eta.png, id=864, 1245.15187pt x 621.07031pt>
+<rozdzial6/Jpsi_eta.png, id=910, 1245.15187pt x 621.07031pt>
 File: rozdzial6/Jpsi_eta.png Graphic file (type png)
 
 <use rozdzial6/Jpsi_eta.png>
-Package pdftex.def Info: rozdzial6/Jpsi_eta.png used on input line 42.
+Package pdftex.def Info: rozdzial6/Jpsi_eta.png used on input line 41.
 (pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-<rozdzial6/KsLL_p.png, id=873, 1245.15187pt x 621.07031pt>
+<rozdzial6/KsLL_p.png, id=918, 1245.15187pt x 621.07031pt>
 File: rozdzial6/KsLL_p.png Graphic file (type png)
 
 <use rozdzial6/KsLL_p.png>
-Package pdftex.def Info: rozdzial6/KsLL_p.png used on input line 51.
-(pdftex.def)             Requested size: 311.2872pt x 155.2672pt.
+Package pdftex.def Info: rozdzial6/KsLL_p.png used on input line 50.
+(pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
-<rozdzial6/KsLL_pt.png, id=874, 1245.15187pt x 621.07031pt>
+<rozdzial6/KsLL_pt.png, id=919, 1245.15187pt x 621.07031pt>
 File: rozdzial6/KsLL_pt.png Graphic file (type png)
 
 <use rozdzial6/KsLL_pt.png>
-Package pdftex.def Info: rozdzial6/KsLL_pt.png used on input line 52.
-(pdftex.def)             Requested size: 311.2872pt x 155.2672pt.
+Package pdftex.def Info: rozdzial6/KsLL_pt.png used on input line 51.
+(pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
-<rozdzial6/KsLL_eta.png, id=875, 1245.15187pt x 621.07031pt>
+<rozdzial6/KsLL_eta.png, id=920, 1245.15187pt x 621.07031pt>
 File: rozdzial6/KsLL_eta.png Graphic file (type png)
 
 <use rozdzial6/KsLL_eta.png>
-Package pdftex.def Info: rozdzial6/KsLL_eta.png used on input line 53.
-(pdftex.def)             Requested size: 311.2872pt x 155.2672pt.
+Package pdftex.def Info: rozdzial6/KsLL_eta.png used on input line 52.
+(pdftex.def)             Requested size: 373.54845pt x 186.32253pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./rozdzial6/Jpsi_p.png> <./rozdzial6/Jpsi_pt.png> <./rozdzial6/Jpsi_eta.p
 ng>]
-<rozdzial6/KsDD_p.png, id=883, 1245.15187pt x 621.07031pt>
+<rozdzial6/KsDD_p.png, id=928, 1245.15187pt x 621.07031pt>
 File: rozdzial6/KsDD_p.png Graphic file (type png)
 
 <use rozdzial6/KsDD_p.png>
-Package pdftex.def Info: rozdzial6/KsDD_p.png used on input line 60.
+Package pdftex.def Info: rozdzial6/KsDD_p.png used on input line 59.
 (pdftex.def)             Requested size: 311.2872pt x 155.2672pt.
 
-<rozdzial6/KsDD_pt.png, id=884, 1245.15187pt x 621.07031pt>
+<rozdzial6/KsDD_pt.png, id=929, 1245.15187pt x 621.07031pt>
 File: rozdzial6/KsDD_pt.png Graphic file (type png)
 
 <use rozdzial6/KsDD_pt.png>
-Package pdftex.def Info: rozdzial6/KsDD_pt.png used on input line 61.
+Package pdftex.def Info: rozdzial6/KsDD_pt.png used on input line 60.
 (pdftex.def)             Requested size: 311.2872pt x 155.2672pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1795,212 +1821,421 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ng>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 70.
+(hyperref)                removing `\chi' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 70.
+(hyperref)                removing `superscript' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 69.
 
 [56 <./rozdzial6/KsDD_p.png> <./rozdzial6/KsDD_pt.png>]
-<rozdzial6/JPsi_chi2.png, id=901, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_chi2.png, id=946, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_chi2.png Graphic file (type png)
 
 <use rozdzial6/JPsi_chi2.png>
-Package pdftex.def Info: rozdzial6/JPsi_chi2.png used on input line 79.
+Package pdftex.def Info: rozdzial6/JPsi_chi2.png used on input line 78.
 (pdftex.def)             Requested size: 266.03474pt x 168.26437pt.
 
-<rozdzial6/JPsi_chi2T.png, id=902, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_chi2T.png, id=947, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_chi2T.png Graphic file (type png)
 
 <use rozdzial6/JPsi_chi2T.png>
-Package pdftex.def Info: rozdzial6/JPsi_chi2T.png used on input line 83.
+Package pdftex.def Info: rozdzial6/JPsi_chi2T.png used on input line 82.
 (pdftex.def)             Requested size: 266.03474pt x 168.26437pt.
 
-Overfull \hbox (53.5936pt too wide) in paragraph at lines 78--85
+Overfull \hbox (53.5936pt too wide) in paragraph at lines 77--84
 [][]   [] 
  []
 
-<rozdzial6/JPsi_chi2Velo.png, id=903, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_chi2Velo.png, id=948, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_chi2Velo.png Graphic file (type png)
 
 <use rozdzial6/JPsi_chi2Velo.png>
-Package pdftex.def Info: rozdzial6/JPsi_chi2Velo.png used on input line 88.
+Package pdftex.def Info: rozdzial6/JPsi_chi2Velo.png used on input line 87.
 (pdftex.def)             Requested size: 266.03474pt x 168.26437pt.
 
-<rozdzial6/JPsi_chi2TT.png, id=904, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_chi2TT.png, id=949, 1446.40375pt x 828.09375pt>
 File: rozdzial6/JPsi_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/JPsi_chi2TT.png>
-Package pdftex.def Info: rozdzial6/JPsi_chi2TT.png used on input line 92.
-(pdftex.def)             Requested size: 266.03474pt x 168.26437pt.
+Package pdftex.def Info: rozdzial6/JPsi_chi2TT.png used on input line 91.
+(pdftex.def)             Requested size: 266.03474pt x 152.31044pt.
 
-Overfull \hbox (53.5936pt too wide) in paragraph at lines 87--94
+Overfull \hbox (53.5936pt too wide) in paragraph at lines 86--93
 [][]   [] 
  []
 
-<rozdzial6/KsLL_chi2.png, id=908, 890.32625pt x 563.10374pt>
+<rozdzial6/KsLL_chi2.png, id=953, 890.32625pt x 563.10374pt>
 File: rozdzial6/KsLL_chi2.png Graphic file (type png)
 
 <use rozdzial6/KsLL_chi2.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2.png used on input line 101.
+Package pdftex.def Info: rozdzial6/KsLL_chi2.png used on input line 100.
 (pdftex.def)             Requested size: 217.66211pt x 137.66519pt.
 
-<rozdzial6/KsLL_chi2T.png, id=909, 890.32625pt x 563.10374pt>
+<rozdzial6/KsLL_chi2T.png, id=954, 890.32625pt x 563.10374pt>
 File: rozdzial6/KsLL_chi2T.png Graphic file (type png)
 
 <use rozdzial6/KsLL_chi2T.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2T.png used on input line 105.
+Package pdftex.def Info: rozdzial6/KsLL_chi2T.png used on input line 104.
 (pdftex.def)             Requested size: 217.66211pt x 137.66519pt.
 
-<rozdzial6/KsLL_chi2Velo.png, id=910, 890.32625pt x 563.10374pt>
+<rozdzial6/KsLL_chi2Velo.png, id=955, 890.32625pt x 563.10374pt>
 File: rozdzial6/KsLL_chi2Velo.png Graphic file (type png)
 
 <use rozdzial6/KsLL_chi2Velo.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2Velo.png used on input line 110.
+Package pdftex.def Info: rozdzial6/KsLL_chi2Velo.png used on input line 109.
 (pdftex.def)             Requested size: 217.66211pt x 137.66519pt.
 
-<rozdzial6/KsLL_chi2TT.png, id=911, 667.74469pt x 422.32782pt>
+<rozdzial6/KsLL_chi2TT.png, id=956, 1084.80281pt x 621.07031pt>
 File: rozdzial6/KsLL_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/KsLL_chi2TT.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2TT.png used on input line 114.
-(pdftex.def)             Requested size: 217.66211pt x 137.66089pt.
+Package pdftex.def Info: rozdzial6/KsLL_chi2TT.png used on input line 113.
+(pdftex.def)             Requested size: 241.84843pt x 138.45541pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: rozdzial6/KsLL_chi2.png Graphic file (type png)
 <use rozdzial6/KsLL_chi2.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2.png used on input line 121.
+Package pdftex.def Info: rozdzial6/KsLL_chi2.png used on input line 120.
 (pdftex.def)             Requested size: 193.47578pt x 122.36237pt.
 File: rozdzial6/KsLL_chi2T.png Graphic file (type png)
  <use rozdzial6/KsLL_chi2T.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2T.png used on input line 125.
+Package pdftex.def Info: rozdzial6/KsLL_chi2T.png used on input line 124.
 (pdftex.def)             Requested size: 193.47578pt x 122.36237pt.
 File: rozdzial6/KsLL_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/KsLL_chi2TT.png>
-Package pdftex.def Info: rozdzial6/KsLL_chi2TT.png used on input line 132.
-(pdftex.def)             Requested size: 267.09314pt x 168.92813pt.
+Package pdftex.def Info: rozdzial6/KsLL_chi2TT.png used on input line 131.
+(pdftex.def)             Requested size: 216.95671pt x 124.21185pt.
 
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 129--134
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 128--133
 []  [] 
  []
 
 [57 <./rozdzial6/JPsi_chi2.png> <./rozdzial6/JPsi_chi2T.png> <./rozdzial6/JPsi_
 chi2Velo.png> <./rozdzial6/JPsi_chi2TT.png>]
-Overfull \vbox (54.05077pt too high) has occurred while \output is active []
+Overfull \vbox (10.12471pt too high) has occurred while \output is active []
 
 
 [58 <./rozdzial6/KsLL_chi2.png> <./rozdzial6/KsLL_chi2T.png> <./rozdzial6/KsLL_
 chi2Velo.png> <./rozdzial6/KsLL_chi2TT.png>]
-<rozdzial6/JPsi_eta_chi2.png, id=926, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_eta_chi2.png, id=970, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_eta_chi2.png Graphic file (type png)
 
 <use rozdzial6/JPsi_eta_chi2.png>
-Package pdftex.def Info: rozdzial6/JPsi_eta_chi2.png used on input line 142.
+Package pdftex.def Info: rozdzial6/JPsi_eta_chi2.png used on input line 141.
 (pdftex.def)             Requested size: 241.84843pt x 152.95941pt.
 
-<rozdzial6/JPsi_mass_chi2.png, id=927, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_mass_chi2.png, id=971, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_mass_chi2.png Graphic file (type png)
 
 <use rozdzial6/JPsi_mass_chi2.png>
-Package pdftex.def Info: rozdzial6/JPsi_mass_chi2.png used on input line 146.
+Package pdftex.def Info: rozdzial6/JPsi_mass_chi2.png used on input line 145.
 (pdftex.def)             Requested size: 241.84843pt x 152.95941pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 141--148
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 140--147
 [][]   [] 
  []
 
-<rozdzial6/JPsi_p_chi2.png, id=928, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_p_chi2.png, id=972, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_p_chi2.png Graphic file (type png)
 
 <use rozdzial6/JPsi_p_chi2.png>
-Package pdftex.def Info: rozdzial6/JPsi_p_chi2.png used on input line 151.
+Package pdftex.def Info: rozdzial6/JPsi_p_chi2.png used on input line 150.
 (pdftex.def)             Requested size: 241.84843pt x 152.95941pt.
 
-<rozdzial6/JPsi_pt_chi2.png, id=929, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_pt_chi2.png, id=973, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_pt_chi2.png Graphic file (type png)
 
 <use rozdzial6/JPsi_pt_chi2.png>
-Package pdftex.def Info: rozdzial6/JPsi_pt_chi2.png used on input line 155.
+Package pdftex.def Info: rozdzial6/JPsi_pt_chi2.png used on input line 154.
 (pdftex.def)             Requested size: 241.84843pt x 152.95941pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 150--157
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 149--156
 [][]   [] 
  []
 
-<rozdzial6/JPsi_eta_chi2TT.png, id=930, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_eta_chi2TT.png, id=974, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_eta_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/JPsi_eta_chi2TT.png>
-Package pdftex.def Info: rozdzial6/JPsi_eta_chi2TT.png used on input line 162.
+Package pdftex.def Info: rozdzial6/JPsi_eta_chi2TT.png used on input line 161.
 (pdftex.def)             Requested size: 169.29684pt x 107.0703pt.
 
-<rozdzial6/JPsi_mass_chi2TT.png, id=931, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_mass_chi2TT.png, id=975, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_mass_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/JPsi_mass_chi2TT.png>
-Package pdftex.def Info: rozdzial6/JPsi_mass_chi2TT.png used on input line 166.
+Package pdftex.def Info: rozdzial6/JPsi_mass_chi2TT.png used on input line 165.
 
 (pdftex.def)             Requested size: 169.29684pt x 107.0703pt.
 
-<rozdzial6/JPsi_p_chi2TT.png, id=932, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_p_chi2TT.png, id=976, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_p_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/JPsi_p_chi2TT.png>
-Package pdftex.def Info: rozdzial6/JPsi_p_chi2TT.png used on input line 171.
+Package pdftex.def Info: rozdzial6/JPsi_p_chi2TT.png used on input line 170.
 (pdftex.def)             Requested size: 169.29684pt x 107.0703pt.
 
-<rozdzial6/JPsi_pt_chi2TT.png, id=933, 667.74469pt x 422.32782pt>
+<rozdzial6/JPsi_pt_chi2TT.png, id=977, 667.74469pt x 422.32782pt>
 File: rozdzial6/JPsi_pt_chi2TT.png Graphic file (type png)
 
 <use rozdzial6/JPsi_pt_chi2TT.png>
-Package pdftex.def Info: rozdzial6/JPsi_pt_chi2TT.png used on input line 175.
+Package pdftex.def Info: rozdzial6/JPsi_pt_chi2TT.png used on input line 174.
 (pdftex.def)             Requested size: 169.29684pt x 107.0703pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59 <./rozdzial6/JPsi_eta_chi2.png> <./rozdzial6/JPsi_mass_chi2.png> <./rozdzi
 al6/JPsi_p_chi2.png> <./rozdzial6/JPsi_pt_chi2.png>]
-<rozdzial6/Chi2_vs_position_TT.png, id=944, 1011.02719pt x 350.81062pt>
+<rozdzial6/Chi2_vs_position_TT.png, id=988, 1011.02719pt x 350.81062pt>
 File: rozdzial6/Chi2_vs_position_TT.png Graphic file (type png)
 
 <use rozdzial6/Chi2_vs_position_TT.png>
 Package pdftex.def Info: rozdzial6/Chi2_vs_position_TT.png used on input line 1
-86.
+85.
 (pdftex.def)             Requested size: 353.86482pt x 122.78555pt.
  [60 <./rozdzial6/JPsi_eta_chi2TT.png> <./rozdzial6/JPsi_mass_chi2TT.png> <./ro
 zdzial6/JPsi_p_chi2TT.png> <./rozdzial6/JPsi_pt_chi2TT.png> <./rozdzial6/Chi2_v
 s_position_TT.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 195.
+(hyperref)                removing `math shift' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 195.
+(hyperref)                removing `\chi' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 195.
+(hyperref)                removing `superscript' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 195.
+(hyperref)                removing `math shift' on input line 194.
 
-) [61]
+<rozdzial6/JPsi_chi2_data.png, id=999, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_chi2_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_chi2_data.png used on input line 199.
+(pdftex.def)             Requested size: 266.03474pt x 152.31044pt.
+
+<rozdzial6/JPsi_chi2T_data.png, id=1000, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_chi2T_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_chi2T_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_chi2T_data.png used on input line 203.
+(pdftex.def)             Requested size: 266.03474pt x 152.31044pt.
+
+Overfull \hbox (53.5936pt too wide) in paragraph at lines 198--205
+[][]   [] 
+ []
+
+<rozdzial6/JPsi_chi2Velo_data.png, id=1001, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_chi2Velo_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_chi2Velo_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_chi2Velo_data.png used on input line 20
+8.
+(pdftex.def)             Requested size: 266.03474pt x 152.31044pt.
+
+<rozdzial6/JPsi_chi2TT_data.png, id=1002, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_chi2TT_data.png used on input line 212.
+
+(pdftex.def)             Requested size: 266.03474pt x 152.31044pt.
+
+Overfull \hbox (53.5936pt too wide) in paragraph at lines 207--214
+[][]   [] 
+ []
+
+<rozdzial6/KsLL_chi2_data.png, id=1003, 1446.40375pt x 828.09375pt>
+File: rozdzial6/KsLL_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/KsLL_chi2_data.png>
+Package pdftex.def Info: rozdzial6/KsLL_chi2_data.png used on input line 219.
+(pdftex.def)             Requested size: 217.66211pt x 124.61304pt.
+
+<rozdzial6/KsLL_chi2T_data.png, id=1004, 1446.40375pt x 828.09375pt>
+File: rozdzial6/KsLL_chi2T_data.png Graphic file (type png)
+
+<use rozdzial6/KsLL_chi2T_data.png>
+Package pdftex.def Info: rozdzial6/KsLL_chi2T_data.png used on input line 223.
+(pdftex.def)             Requested size: 217.66211pt x 124.61304pt.
+
+<rozdzial6/KsLL_chi2Velo_data.png, id=1005, 1446.40375pt x 828.09375pt>
+File: rozdzial6/KsLL_chi2Velo_data.png Graphic file (type png)
+
+<use rozdzial6/KsLL_chi2Velo_data.png>
+Package pdftex.def Info: rozdzial6/KsLL_chi2Velo_data.png used on input line 22
+8.
+(pdftex.def)             Requested size: 217.66211pt x 124.61304pt.
+
+<rozdzial6/KsLL_chi2TT_data.png, id=1006, 1446.40375pt x 828.09375pt>
+File: rozdzial6/KsLL_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/KsLL_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/KsLL_chi2TT_data.png used on input line 232.
+
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [61 <./rozdzial6/JPsi_chi2_data.png> <./rozdzial6/JPsi_chi2T_data.png> <./rozd
+zial6/JPsi_chi2Velo_data.png> <./rozdzial6/JPsi_chi2TT_data.png>] [62 <./rozdzi
+al6/KsLL_chi2_data.png> <./rozdzial6/KsLL_chi2T_data.png> <./rozdzial6/KsLL_chi
+2Velo_data.png> <./rozdzial6/KsLL_chi2TT_data.png>]
+<rozdzial6/jpsi_mm_sPlot_RDfit.png, id=1021, 569.4876pt x 385.44pt>
+File: rozdzial6/jpsi_mm_sPlot_RDfit.png Graphic file (type png)
+
+<use rozdzial6/jpsi_mm_sPlot_RDfit.png>
+Package pdftex.def Info: rozdzial6/jpsi_mm_sPlot_RDfit.png used on input line 2
+46.
+(pdftex.def)             Requested size: 290.22107pt x 196.43065pt.
+
+<rozdzial6/jpsi_mm_sPlot_RDfit_logy.png, id=1022, 569.4876pt x 385.44pt>
+File: rozdzial6/jpsi_mm_sPlot_RDfit_logy.png Graphic file (type png)
+
+<use rozdzial6/jpsi_mm_sPlot_RDfit_logy.png>
+Package pdftex.def Info: rozdzial6/jpsi_mm_sPlot_RDfit_logy.png used on input l
+ine 250.
+(pdftex.def)             Requested size: 241.84843pt x 163.68338pt.
+
+Overfull \hbox (53.59361pt too wide) in paragraph at lines 245--252
+[][]   [] 
+ []
+
+<rozdzial6/jpsi_chi2_sPlot.png, id=1023, 569.4876pt x 385.44pt>
+File: rozdzial6/jpsi_chi2_sPlot.png Graphic file (type png)
+
+<use rozdzial6/jpsi_chi2_sPlot.png>
+Package pdftex.def Info: rozdzial6/jpsi_chi2_sPlot.png used on input line 258.
+(pdftex.def)             Requested size: 290.22107pt x 196.43065pt.
+
+<rozdzial6/jpsi_chi2TT_sPlot.png, id=1024, 680.5425pt x 499.8675pt>
+File: rozdzial6/jpsi_chi2TT_sPlot.png Graphic file (type png)
+
+<use rozdzial6/jpsi_chi2TT_sPlot.png>
+Package pdftex.def Info: rozdzial6/jpsi_chi2TT_sPlot.png used on input line 262
+.
+(pdftex.def)             Requested size: 241.84843pt x 177.64107pt.
+
+Overfull \hbox (53.59361pt too wide) in paragraph at lines 257--264
+[][]   [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./rozdzial6/jpsi_mm_sPlot_RDfit.png> <./rozdzial6/jpsi_mm_sPlot_RDfit_log
+y.png> <./rozdzial6/jpsi_chi2_sPlot.png> <./rozdzial6/jpsi_chi2TT_sPlot.png>]
+<rozdzial6/JPsi_eta_chi2_data.png, id=1035, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_eta_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_eta_chi2_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_eta_chi2_data.png used on input line 27
+2.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+<rozdzial6/JPsi_mass_chi2_data.png, id=1036, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_mass_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_mass_chi2_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_mass_chi2_data.png used on input line 2
+76.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 271--278
+[][]   [] 
+ []
+
+<rozdzial6/JPsi_p_chi2_data.png, id=1037, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_p_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_p_chi2_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_p_chi2_data.png used on input line 281.
+
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+<rozdzial6/JPsi_pt_chi2_data.png, id=1038, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_pt_chi2_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_pt_chi2_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_pt_chi2_data.png used on input line 285
+.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 280--287
+[][]   [] 
+ []
+
+<rozdzial6/JPsi_eta_chi2TT_data.png, id=1039, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_eta_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_eta_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_eta_chi2TT_data.png used on input line 
+292.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+<rozdzial6/JPsi_mass_chi2TT_data.png, id=1040, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_mass_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_mass_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_mass_chi2TT_data.png used on input line
+ 296.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 291--298
+[][]   [] 
+ []
+
+<rozdzial6/JPsi_p_chi2TT_data.png, id=1041, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_p_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_p_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_p_chi2TT_data.png used on input line 30
+1.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+<rozdzial6/JPsi_pt_chi2TT_data.png, id=1042, 1446.40375pt x 828.09375pt>
+File: rozdzial6/JPsi_pt_chi2TT_data.png Graphic file (type png)
+
+<use rozdzial6/JPsi_pt_chi2TT_data.png>
+Package pdftex.def Info: rozdzial6/JPsi_pt_chi2TT_data.png used on input line 3
+05.
+(pdftex.def)             Requested size: 241.84843pt x 138.46175pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 300--307
+[][]   [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./rozdzial6/JPsi_eta_chi2_data.png> <./rozdzial6/JPsi_mass_chi2_data.png>
+ <./rozdzial6/JPsi_p_chi2_data.png> <./rozdzial6/JPsi_pt_chi2_data.png>]) [65 <
+./rozdzial6/JPsi_eta_chi2TT_data.png> <./rozdzial6/JPsi_mass_chi2TT_data.png> <
+./rozdzial6/JPsi_p_chi2TT_data.png> <./rozdzial6/JPsi_pt_chi2TT_data.png>]
 \openout2 = `podsumowanie.aux'.
 
- (./podsumowanie.tex) [62
+
+(./podsumowanie.tex) [66
 
 
 
@@ -2016,35 +2251,35 @@ Underfull \hbox (badness 3229) in paragraph at lines 13--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 [][][]$\T1/cmtt/m/n/12 http : / / lhcb-[]public . web . cern . ch / lhcb-[]publ
 ic / en / Collaboration / LHCbEvDis .
  []
 
-[63
 
-
-]
-Underfull \hbox (badness 1552) in paragraph at lines 76--81
+Underfull \hbox (badness 1552) in paragraph at lines 73--78
 []\T1/cmr/m/n/12 A.D. Sa-kha-rov.  Vio-la-tion of CP In-va-riance, c Asym-me-tr
 y, and Ba-ryon Asym-
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 76--81
+Underfull \hbox (badness 1331) in paragraph at lines 73--78
 \T1/cmr/m/n/12 me-try of the Uni-verse.  \T1/cmr/m/it/12 Pi-sma Zh.Eksp.Teor.Fi
 z.\T1/cmr/m/n/12 , 5:32--35, 1967.  doi: $10 . 1070 /
  []
 
-[64]
-Underfull \hbox (badness 4168) in paragraph at lines 199--202
+[67
+
+
+] [68]
+Underfull \hbox (badness 4168) in paragraph at lines 196--199
 []\T1/cmr/m/n/12 R. Fruh-wirth.  Ap-pli-ca-tion of Kal-man fil-te-ring to track
  and ver-tex fit-ting.
  []
 
-)
+[69])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [65]
+ [70]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (./dokument.aux (./wstep.aux) (./rozdzial1/roz1.aux)
 (./rozdzial2/roz2.aux) (./rozdzial3/roz3.aux) (./rozdzial4/roz4.aux)
@@ -2052,7 +2287,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 48B5372D87BDBE8C3DB8252EBB143F31;10006.
+(rerunfilecheck)             Checksum: 8FFDC0D8735D78AA5108CB38B6B35A80;10227.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2060,13 +2295,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 21545 strings out of 495024
- 353019 string characters out of 3181154
- 454479 words of memory out of 3000000
- 23929 multiletter control sequences out of 15000+200000
+ 21668 strings out of 495024
+ 356647 string characters out of 3181154
+ 458557 words of memory out of 3000000
+ 24019 multiletter control sequences out of 15000+200000
  46405 words of font info for 123 fonts, out of 3000000 for 9000
  35 hyphenation exceptions out of 8191
- 58i,13n,55p,1247b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,13n,55p,1247b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/ja/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/ja/.
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1200.600pk> </home/ja/.texmf-var/font
 s/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/ja/.texmf-var/fonts/pk/ljfour/jk
@@ -2100,10 +2335,10 @@ s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on dokument.pdf (65 pages, 4157381 bytes).
+Output written on dokument.pdf (70 pages, 4797964 bytes).
 PDF statistics:
- 1975 PDF objects out of 2073 (max. 8388607)
- 979 compressed objects within 10 object streams
- 235 named destinations out of 1000 (max. 500000)
- 671 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2063 PDF objects out of 2073 (max. 8388607)
+ 1044 compressed objects within 11 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 779 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -46,7 +46,8 @@
 \contentsline {subsection}{\numberline {6.2.3}Zale\IeC {\.z}no\IeC {\'s}ci korelacyjne}{59}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Analiza oparta na danych}{61}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Rozk\IeC {\l }ady $\chi ^2$ bazuj\IeC {\k a}ce na danych}{61}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Ekstrakcja sygna\IeC {\l }u od szumu}{61}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Zale\IeC {\.z}no\IeC {\'s}ci korelacyjne}{61}{subsection.6.3.3}
-\contentsline {chapter}{Podsumowanie}{62}{chapter*.35}
-\contentsline {section}{Literatura}{63}{section*.36}
+\contentsline {subsection}{\numberline {6.3.2}Ekstrakcja sygna\IeC {\l }u od szumu}{62}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Zale\IeC {\.z}no\IeC {\'s}ci korelacyjne}{64}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Krytyka otrzymanych wynik\IeC {\'o}w}{65}{section.6.4}
+\contentsline {chapter}{Podsumowanie}{66}{chapter*.41}
+\contentsline {section}{Literatura}{67}{section*.42}
